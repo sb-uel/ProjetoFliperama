@@ -1,0 +1,8 @@
+- name: Home
+  link: /ProjetoFliperama/
+- name: About
+  link: /ProjetoFliperama/about.html
+- name: Blog
+  link: /ProjetoFliperama/blog.html
+- name: Staff
+  link: /ProjetoFliperama/staff.html
