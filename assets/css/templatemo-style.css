@@ -59,7 +59,7 @@ button {
 .primary-button a:hover,
 button:hover {
 	color: #fff;
-	background-color: rgba(83,91,160,1);
+	background-color: #535ba0;
 }
 
 section#search {
@@ -118,7 +118,7 @@ section {
 
 .main-banner .banner-content .banner-caption {
     max-width: 450px;
-	background-color: rgba(250,250,250,0.95);
+	background-color: #fafafaf2;
 	margin: 50px;
 	padding: 50px;
 }
@@ -398,7 +398,7 @@ section.contact-form {
 
 .contact-form button:hover {
     color: #fff;
-    background-color: rgba(83,91,160,1);
+    background-color: #535ba0;
 }
 
 
@@ -707,11 +707,11 @@ section.buttons .container-fluid {
     color: #fff;
     border: 2px solid #535ba0;
     transition: all 0.5s;
-    background-color: rgba(83,91,160,1);
+    background-color: #535ba0;
 }
 .filled-rectangle-button a:hover {
     color: #535ba0;
-    background-color: rgba(83,91,160,0.25);
+    background-color: #535ba040;
 }
 
 .border-rectangle-button {
@@ -729,11 +729,11 @@ section.buttons .container-fluid {
     color: #535ba0;
     border: 2px solid #535ba0;
     transition: all 0.5s;
-    background-color: rgba(83,91,160,0.0);
+    background-color: #535ba000;
 }
 .border-rectangle-button a:hover {
     color: #fff;
-    background-color: rgba(83,91,160,1);
+    background-color: #535ba0;
 }
 
 .filled-radius-button {
@@ -751,12 +751,12 @@ section.buttons .container-fluid {
     color: #fff;
     border: 2px solid #535ba0;
     transition: all 0.5s;
-    background-color: rgba(83,91,160,1);
+    background-color: #535ba0;
     border-radius: 5px;
 }
 .filled-radius-button a:hover {
     color: #fff;
-    background-color: rgba(83,91,160,0.25);
+    background-color: #535ba040;
 }
 
 .border-radius-button {
@@ -774,12 +774,12 @@ section.buttons .container-fluid {
     color: #535ba0;
     border: 2px solid #535ba0;
     transition: all 0.5s;
-    background-color: rgba(83,91,160,0.0);
+    background-color: #535ba000;
     border-radius: 5px;
 }
 .border-radius-button a:hover {
     color: #fff;
-    background-color: rgba(83,91,160,1);
+    background-color: #535ba0;
 }
 
 .filled-rounded-button {
@@ -797,12 +797,12 @@ section.buttons .container-fluid {
     color: #fff;
     border: 2px solid #535ba0;
     transition: all 0.5s;
-    background-color: rgba(83,91,160,1);
+    background-color: #535ba0;
     border-radius: 20px;
 }
 .filled-rounded-button a:hover {
     color: #fff;
-    background-color: rgba(83,91,160,0.25);
+    background-color: #535ba040;
 }
 
 .border-rounded-button {
@@ -820,12 +820,12 @@ section.buttons .container-fluid {
     color: #535ba0;
     border: 2px solid #535ba0;
     transition: all 0.5s;
-    background-color: rgba(83,91,160,0.0);
+    background-color: #535ba000;
     border-radius: 20px;
 }
 .border-rounded-button a:hover {
     color: #fff;
-    background-color: rgba(83,91,160,1);
+    background-color: #535ba0;
 }
 
 .filled-icon-button {
@@ -846,12 +846,12 @@ section.buttons .container-fluid {
     color: #fff;
     border: 2px solid #535ba0;
     transition: all 0.5s;
-    background-color: rgba(83,91,160,1);
+    background-color: #535ba0;
     border-radius: 20px;
 }
 .filled-icon-button a:hover {
     color: #fff;
-    background-color: rgba(83,91,160,0.25);
+    background-color: #535ba040;
 }
 
 .border-icon-button {
@@ -872,12 +872,12 @@ section.buttons .container-fluid {
     color: #535ba0;
     border: 2px solid #535ba0;
     transition: all 0.5s;
-    background-color: rgba(83,91,160,0.0);
+    background-color: #535ba000;
     border-radius: 20px;
 }
 .border-icon-button a:hover {
     color: #fff;
-    background-color: rgba(83,91,160,1);
+    background-color: #535ba0;
 }
 
 /* Page Heading */
@@ -978,7 +978,7 @@ section.buttons .container-fluid {
     -webkit-transition: left 0.5s ease;
     -ms-transition: left 0.5s ease;
     transition: left 0.5s ease;
-    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: #ffffff00;
     border: 0;
     display: block;
     color: #fff;
@@ -1055,7 +1055,7 @@ section.buttons .container-fluid {
 
 @media screen and (max-width: 1280px) {
     #sidebar {
-        box-shadow: 0 0 5em 0 rgba(0, 0, 0, 0.175);
+        box-shadow: 0 0 5em 0 #0000002d;
         height: 100%;
         left: 0;
         position: fixed;
@@ -1086,7 +1086,7 @@ section.buttons .container-fluid {
     #sidebar .toggle:before {
         font-size: 1.5rem;
         color: #fff;
-        background-color: rgba(83,91,160,0.75);
+        background-color: #535ba0bf;
     }
     body.is-preload #sidebar {
         display: none;
@@ -1124,7 +1124,7 @@ section.buttons .container-fluid {
     	background-color: transparent;
     }
     #sidebar .toggle:after {
-        background: rgba(83, 91, 160, 0.90);
+        background: #535ba0e6;
         border-radius: 5px;
         content: '';
         height: 60px;
@@ -1285,7 +1285,7 @@ section.buttons .container-fluid {
     -ms-transition: color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out;
     text-decoration: none;
-    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: #ffffff00;
     position: relative;
 }
 
