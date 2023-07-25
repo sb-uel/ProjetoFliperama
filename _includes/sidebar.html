@@ -1,0 +1,38 @@
+<div id="sidebar">
+
+  <div class="inner">
+
+    <!-- Search Box -->
+    <section id="search" class="alt">
+      <form method="get" action="#">
+        <input type="text" name="search" id="search" placeholder="Search..." />
+      </form>
+    </section>
+
+    <!-- Menu -->
+    <nav id="menu">
+      <ul>
+        {% for item in site.data.menu %}
+        <li><a href="{{ site.baseurl }}{{ item.link }}">{{ item.name}}</a></li>
+        {% endfor %}
+        <li>
+          <span class="opener">Emuladores</span>
+          <ul>
+            {% for item in site.data.emuladores %}
+            <li><a href="{{ site.baseurl }}{{ item.link }}">{{ item.name }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <p class="copyright">Copyright &copy; 2023 Ramo IEEE UEL
+        <br>Feito por <a rel="nofollow" href="https://github.com/LeviMonteiro">Levi Monteiro</a> e <a rel="nofollow"
+          href="https://github.com/LiloMarino">Lilo Marino</a>
+      </p>
+    </footer>
+
+  </div>
+</div>

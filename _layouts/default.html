@@ -2,11 +2,25 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+  
+    <title>Projeto Fliperama</title>
+  
+    <!-- Bootstrap core CSS -->
+    <link href="{{ site.baseurl }}/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  
+    <!--Ramayana CSS Template https://templatemo.com/tm-529-ramayana -->
+  
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fontawesome.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/templatemo-style.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/owl.css">
+  
   </head>
-  <body>
-    {% include navigation.html %}
+  <body class="is-preload">
     {{ content }}
   </body>
 </html>
