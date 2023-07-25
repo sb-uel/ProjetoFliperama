@@ -1,0 +1,14 @@
+<section class="services">
+    <div class="container-fluid">
+      <div class="row">
+        {% for item in site.data.emuladores %}
+        <div class="col-md-4">
+          <div class="service-item">
+            <div class="icon" href="{{ site.baseurl }}{{ item.link }}"></div>
+            <h4>{{ item.name }}</h4>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
