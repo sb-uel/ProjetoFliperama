@@ -1,135 +1,116 @@
 ---
 layout: default
 ---
-
-<!-- Wrapper -->
-<div id="wrapper">
-
-  <!-- Main -->
-  <div id="main">
-    <div class="inner">
-
-      <!-- Header -->
-      {% include header.html %}
-
-      <!-- Banner -->
-      <section class="main-banner">
-        <div class="container-fluid">
+<!-- Banner -->
+<section class="main-banner">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="banner-content">
           <div class="row">
             <div class="col-md-12">
-              <div class="banner-content">
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="banner-caption">
-                      <h4>Projeto Fliperama <em>IEEE</em></h4><br>
-                      <div class="primary-button">
-                        <button id="botao-descer">Leia Mais</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Botão para rolar para baixo -->
-      <script>
-        document.getElementById('botao-descer').addEventListener('click', function () {
-          document.querySelector('.right-content').scrollIntoView({
-            behavior: 'smooth'
-          });
-        });
-      </script>
-
-      <section class="left-image">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-6">
-              <img src="{{ site.baseurl }}/assets/images/Raspberry_Pi_3_B+.png" alt="Raspberry_Pi_3_B+">
-            </div>
-            <div class="col-md-6">
-              <div class="right-content">
-                <h4>Informações Gerais</h4>
-                <p>A placa Raspberry Pi, é uma das placas da família de computadores completos em estilo SBC
-                  (Single-Board Computer) feita pela marca inglesa Raspberry Pi Foundation. Originalmente, os já citados
-                  aparatos tecnológicos foram desenvolvidos pensados em ensinar ciência da computação básica para
-                  escolas. Porém, com a crescente popularidade da primeira leva de chips, os desenvolvedores passaram
-                  por diversas etapas em relação tanto ao melhoramento dos dispositivos já existentes, quanto às
-                  diversas aplicabilidades deles, já que foram utilizados no âmbito da robótica e de monitoramento
-                  ambiental. Hoje em dia, a popularidade dos computadores em miniatura ingleses é tamanha devido ao fato
-                  de existirem muitos projetos desenvolvidos para a placa em questão. Em 2015, as vendas de unidades do
-                  Raspberry Pi ultrapassaram as do computador 8-bits inglês ZX-Spectrum, se tornando, assim, o
-                  computador inglês mais vendido de todos os tempos.</p>
+              <div class="banner-caption">
+                <h4>Projeto Fliperama <em>IEEE</em></h4><br>
                 <div class="primary-button">
-                  <a href="https://www.raspberrypi.org/">Veja Mais</a>
+                  <button id="botao-descer">Leia Mais</button>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-
-      <section class="left-image">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="left-content">
-                <h4>RetroPie (Sistema Operacional)</h4>
-                <p>RetroPie é um sistema operacional baseado no Raspibian, o qual é derivado do open-source Linux,
-                  focado em emulação de jogos antigos. Além do já citado, para uma satisfatória execução de suas
-                  funções, o RetroPie também faz uso do RetroArch, o qual é o principal hub de emuladores desse Sistema
-                  Operacional.</p>
-                <div class="primary-button">
-                  <a href="{{ site.baseurl }}/RetroPie">Veja Mais</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="d-flex justify-content-center align-items-center" style="height: 100%">
-                <a href="{{ site.baseurl }}/RetroPie">
-                  <img src="{{ site.baseurl }}/assets/images/Retropie.png" alt="Retropie" class="retropie">
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="left-image">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="d-flex justify-content-center align-items-center" style="height: 100%">
-                <a href="{{ site.baseurl }}/Comandos">
-                  <img src="{{ site.baseurl }}/assets/images/Comandos.png" alt="Comandos" class="comandos">
-                </a>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="right-content">
-                <h2>Comandos (RetroArch)</h2>
-                <div class="primary-button">
-                  <a href="{{ site.baseurl }}/Comandos">Veja Mais</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Jogos -->
-      {% include jogos.html %}
-
+      </div>
     </div>
   </div>
+</section>
 
-  <!-- Sidebar -->
-  {% include sidebar.html %}
+<!-- Botão para rolar para baixo -->
+<script>
+  document.getElementById('botao-descer').addEventListener('click', function () {
+    document.querySelector('.right-content').scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+</script>
 
-</div>
+<section class="left-image">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="{{ site.baseurl }}/assets/images/Raspberry_Pi_3_B+.png" alt="Raspberry_Pi_3_B+">
+      </div>
+      <div class="col-md-6">
+        <div class="right-content">
+          <h4>Informações Gerais</h4>
+          <p>A placa Raspberry Pi, é uma das placas da família de computadores completos em estilo SBC
+            (Single-Board Computer) feita pela marca inglesa Raspberry Pi Foundation. Originalmente, os já
+            citados
+            aparatos tecnológicos foram desenvolvidos pensados em ensinar ciência da computação básica para
+            escolas. Porém, com a crescente popularidade da primeira leva de chips, os desenvolvedores passaram
+            por diversas etapas em relação tanto ao melhoramento dos dispositivos já existentes, quanto às
+            diversas aplicabilidades deles, já que foram utilizados no âmbito da robótica e de monitoramento
+            ambiental. Hoje em dia, a popularidade dos computadores em miniatura ingleses é tamanha devido ao
+            fato
+            de existirem muitos projetos desenvolvidos para a placa em questão. Em 2015, as vendas de unidades
+            do
+            Raspberry Pi ultrapassaram as do computador 8-bits inglês ZX-Spectrum, se tornando, assim, o
+            computador inglês mais vendido de todos os tempos.</p>
+          <div class="primary-button">
+            <a href="https://www.raspberrypi.org/">Veja Mais</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-<!-- Scripts -->
-<!-- Bootstrap core JavaScript -->
-{% include scripts.html %}
+<section class="left-image">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="left-content">
+          <h4>RetroPie (Sistema Operacional)</h4>
+          <p>RetroPie é um sistema operacional baseado no Raspibian, o qual é derivado do open-source Linux,
+            focado em emulação de jogos antigos. Além do já citado, para uma satisfatória execução de suas
+            funções, o RetroPie também faz uso do RetroArch, o qual é o principal hub de emuladores desse
+            Sistema
+            Operacional.</p>
+          <div class="primary-button">
+            <a href="{{ site.baseurl }}/RetroPie">Veja Mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+          <a href="{{ site.baseurl }}/RetroPie">
+            <img src="{{ site.baseurl }}/assets/images/Retropie.png" alt="Retropie" class="retropie">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="left-image">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+          <a href="{{ site.baseurl }}/Comandos">
+            <img src="{{ site.baseurl }}/assets/images/Comandos.png" alt="Comandos" class="comandos">
+          </a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="right-content">
+          <h2>Comandos (RetroArch)</h2>
+          <div class="primary-button">
+            <a href="{{ site.baseurl }}/Comandos">Veja Mais</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Jogos -->
+{% include jogos.html %}
