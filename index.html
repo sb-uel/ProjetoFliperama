@@ -10,11 +10,7 @@ layout: default
     <div class="inner">
 
       <!-- Header -->
-      <header id="header">
-        <div class="logo">
-          <a href="{{ site.baseurl }}/">Projeto Fliperama</a>
-        </div>
-      </header>
+      {% include header.html %}
 
       <!-- Banner -->
       <section class="main-banner">
@@ -136,11 +132,4 @@ layout: default
 
 <!-- Scripts -->
 <!-- Bootstrap core JavaScript -->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-<script src="assets/js/browser.min.js"></script>
-<script src="assets/js/breakpoints.min.js"></script>
-<script src="assets/js/transition.js"></script>
-<script src="assets/js/owl-carousel.js"></script>
-<script src="assets/js/custom.js"></script>
+{% include scripts.html %}
