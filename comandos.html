@@ -5,12 +5,10 @@ layout: default
 <div class="page-heading">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-12">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            <h1>Comandos (RetroArch)</h1>
-                        </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1>Comandos (RetroArch)</h1>
                     </div>
                 </div>
             </div>
@@ -18,14 +16,13 @@ layout: default
     </div>
 </div>
 
-<section class="simple-post">
+<section class="simple-post mt-3">
     <div class="container-fluid">
-
         <div class="row">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 class="text-center">Controles do RetroPie</h2>
+                        <h2 class="text-center mb-5">Controles do RetroPie</h2>
                     </div>
                 </div>
             </div>
@@ -36,7 +33,6 @@ layout: default
                 <img src="assets/images/Controle XBOX.png" alt="Controle XBOX" class="img-fluid">
             </div>
         </div>
-
     </div>
 </section>
 
@@ -45,25 +41,48 @@ layout: default
 
         <div class="row">
             <div class="col-lg-4">
-                <h2>First Column</h2>
-                <p>Aliquam sit amet gravida tellus. Phasellus id erat nec mi ullamcorper viverra.
-                    Quisque vitae pharetra sem. Maecenas sit amet velit ultrices, malesuada quam id,
-                    porta nisl.</p>
+                <h2>Iniciando um jogo</h2>
+                <img src="assets/images/iniciando.png" alt="iniciando" class="img-fluid">
+                <p>Ao selecionar um jogo (apertando o botão "A" para escolher), será selecionado o emulador
+                    correspondente para rodá-lo. Sendo assim, para todos os emuladores principais, ou seja, que fazem
+                    parte da RetroArch e possuem o prefixo "lr-", é válida os seguintes comandos:</p>
                 <br>
 
             </div>
             <div class="col-lg-4">
-                <h2>Second Column</h2>
-                <p>Donec et massa at dolor condimentum ornare nec non lorem. Maecenas non egestas metus,
-                    sed ultricies lectus. Aliquam sit amet gravida tellus. Phasellus id erat nec mi
-                    ullamcorper viverra.</p>
+                <h2>Quick Menu</h2>
+                <img src="assets/images/quickmenu.jpg" alt="quickmenu" class="img-fluid">
+                <p>Quick Menu é o menu de configurações gerais dos emuladores. A partir dele, é possível alterar, além
+                    de outras coisas, configurações internas de bind botões por exemplo. Para acessá-lo, é necessário
+                    apertar os botões "SELECT" e "X" ao mesmo tempo durante a emulação.
+                    <br><br>
+                    Para sair da emulação em questão, isso para os emuladores da RetroArch (prefixo: lr-), basta
+                    pressionar os botões "START" e "SELECT" do controle do 'Player 1' ao mesmo tempo que o RetroPie irá
+                    retornar à seleção de jogos do emulador escolhido anteriormente. Ao conectar vários controles,
+                    dependendo de seus tipos, o RetroArch vai lê-los segundo uma ordem de prioridade interna específica,
+                    por isso, é necessário saber quem é o denominado 'Player 1' ao jogar em multiplayer pois o comando
+                    para sair da emulação dos jogos, por exemplo, pertence a ele.
+                </p>
                 <br>
 
             </div>
             <div class="col-lg-4">
-                <h2>Third Column</h2>
-                <p>Quisque sodales vestibulum arcu porttitor finibus. Phasellus dictum nisl id augue
-                    ornare, vel interdum nibh mollis. Aliquam sit amet gravida tellus.</p>
+                <h2>Save/Load State</h2>
+                <img src="assets/images/savestate.png" alt="savestate" class="img-fluid">
+                <p>Save states são mecânicas disponíveis em alguns emuladores que possibilitam ao usuário salvar um
+                    instante instantâneo durante a emulação para, quando este fizer um Load state, ele possa retornar ao
+                    exato ponto no qual fizera um Save State. Para realizá-lo, pode ser pelo Quick Menu, selecionando o
+                    slot desejado (State Slot) para guardar essa informação e acionar o comando Save State que, quando
+                    desejar retornar a esse ponto, basta selecionar o Load State. Além desse método, Save state pode ser
+                    realizado ao pressionar os botões "SELECT" e "R (Right Bottom)" ao mesmo tempo; Load state pode ser
+                    realizado ao pressionar os botões "SELECT" e "L (Left Bottom)" ao mesmo tempo; State Slot pode ser
+                    modificado ao pressionar os botões "SELECT" e uma das setas direcionais ("D-PAD LEFT/D-PAD RIGHT")
+                    ao mesmo tempo. Tendo feito um desses comandos citados, o emulador irá apresentar uma mensagem de
+                    comando realizado com sucesso no canto inferior da tela. A partir dessas mecânicas, é possível que
+                    diversas pessoas tenham seu progresso salvo, se preferirem, para continuar de onde pararam em uma
+                    próxima ocasião. Para isso, basta apenas que os usuários verifiquem se o slot está vazio, isto é, se
+                    ao dar Load State o emulador falhar pois não há nada guardado nesse slot, e lembrem ou anotem o seus
+                    respectivos slots de Save State para os determinados jogos.</p>
 
             </div>
         </div>
