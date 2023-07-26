@@ -1,58 +1,58 @@
 - name: Arcade
   link: /Arcade
-- name: Atari 2600
-  link: /Atari 2600
-- name: Atari Lynx
-  link: /Atari Lynx
-- name: Commodore 64
-  link: /Commodore 64
-- name: Game Boy
-  link: /Game Boy
-- name: Gameboy Color
-  link: /Gameboy Color
+- name: Atari-2600
+  link: /Atari-2600
+- name: Atari-Lynx
+  link: /Atari-Lynx
+- name: Commodore-64
+  link: /Commodore-64
+- name: Game-Boy
+  link: /Game-Boy
+- name: Gameboy-Color
+  link: /Gameboy-Color
 - name: GBA
   link: /GBA
 - name: MSX
   link: /MSX
-- name: Neo-Geo Pocket
-  link: /Neo-Geo Pocket
-- name: Neo Geo Pocket Color
-  link: /Neo Geo Pocket Color
+- name: Neo-Geo-Pocket
+  link: /Neo-Geo-Pocket
+- name: Neo-Geo-Pocket-Color
+  link: /Neo-Geo-Pocket-Color
 - name: NEO-GEO
   link: /NEO-GEO
-- name: Nintendo (8-bit)
-  link: /Nintendo (8-bit)
-- name: Nintendo 64
-  link: /Nintendo 64
-- name: Nintendo DS
-  link: /Nintendo DS
-- name: PC Engine/TurboGrafx-16
-  link: /PC Engine/TurboGrafx-16
+- name: Nintendo-(8-bit)
+  link: /Nintendo-(8-bit)
+- name: Nintendo-64
+  link: /Nintendo-64
+- name: Nintendo-DS
+  link: /Nintendo-DS
+- name: PC-Engine-TurboGrafx-16
+  link: /PC-Engine-TurboGrafx-16
 - name: PC-98
   link: /PC-98
 - name: PlayStation
   link: /PlayStation
-- name: Playstation Portable (PSP)
-  link: /Playstation Portable (PSP)
+- name: Playstation-Portable-(PSP)
+  link: /Playstation-Portable-(PSP)
 - name: Ports
   link: /Ports
-- name: Sega 32X
-  link: /Sega 32X
-- name: Sega CD
-  link: /Sega CD
-- name: Sega Dreamcast
-  link: /Sega Dreamcast
-- name: Sega Game Gear
-  link: /Sega Game Gear
-- name: Sega Genesis/Mega Drive
-  link: /Sega Genesis/Mega Drive
-- name: Sega Master System
-  link: /Sega Master System
-- name: Super Nintendo
-  link: /Super Nintendo
-- name: Virtual Boy
-  link: /Virtual Boy
+- name: Sega-32X
+  link: /Sega-32X
+- name: Sega-CD
+  link: /Sega-CD
+- name: Sega-Dreamcast
+  link: /Sega-Dreamcast
+- name: Sega-Game-Gear
+  link: /Sega-Game-Gear
+- name: Sega-Genesis-Mega-Drive
+  link: /Sega-Genesis-Mega-Drive
+- name: Sega-Master-System
+  link: /Sega-Master-System
+- name: Super-Nintendo
+  link: /Super-Nintendo
+- name: Virtual-Boy
+  link: /Virtual-Boy
 - name: Wonderswan
   link: /Wonderswan
-- name: Wonderswan Color
-  link: /Wonderswan Color
+- name: Wonderswan-Color
+  link: /Wonderswan-Color
