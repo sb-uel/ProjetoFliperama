@@ -4,8 +4,10 @@
         {% for item in site.data.emuladores %}
         <div class="col-md-4">
           <div class="service-item">
-            <div class="emuladores" href="{{ site.baseurl }}{{ item.link }}">
-              <img src="{{ site.baseurl }}/assets/images/{{ item.name }}.png" alt="{{ item.name }}">
+            <div class="emuladores">
+              <a href="{{ site.baseurl }}{{ item.link }}">
+                <img src="{{ site.baseurl }}/assets/images/{{ item.name }}.png" alt="{{ item.name }}">
+              </a>
             </div>
             <h4>{{ item.name }}</h4>
           </div>
