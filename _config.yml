@@ -1,20 +1,8 @@
 baseurl: /ProjetoFliperama
 
-collections:
-  authors:
-    output: true
+excerpt_separator: <!--separa-->
 
 defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
   - scope:
       path: ""
     values:

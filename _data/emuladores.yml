@@ -22,6 +22,10 @@
   link: /emuladores/NEO-GEO
 - name: Nintendo (8 bit)
   link: /emuladores/Nintendo-(8-bit)
+  emulador: lr-FCEUmm
+  console_imagem: assets/images/emuladores/NES Console.png
+  emulador_imagem: assets/images/emuladores/FCEUmm.jpg
+  controle_imagem: assets/images/emuladores/ControleNES.png
 - name: Nintendo 64
   link: /emuladores/Nintendo-64
 - name: Nintendo DS
