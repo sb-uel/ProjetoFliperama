@@ -1,0 +1,62 @@
+- name: Arcade
+  link: /emuladores/Arcade
+- name: Atari 2600
+  link: /emuladores/Atari-2600
+- name: Atari Lynx
+  link: /emuladores/Atari-Lynx
+- name: Commodore 64
+  link: /emuladores/Commodore-64
+- name: Game Boy
+  link: /emuladores/Game-Boy
+- name: Gameboy Color
+  link: /emuladores/Gameboy-Color
+- name: GBA
+  link: /emuladores/GBA
+- name: MSX
+  link: /emuladores/MSX
+- name: Neo Geo Pocket
+  link: /emuladores/Neo-Geo-Pocket
+- name: Neo Geo Pocket Color
+  link: /emuladores/Neo Geo Pocket Color
+- name: NEO GEO
+  link: /emuladores/NEO-GEO
+- name: Nintendo (8 bit)
+  link: /emuladores/Nintendo-(8-bit)
+  emulador: lr-FCEUmm
+  console_imagem: assets/images/emuladores/NES Console.png
+  emulador_imagem: assets/images/emuladores/FCEUmm.jpg
+  controle_imagem: assets/images/emuladores/ControleNES.png
+- name: Nintendo 64
+  link: /emuladores/Nintendo-64
+- name: Nintendo DS
+  link: /emuladores/Nintendo-DS
+- name: PC Engine TurboGrafx 16
+  link: /emuladores/PC-Engine-TurboGrafx-16
+- name: PC 98
+  link: /emuladores/PC-98
+- name: PlayStation
+  link: /emuladores/PlayStation
+- name: Playstation Portable (PSP)
+  link: /emuladores/Playstation-Portable-(PSP)
+- name: Ports
+  link: /emuladores/Ports
+- name: Sega 32X
+  link: /emuladores/Sega-32X
+- name: Sega CD
+  link: /emuladores/Sega-CD
+- name: Sega Dreamcast
+  link: /emuladores/Sega-Dreamcast
+- name: Sega Game Gear
+  link: /emuladores/Sega-Game-Gear
+- name: Sega Genesis Mega Drive
+  link: /emuladores/Sega-Genesis-Mega-Drive
+- name: Sega Master System
+  link: /emuladores/Sega-Master-System
+- name: Super Nintendo
+  link: /emuladores/Super-Nintendo
+- name: Virtual Boy
+  link: /emuladores/Virtual-Boy
+- name: Wonderswan
+  link: /emuladores/Wonderswan
+- name: Wonderswan Color
+  link: /emuladores/Wonderswan-Color

@@ -1,0 +1,14 @@
+A: assets/images/Retro/retro_a.png
+B: assets/images/Retro/retro_b.png
+DPAD_UP: assets/images/Retro/retro_dpad_up.png
+DPAD_RIGHT: assets/images/Retro/retro_dpad_right.png 
+DPAD_LEFT: assets/images/Retro/retro_dpad_left.png
+DPAD_DOWN: assets/images/Retro/retro_dpad_down.png
+L1: assets/images/Retro/retro_l1.png
+L3: assets/images/Retro/retro_l3.png
+R1: assets/images/Retro/retro_r1.png
+R3: assets/images/Retro/retro_r3.png
+SELECT: assets/images/Retro/retro_select.png
+START: assets/images/Retro/retro_start.png
+X: assets/images/Retro/retro_x.png
+Y: assets/images/Retro/retro_y.png
