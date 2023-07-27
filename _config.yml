@@ -1,7 +1,5 @@
 baseurl: /ProjetoFliperama
 
-excerpt_separator: <!--separa-->
-
 defaults:
   - scope:
       path: ""
