@@ -20,6 +20,9 @@
   link: /emuladores/MSX
 - name: Neo Geo Pocket
   link: /emuladores/Neo-Geo-Pocket
+  console_imagem: assets/images/emuladores/Console Neo Geo Pocket.jpg
+  emulador_imagem: assets/images/emuladores/Beetle-Ngp-Ngpc.png
+  controle_imagem: assets/images/emuladores/ControleNeoGeoPocket.png
 - name: Neo Geo Pocket Color
   link: /emuladores/Neo Geo Pocket Color
 - name: NEO GEO
