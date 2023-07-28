@@ -1,0 +1,8 @@
+# Referências de scripts
+script_jquery : vendor/jquery/jquery.min.js
+script_bootstrap : vendor/bootstrap/js/bootstrap.bundle.min.js
+script_browser : assets/js/browser.min.js
+script_breakpoints : assets/js/breakpoints.min.js
+script_transition : assets/js/transition.js
+script_owl-carousel : assets/js/owl-carousel.js
+script_custom : assets/js/custom.js

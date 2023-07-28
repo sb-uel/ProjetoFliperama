@@ -5,20 +5,18 @@
     {% assign name = emulador.name %}
     {% assign console_imagem = emulador.console_imagem %}
     {% assign emulador_imagem = emulador.emulador_imagem %}
-    {% assign controle_imagem = emulador.controle_imagem %} 
+    {% assign controle_imagem = emulador.controle_imagem %}
   {% endif %}
 {% endfor %}
 <!-- Page Heading -->
 <div class="page-heading">
   <div class="container-fluid">
+    <div class="container">
       <div class="row">
-          <div class="container">
-              <div class="row">
-                  <div class="col-md-12 text-center">
-                      <h1>{{name}}</h1>
-                  </div>
-              </div>
-          </div>
+        <div class="col-md-12 text-center">
+          <h1>{{name}}</h1>
+        </div>
       </div>
+    </div>
   </div>
 </div>
