@@ -14,10 +14,13 @@
             <th class="text-center h5 font-weight-bold">PS3</th>
         </tr>
         <tr>
-            <td class="align-middle h4 font-weight-bold">
+            <td class="text-center align-middle h4 font-weight-bold">
                 <div class="d-flex justify-content-center align-items-center">
                     {% if site.data.referencias.retro[B] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[B]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
                 </div>
+                {% if BUTTON_B %}
+                    {{ BUTTON_B }}
+                {% endif %}
             </td>
             <td>
                 <div class="d-flex justify-content-center align-items-center">
@@ -33,10 +36,13 @@
         <tr>
 
 
-            <td class="align-middle h4 font-weight-bold">
+            <td class="text-center align-middle h4 font-weight-bold">
                 <div class="d-flex justify-content-center align-items-center">
                     {% if site.data.referencias.retro[A] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[A]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
                 </div>
+                {% if BUTTON_A %}
+                    {{ BUTTON_A }}
+                {% endif %}
             </td>
             <td>
                 <div class="d-flex justify-content-center align-items-center">
@@ -50,10 +56,13 @@
             </td>
         </tr>
         <tr>
-            <td class="align-middle h4 font-weight-bold">
+            <td class="text-center align-middle h4 font-weight-bold">
                 <div class="d-flex justify-content-center align-items-center">
                     {% if site.data.referencias.retro[Y] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[Y]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
                 </div>
+                {% if BUTTON_Y %}
+                    {{ BUTTON_Y }}
+                {% endif %}
             </td>
             <td>
                 <div class="d-flex justify-content-center align-items-center">
@@ -67,10 +76,13 @@
             </td>
         </tr>
         <tr>
-            <td class="align-middle h4 font-weight-bold">
+            <td class="text-center align-middle h4 font-weight-bold">
                 <div class="d-flex justify-content-center align-items-center">
                     {% if site.data.referencias.retro[X] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[X]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
                 </div>
+                {% if BUTTON_X %}
+                    {{ BUTTON_X }}
+                {% endif %}
             </td>
             <td>
                 <div class="d-flex justify-content-center align-items-center">
@@ -83,10 +95,13 @@
             </td>
         </tr>
         <tr>
-            <td class="align-middle h4 font-weight-bold">
+            <td class="text-center align-middle h4 font-weight-bold">
                 <div class="d-flex justify-content-center align-items-center">
                     {% if site.data.referencias.retro[LB] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[LB]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
                 </div>
+                {% if BUTTON_LB %}
+                    {{ BUTTON_LB }}
+                {% endif %}
             </td>
             <td>
                 <div class="d-flex justify-content-center align-items-center">
@@ -100,10 +115,13 @@
             </td>
         </tr>
         <tr>
-            <td class="align-middle h4 font-weight-bold">
+            <td class="text-center align-middle h4 font-weight-bold">
                 <div class="d-flex justify-content-center align-items-center">
                     {% if site.data.referencias.retro[RB] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[RB]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
                 </div>
+                {% if BUTTON_RB %}
+                    {{ BUTTON_RB }}
+                {% endif %}
             </td>
             <td>
                 <div class="d-flex justify-content-center align-items-center">
@@ -117,10 +135,13 @@
             </td>
         </tr>
         <tr>
-            <td class="align-middle h4 font-weight-bold">
+            <td class="text-center align-middle h4 font-weight-bold">
                 <div class="d-flex justify-content-center align-items-center">
                     {% if site.data.referencias.retro[LT] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[LT]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
                 </div>
+                {% if BUTTON_LT %}
+                    {{ BUTTON_LT }}
+                {% endif %}
             </td>
             <td>
                 <div class="d-flex justify-content-center align-items-center">
@@ -134,10 +155,13 @@
             </td>
         </tr>
         <tr>
-            <td class="align-middle h4 font-weight-bold">
+            <td class="text-center align-middle h4 font-weight-bold">
                 <div class="d-flex justify-content-center align-items-center">
                     {% if site.data.referencias.retro[RT] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[RT]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
                 </div>
+                {% if BUTTON_RT %}
+                    {{ BUTTON_RT }}
+                {% endif %}
             </td>
             <td>
                 <div class="d-flex justify-content-center align-items-center">
@@ -151,10 +175,13 @@
             </td>
         </tr>
         <tr>
-            <td class="align-middle h4 font-weight-bold">
+            <td class="text-center align-middle h4 font-weight-bold">
                 <div class="d-flex justify-content-center align-items-center">
                     {% if site.data.referencias.retro[L3] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[L3]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
                 </div>
+                {% if BUTTON_L3 %}
+                    {{ BUTTON_L3 }}
+                {% endif %}
             </td>
             <td>
                 <div class="d-flex justify-content-center align-items-center">
@@ -168,10 +195,13 @@
             </td>
         </tr>
         <tr>
-            <td class="align-middle h4 font-weight-bold">
+            <td class="text-center align-middle h4 font-weight-bold">
                 <div class="d-flex justify-content-center align-items-center">
                     {% if site.data.referencias.retro[R3] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[R3]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
                 </div>
+                {% if BUTTON_R3 %}
+                    {{ BUTTON_R3 }}
+                {% endif %}
             </td>
             <td>
                 <div class="d-flex justify-content-center align-items-center">
@@ -185,10 +215,13 @@
             </td>
         </tr>
         <tr>
-            <td class="align-middle h4 font-weight-bold">
+            <td class="text-center align-middle h4 font-weight-bold">
                 <div class="d-flex justify-content-center align-items-center">
                     {% if site.data.referencias.retro[DPAD_UP] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[DPAD_UP]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
                 </div>
+                {% if BUTTON_DPAD_UP %}
+                    {{ BUTTON_DPAD_UP }}
+                {% endif %}
             </td>
             <td>
                 <div class="d-flex justify-content-center align-items-center">
@@ -202,10 +235,13 @@
             </td>
         </tr>
         <tr>
-            <td class="align-middle h4 font-weight-bold">
+            <td class="text-center align-middle h4 font-weight-bold">
                 <div class="d-flex justify-content-center align-items-center">
                     {% if site.data.referencias.retro[DPAD_RIGHT] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[DPAD_RIGHT]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
                 </div>
+                {% if BUTTON_DPAD_RIGHT %}
+                    {{ BUTTON_DPAD_RIGHT }}
+                {% endif %}
             </td>
             <td>
                 <div class="d-flex justify-content-center align-items-center">
@@ -219,10 +255,13 @@
             </td>
         </tr>
         <tr>
-            <td class="align-middle h4 font-weight-bold">
+            <td class="text-center align-middle h4 font-weight-bold">
                 <div class="d-flex justify-content-center align-items-center">
                     {% if site.data.referencias.retro[DPAD_LEFT] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[DPAD_LEFT]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
                 </div>
+                {% if BUTTON_DPAD_LEFT %}
+                    {{ BUTTON_DPAD_LEFT }}
+                {% endif %}
             </td>
             <td>
                 <div class="d-flex justify-content-center align-items-center">
@@ -236,10 +275,13 @@
             </td>
         </tr>
         <tr>
-            <td class="align-middle h4 font-weight-bold">
+            <td class="text-center align-middle h4 font-weight-bold">
                 <div class="d-flex justify-content-center align-items-center">
                     {% if site.data.referencias.retro[DPAD_DOWN] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[DPAD_DOWN]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
                 </div>
+                {% if BUTTON_DPAD_DOWN %}
+                    {{ BUTTON_DPAD_DOWN }}
+                {% endif %}
             </td>
             <td>
                 <div class="d-flex justify-content-center align-items-center">
@@ -253,10 +295,13 @@
             </td>
         </tr>
         <tr>
-            <td class="align-middle h4 font-weight-bold">
+            <td class="text-center align-middle h4 font-weight-bold">
                 <div class="d-flex justify-content-center align-items-center">
                     {% if site.data.referencias.retro[SELECT] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[SELECT]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
                 </div>
+                {% if BUTTON_SELECT %}
+                    {{ BUTTON_SELECT }}
+                {% endif %}
             </td>
             <td>
                 <div class="d-flex justify-content-center align-items-center">
@@ -270,10 +315,13 @@
             </td>
         </tr>
         <tr>
-            <td class="align-middle h4 font-weight-bold">
+            <td class="text-center align-middle h4 font-weight-bold">
                 <div class="d-flex justify-content-center align-items-center">
                     {% if site.data.referencias.retro[START] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[START]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
                 </div>
+                {% if BUTTON_START %}
+                    {{ BUTTON_START }}
+                {% endif %}
             </td>
             <td>
                 <div class="d-flex justify-content-center align-items-center">
