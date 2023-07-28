@@ -1,0 +1,107 @@
+---
+layout: default
+category: emuladores
+---
+{% include emuladores.html %}
+<!-- Left Image -->
+<section class="left-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <img src="{{ site.baseurl }}/{{ console_imagem }}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <h4>Virtual Boy</h4>
+                    <p>O Virtual Boy é um console "portátil" desenvolvido pela Nintendo e lançado em 1995. Projetado pelo 
+                        famoso deigner japonês Gunpei Yokoi (Ver <a href="{{ site.baseurl }}/emuladores/Wonderswan">Wonderswan</a>), 
+                        o Virtual Boy foi uma tentativa da empresa de inovar no mercado de consoles portáteis, trazendo um video 
+                        game mais focado em Gráficos 3D devida a moda de realidade virtual da época. Para tal efeito, o console 
+                        utilizava das cores vermelho e preto para que, assim, seus jogos utilizassem do senso de perspectiva dos 
+                        jogadores. Infelizmente, porém, o Virtual Boy seriam, futuramente, considerado o maior fracasso da história 
+                        da Nintendo, principalmente por causa de suas tentativas revolucionárias em Gráficos 3D os quais provocavam 
+                        enxaquecas nos seus usuários. Além disso, seu alto preço, em comparação com os consoles que usavam telas com 
+                        exibição de menos cores (nesse caso, vermelho e preto como principal) e seu formato inconveniente também foram 
+                        bastante relevantes para uma pobre biblioteca de jogos, e consequente fracasso em vendas, e para que a sua 
+                        empresa criadora fingisse, no decorrer dos anos, que ele nunca existiu.
+                    </p>
+                </div>
+                <div class="primary-button">
+                    <a href="https://pt.wikipedia.org/wiki/Lista_de_jogos_para_Virtual_Boy">Lista de Jogos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Left Image -->
+<section class="left-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <img src="{{ site.baseurl }}/{{ emulador_imagem }}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <h4>lr-beetle-vb</h4>
+                    <p>O lr-beetle-vb é um dos emuladores de Virtual Boy disponíveis pela RetroArch (prefixo 'lr-') e 
+                       é o único utilizado para a emulação de Virtual Boy no Ramo. Sendo assim, os comandos 
+                       descritos na seção 'Comandos (RetroArch)' também são válidos para este emulador.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="simple-post mt-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-center mb-5">Controles (User 1)</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <img src="{{ site.baseurl }}/{{ controle_imagem }}" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+{% assign B = "B" | upcase %}
+{% assign LABEL_B = "B" %}
+{% assign A = "A" | upcase %}
+{% assign LABEL_A = "A" %}
+{% assign Y = "X" | upcase %}
+{% assign LABEL_Y = "Low-Battery Toggle" %}
+{% assign LB = "L1" | upcase %}
+{% assign LABEL_LB = "L" %}
+{% assign RB = "R1" | upcase %}
+{% assign LABEL_RB = "R" %}
+{% assign LT = "L2" | upcase %}
+{% assign LABEL_LT = "Right D-Pad Up" %}
+{% assign RT = "R2" | upcase %}
+{% assign LABEL_RT = "Right D-Pad Left" %}
+{% assign L3 = "L3" | upcase %}
+{% assign LABEL_L3 = "Right D-Pad Down" %}
+{% assign R3 = "R3" | upcase %}
+{% assign LABEL_R3 = "Right D-Pad Right" %}
+{% assign DPAD_UP = "DPAD_UP" | upcase %}
+{% assign LABEL_DPAD_UP = "Left D-Pad Up" %}
+{% assign DPAD_DOWN = "DPAD_DOWN" | upcase %}
+{% assign LABEL_DPAD_DOWN = "Left D-Pad Down" %}
+{% assign DPAD_RIGHT = "DPAD_RIGHT" | upcase %}
+{% assign LABEL_DPAD_RIGHT = "Left D-Pad Right" %}
+{% assign DPAD_LEFT = "DPAD_LEFT" | upcase %}
+{% assign LABEL_DPAD_LEFT = "Left D-Pad Left" %}
+{% assign START = "START" | upcase %}
+{% assign LABEL_START = "Start" %}
+{% assign SELECT = "SELECT" | upcase %}
+{% assign LABEL_SELECT = "Select" %}
+{% include tabela.html %}

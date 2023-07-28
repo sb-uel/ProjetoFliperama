@@ -66,6 +66,9 @@
   link: /emuladores/Super-Nintendo
 - name: Virtual Boy
   link: /emuladores/Virtual-Boy
+  console_imagem: assets/images/emuladores/Console Virtual Boy.jpg
+  emulador_imagem: assets/images/emuladores/Beetle-Vb.png
+  controle_imagem: assets/images/emuladores/ControleVirtualBoy.png
 - name: Wonderswan
   link: /emuladores/Wonderswan
   console_imagem: assets/images/emuladores/Console Wonderswan.jpg
