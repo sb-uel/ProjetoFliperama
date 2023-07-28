@@ -34,8 +34,8 @@ ps3:
   Cross: "assets/images/PS3/PS3_Cross.png"
   Triangle: "assets/images/PS3/PS3_Triangle.png"
   Square: "assets/images/PS3/PS3_Square.png"
-  R1: "assets/images/PS3/PS3_R1.png"
   L1: "assets/images/PS3/PS3_L1.png"
+  R1: "assets/images/PS3/PS3_R1.png"
   L2: "assets/images/PS3/PS3_L2.png"
   R2: "assets/images/PS3/PS3_R2.png"
   L3: "assets/images/PS3/PS3_Left_Stick_Click.png"
@@ -46,3 +46,19 @@ ps3:
   DPAD_DOWN: "assets/images/PS3/PS3_Dpad_Down.png"
   SELECT: "assets/images/PS3/PS3_Select.png"
   START: "assets/images/PS3/PS3_Start.png"
+
+retro:
+  A: assets/images/Retro/retro_a.png
+  B: assets/images/Retro/retro_b.png
+  Y: assets/images/Retro/retro_y.png
+  X: assets/images/Retro/retro_x.png
+  L1: assets/images/Retro/retro_l1.png
+  R1: assets/images/Retro/retro_r1.png
+  L3: assets/images/Retro/retro_l3.png
+  R3: assets/images/Retro/retro_r3.png
+  DPAD_UP: assets/images/Retro/retro_dpad_up.png
+  DPAD_RIGHT: assets/images/Retro/retro_dpad_right.png 
+  DPAD_LEFT: assets/images/Retro/retro_dpad_left.png
+  DPAD_DOWN: assets/images/Retro/retro_dpad_down.png
+  SELECT: assets/images/Retro/retro_select.png
+  START: assets/images/Retro/retro_start.png
