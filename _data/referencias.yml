@@ -12,40 +12,44 @@ favicon: favicon.png
 
 # Ícones da Tabela
 xbox_360:
-  B: "assets/images/Xbox 360/360_B.png"
-  A: "assets/images/Xbox 360/360_A.png"
-  Y: "assets/images/Xbox 360/360_Y.png"
-  X: "assets/images/Xbox 360/360_X.png"
-  LB: "assets/images/Xbox 360/360_LB.png"
-  RB: "assets/images/Xbox 360/360_RB.png"
-  LT: "assets/images/Xbox 360/360_LT.png"
-  RT: "assets/images/Xbox 360/360_RT.png"
-  L3: "assets/images/Xbox 360/360_Left_Stick_Click.png"
-  R3: "assets/images/Xbox 360/360_Right_Stick_Click.png"
-  DPAD_UP: "assets/images/Xbox 360/360_Dpad_Up.png"
-  DPAD_RIGHT: "assets/images/Xbox 360/360_Dpad_Right.png"
-  DPAD_LEFT: "assets/images/Xbox 360/360_Dpad_Left.png"
-  DPAD_DOWN: "assets/images/Xbox 360/360_Dpad_Down.png"
-  SELECT: "assets/images/Xbox 360/360_Back_Alt.png"
-  START: "assets/images/Xbox 360/360_Start_Alt.png"
+  B: assets/images/Xbox 360/360_B.png
+  A: assets/images/Xbox 360/360_A.png
+  Y: assets/images/Xbox 360/360_Y.png
+  X: assets/images/Xbox 360/360_X.png
+  LB: assets/images/Xbox 360/360_LB.png
+  RB: assets/images/Xbox 360/360_RB.png
+  LT: assets/images/Xbox 360/360_LT.png
+  RT: assets/images/Xbox 360/360_RT.png
+  LS: assets/images/Xbox 360/360_Left_Stick.png
+  RS: assets/images/Xbox 360/360_Right_Stick.png
+  L3: assets/images/Xbox 360/360_Left_Stick_Click.png
+  R3: assets/images/Xbox 360/360_Right_Stick_Click.png
+  DPAD_UP: assets/images/Xbox 360/360_Dpad_Up.png
+  DPAD_RIGHT: assets/images/Xbox 360/360_Dpad_Right.png
+  DPAD_LEFT: assets/images/Xbox 360/360_Dpad_Left.png
+  DPAD_DOWN: assets/images/Xbox 360/360_Dpad_Down.png
+  SELECT: assets/images/Xbox 360/360_Back_Alt.png
+  START: assets/images/Xbox 360/360_Start_Alt.png
 
 ps3:
-  Circle: "assets/images/PS3/PS3_Circle.png"
-  Cross: "assets/images/PS3/PS3_Cross.png"
-  Triangle: "assets/images/PS3/PS3_Triangle.png"
-  Square: "assets/images/PS3/PS3_Square.png"
-  L1: "assets/images/PS3/PS3_L1.png"
-  R1: "assets/images/PS3/PS3_R1.png"
-  L2: "assets/images/PS3/PS3_L2.png"
-  R2: "assets/images/PS3/PS3_R2.png"
-  L3: "assets/images/PS3/PS3_Left_Stick_Click.png"
-  R3: "assets/images/PS3/PS3_Right_Stick_Click.png"
-  DPAD_UP: "assets/images/PS3/PS3_Dpad_Up.png"
-  DPAD_RIGHT: "assets/images/PS3/PS3_Dpad_Right.png"
-  DPAD_LEFT: "assets/images/PS3/PS3_Dpad_Left.png"
-  DPAD_DOWN: "assets/images/PS3/PS3_Dpad_Down.png"
-  SELECT: "assets/images/PS3/PS3_Select.png"
-  START: "assets/images/PS3/PS3_Start.png"
+  Circle: assets/images/PS3/PS3_Circle.png
+  Cross: assets/images/PS3/PS3_Cross.png
+  Triangle: assets/images/PS3/PS3_Triangle.png
+  Square: assets/images/PS3/PS3_Square.png
+  L1: assets/images/PS3/PS3_L1.png
+  R1: assets/images/PS3/PS3_R1.png
+  L2: assets/images/PS3/PS3_L2.png
+  R2: assets/images/PS3/PS3_R2.png
+  LS: assets/images/PS3/PS3_Left_Stick.png
+  RS: assets/images/PS3/PS3_Right_Stick.png
+  L3: assets/images/PS3/PS3_Left_Stick_Click.png
+  R3: assets/images/PS3/PS3_Right_Stick_Click.png
+  DPAD_UP: assets/images/PS3/PS3_Dpad_Up.png
+  DPAD_RIGHT: assets/images/PS3/PS3_Dpad_Right.png
+  DPAD_LEFT: assets/images/PS3/PS3_Dpad_Left.png
+  DPAD_DOWN: assets/images/PS3/PS3_Dpad_Down.png
+  SELECT: assets/images/PS3/PS3_Select.png
+  START: assets/images/PS3/PS3_Start.png
 
 retro:
   A: assets/images/Retro/retro_a.png
@@ -54,6 +58,10 @@ retro:
   X: assets/images/Retro/retro_x.png
   L1: assets/images/Retro/retro_l1.png
   R1: assets/images/Retro/retro_r1.png
+  L2: assets/images/Retro/retro_l2.png
+  R2: assets/images/Retro/retro_r2.png
+  LS: assets/images/Retro/retro_left_stick.png
+  RS: assets/images/Retro/retro_right_stick.png
   L3: assets/images/Retro/retro_l3.png
   R3: assets/images/Retro/retro_r3.png
   DPAD_UP: assets/images/Retro/retro_dpad_up.png
@@ -62,3 +70,101 @@ retro:
   DPAD_DOWN: assets/images/Retro/retro_dpad_down.png
   SELECT: assets/images/Retro/retro_select.png
   START: assets/images/Retro/retro_start.png
+
+key_dark:
+  0: assets/images/Key Dark/0_Key_Dark.png
+  1: assets/images/Key Dark/1_Key_Dark.png
+  2: assets/images/Key Dark/2_Key_Dark.png
+  3: assets/images/Key Dark/3_Key_Dark.png
+  4: assets/images/Key Dark/4_Key_Dark.png
+  5: assets/images/Key Dark/5_Key_Dark.png
+  6: assets/images/Key Dark/6_Key_Dark.png
+  7: assets/images/Key Dark/7_Key_Dark.png
+  8: assets/images/Key Dark/8_Key_Dark.png
+  9: assets/images/Key Dark/9_Key_Dark.png
+  10: assets/images/Key Dark/10_Key_Dark.png
+  11: assets/images/Key Dark/11_Key_Dark.png
+  12: assets/images/Key Dark/12_Key_Dark.png
+  A: assets/images/Key Dark/A_Key_Dark.png
+  ALT: assets/images/Key Dark/Alt_Key_Dark.png
+  ARROW_DOWN: assets/images/Key Dark/Arrow_Down_Key_Dark.png
+  ARROW_LEFT: assets/images/Key Dark/Arrow_Left_Key_Dark.png
+  ARROW_RIGHT: assets/images/Key Dark/Arrow_Right_Key_Dark.png
+  ARROW_UP: assets/images/Key Dark/Arrow_Up_Key_Dark.png
+  ASTERISK: assets/images/Key Dark/Asterisk_Key_Dark.png
+  B: assets/images/Key Dark/B_Key_Dark.png
+  BACKSPACE_ALT: assets/images/Key Dark/Backspace_Alt_Key_Dark.png
+  BACKSPACE: assets/images/Key Dark/Backspace_Key_Dark.png
+  BRACKET_LEFT: assets/images/Key Dark/Bracket_Left_Key_Dark.png
+  BRACKET_RIGHT: assets/images/Key Dark/Bracket_Right_Key_Dark.png
+  C: assets/images/Key Dark/C_Key_Dark.png
+  CAPS_LOCK: assets/images/Key Dark/Caps_Lock_Key_Dark.png
+  COMMAND: assets/images/Key Dark/Command_Key_Dark.png
+  CTRL: assets/images/Key Dark/Ctrl_Key_Dark.png
+  D: assets/images/Key Dark/D_Key_Dark.png
+  DEL: assets/images/Key Dark/Del_Key_Dark.png
+  E: assets/images/Key Dark/E_Key_Dark.png
+  END: assets/images/Key Dark/End_Key_Dark.png
+  ENTER_ALT: assets/images/Key Dark/Enter_Alt_Key_Dark.png
+  ENTER: assets/images/Key Dark/Enter_Key_Dark.png
+  ENTER_TALL: assets/images/Key Dark/Enter_Tall_Key_Dark.png
+  ESC: assets/images/Key Dark/Esc_Key_Dark.png
+  F1: assets/images/Key Dark/F1_Key_Dark.png
+  F2: assets/images/Key Dark/F2_Key_Dark.png
+  F3: assets/images/Key Dark/F3_Key_Dark.png
+  F4: assets/images/Key Dark/F4_Key_Dark.png
+  F5: assets/images/Key Dark/F5_Key_Dark.png
+  F6: assets/images/Key Dark/F6_Key_Dark.png
+  F7: assets/images/Key Dark/F7_Key_Dark.png
+  F8: assets/images/Key Dark/F8_Key_Dark.png
+  F9: assets/images/Key Dark/F9_Key_Dark.png
+  F10: assets/images/Key Dark/F10_Key_Dark.png
+  F11: assets/images/Key Dark/F11_Key_Dark.png
+  F12: assets/images/Key Dark/F12_Key_Dark.png
+  F: assets/images/Key Dark/F_Key_Dark.png
+  G: assets/images/Key Dark/G_Key_Dark.png
+  H: assets/images/Key Dark/H_Key_Dark.png
+  HOME: assets/images/Key Dark/Home_Key_Dark.png
+  I: assets/images/Key Dark/I_Key_Dark.png
+  INSERT: assets/images/Key Dark/Insert_Key_Dark.png
+  J: assets/images/Key Dark/J_Key_Dark.png
+  K: assets/images/Key Dark/K_Key_Dark.png
+  L: assets/images/Key Dark/L_Key_Dark.png
+  M: assets/images/Key Dark/M_Key_Dark.png
+  MARK_LEFT: assets/images/Key Dark/Mark_Left_Key_Dark.png
+  MARK_RIGHT: assets/images/Key Dark/Mark_Right_Key_Dark.png
+  MINUS: assets/images/Key Dark/Minus_Key_Dark.png
+  MOUSE_LEFT: assets/images/Key Dark/Mouse_Left_Key_Dark.png
+  MOUSE_MIDDLE: assets/images/Key Dark/Mouse_Middle_Key_Dark.png
+  MOUSE_RIGHT: assets/images/Key Dark/Mouse_Right_Key_Dark.png
+  MOUSE_SIMPLE: assets/images/Key Dark/Mouse_Simple_Key_Dark.png
+  N: assets/images/Key Dark/N_Key_Dark.png
+  NUM_LOCK: assets/images/Key Dark/Num_Lock_Key_Dark.png
+  O: assets/images/Key Dark/O_Key_Dark.png
+  P: assets/images/Key Dark/P_Key_Dark.png
+  PAGE_DOWN: assets/images/Key Dark/Page_Down_Key_Dark.png
+  PAGE_UP: assets/images/Key Dark/Page_Up_Key_Dark.png
+  PLUS: assets/images/Key Dark/Plus_Key_Dark.png
+  PLUS_TALL: assets/images/Key Dark/Plus_Tall_Key_Dark.png
+  PRINT_SCREEN: assets/images/Key Dark/Print_Screen_Key_Dark.png
+  Q: assets/images/Key Dark/Q_Key_Dark.png
+  QUESTION: assets/images/Key Dark/Question_Key_Dark.png
+  QUOTE: assets/images/Key Dark/Quote_Key_Dark.png
+  R: assets/images/Key Dark/R_Key_Dark.png
+  S: assets/images/Key Dark/S_Key_Dark.png
+  SEMICOLON: assets/images/Key Dark/Semicolon_Key_Dark.png
+  SHIFT_ALT: assets/images/Key Dark/Shift_Alt_Key_Dark.png
+  SHIFT: assets/images/Key Dark/Shift_Key_Dark.png
+  SLASH: assets/images/Key Dark/Slash_Key_Dark.png
+  SPACE: assets/images/Key Dark/Space_Key_Dark.png
+  T: assets/images/Key Dark/T_Key_Dark.png
+  TAB: assets/images/Key Dark/Tab_Key_Dark.png
+  TILDA: assets/images/Key Dark/Tilda_Key_Dark.png
+  U: assets/images/Key Dark/U_Key_Dark.png
+  V: assets/images/Key Dark/V_Key_Dark.png
+  W: assets/images/Key Dark/W_Key_Dark.png
+  WIN: assets/images/Key Dark/Win_Key_Dark.png
+  X: assets/images/Key Dark/X_Key_Dark.png
+  Y: assets/images/Key Dark/Y_Key_Dark.png
+  Z: assets/images/Key Dark/Z_Key_Dark.png
+

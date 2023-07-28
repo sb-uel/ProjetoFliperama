@@ -23,6 +23,7 @@ GEM
     ethon (0.16.0)
       ffi (>= 1.15.0)
     eventmachine (1.2.7)
+    eventmachine (1.2.7-x86-mingw32)
     execjs (2.8.1)
     faraday (2.7.10)
       faraday-net_http (>= 2.0, < 3.1)
@@ -210,6 +211,8 @@ GEM
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
     minitest (5.18.1)
+    nokogiri (1.15.3-x86-mingw32)
+      racc (~> 1.4)
     nokogiri (1.15.3-x86_64-linux)
       racc (~> 1.4)
     octokit (4.25.1)
@@ -250,6 +253,7 @@ GEM
     webrick (1.8.1)
 
 PLATFORMS
+  x86-mingw32
   x86_64-linux
 
 DEPENDENCIES

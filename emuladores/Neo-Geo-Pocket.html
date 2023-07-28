@@ -1,0 +1,89 @@
+---
+layout: default
+category: emuladores
+---
+{% include emuladores.html %}
+<!-- Left Image -->
+<section class="left-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <img src="{{ site.baseurl }}/{{ console_imagem }}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <h4>Neo Geo Pocket</h4>
+                    <p> O Neo Geo Pocket é um console portátil monocromático desenvolvido pela SNK e foi lançado em 1998. 
+                        Uma semana após o seu lançamento, a sua concorrente, Nintendo, lançou o seu mais novo portátil, o 
+                        Game Boy Color (Ver <a href="{{ site.baseurl }}/emuladores/Gameboy-Color">Game Boy Color</a>), que, 
+                        principalmente, adicionava cores à sua nova biblioteca de jogos (diferentemente dos tradicionais 
+                        'preto' e 'branco' - monocromático). Devido a isso, a SNK trabalhou arduamente por 5 meses seguidos 
+                        para poder lançar um concorrente a altura, o Neo Geo Pocket Color 
+                        (Ver <a href="{{ site.baseurl }}/emuladores/Neo Geo Pocket Color">Neo Geo Pocket Color</a>). 
+                        Consequentemente, a biblioteca de jogos do Neo Geo Pocket tornou-se bem pequena, possuindo apenas 
+                        10 títulos com 5 deles renovados para o seu sucessor.
+                    </p>
+                </div>
+                <div class="primary-button">
+                    <a href="https://pt.frwiki.wiki/wiki/Liste_de_jeux_Neo-Geo_Pocket_et_Neo-Geo_Pocket_Color">Lista de Jogos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Left Image -->
+<section class="left-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <img src="{{ site.baseurl }}/{{ emulador_imagem }}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <h4>lr-beetle-ngp</h4>
+                    <p> O lr-beetle-ngp é um dos emuladores de Neo Geo Pocket disponíveis pela RetroArch (prefixo 'lr-') e 
+                        é o único utilizado para a emulação de Neo Geo Pocket no Ramo. Sendo assim, os comandos descritos na 
+                        seção 'Comandos (RetroArch)' também são válidos para este emulador.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="simple-post mt-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-center mb-5">Controles (User 1)</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <img src="{{ site.baseurl }}/{{ controle_imagem }}" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+{% assign A = "B" | upcase %}
+{% assign LABEL_A = "A" %}
+{% assign B = "A" | upcase %}
+{% assign LABEL_B = "B" %}
+{% assign DPAD_UP = "DPAD_UP" | upcase %}
+{% assign LABEL_DPAD_UP = "D-Pad Up" %}
+{% assign DPAD_DOWN = "DPAD_DOWN" | upcase %}
+{% assign LABEL_DPAD_DOWN = "D-Pad Down" %}
+{% assign DPAD_RIGHT = "DPAD_RIGHT" | upcase %}
+{% assign LABEL_DPAD_RIGHT = "D-Pad Right" %}
+{% assign DPAD_LEFT = "DPAD_LEFT" | upcase %}
+{% assign LABEL_DPAD_LEFT = "D-Pad Left" %}
+{% assign START = "START" | upcase %}
+{% assign LABEL_START = "Option" %}
+{% include tabela.html %}

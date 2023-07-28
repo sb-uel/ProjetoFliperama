@@ -2,6 +2,10 @@
   link: /emuladores/Arcade
 - name: Atari 2600
   link: /emuladores/Atari-2600
+  emulador: lr-Stella
+  console_imagem: assets/images/emuladores/Atari 2600 Console.png
+  emulador_imagem: assets/images/emuladores/Stella2014.png
+  controle_imagem: assets/images/emuladores/ControleAtari2600.png
 - name: Atari Lynx
   link: /emuladores/Atari-Lynx
 - name: Commodore 64
@@ -16,8 +20,14 @@
   link: /emuladores/MSX
 - name: Neo Geo Pocket
   link: /emuladores/Neo-Geo-Pocket
+  console_imagem: assets/images/emuladores/Console Neo Geo Pocket.jpg
+  emulador_imagem: assets/images/emuladores/Beetle-Ngp-Ngpc.png
+  controle_imagem: assets/images/emuladores/ControleNeoGeoPocket.png
 - name: Neo Geo Pocket Color
   link: /emuladores/Neo Geo Pocket Color
+  console_imagem: assets/images/emuladores/Console Neo Geo Pocket Color.jpg
+  emulador_imagem: assets/images/emuladores/Beetle-Ngp-Ngpc.png
+  controle_imagem: assets/images/emuladores/ControleNeoGeoPocket.png
 - name: NEO GEO
   link: /emuladores/NEO-GEO
 - name: Nintendo (8 bit)
@@ -34,6 +44,9 @@
   link: /emuladores/PC-Engine-TurboGrafx-16
 - name: PC 98
   link: /emuladores/PC-98
+  console_imagem: assets/images/emuladores/Console PC98.jpg
+  emulador_imagem: assets/images/emuladores/NP2KAI.png
+  controle_imagem: assets/images/emuladores/ControlePC98.jpg
 - name: PlayStation
   link: /emuladores/PlayStation
 - name: Playstation Portable (PSP)
@@ -58,5 +71,11 @@
   link: /emuladores/Virtual-Boy
 - name: Wonderswan
   link: /emuladores/Wonderswan
+  console_imagem: assets/images/emuladores/Console Wonderswan.jpg
+  emulador_imagem: assets/images/emuladores/Beetle-Wswan.png
+  controle_imagem: assets/images/emuladores/Controle Wonderswan-Color.jpg
 - name: Wonderswan Color
   link: /emuladores/Wonderswan-Color
+  console_imagem: assets/images/emuladores/Console Wondeswan Color.jpg
+  emulador_imagem: assets/images/emuladores/Beetle-Wswan.png
+  controle_imagem: assets/images/emuladores/Controle Wonderswan-Color.jpg
