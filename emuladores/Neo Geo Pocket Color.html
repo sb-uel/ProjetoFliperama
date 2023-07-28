@@ -1,0 +1,85 @@
+---
+layout: default
+category: emuladores
+---
+{% include emuladores.html %}
+<!-- Left Image -->
+<section class="left-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <img src="{{ site.baseurl }}/{{ console_imagem }}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <h4>Neo Geo Pocket Color</h4>
+                    <p> O Neo Geo Pocket Color é um console portátil feito pela 'SNK' e lançado em 1999. Esse console 
+                        veio para ser um sucessor do Neo Geo Pocket 
+                        (Ver <a href="{{ site.baseurl }}/emuladores/Neo-Geo-Pocket">Neo Geo Pocket</a>) e para competir com o Game Boy 
+                        Color da Nintendo (Ver <a href="{{ site.baseurl }}/emuladores/Gameboy-Color">Game Boy Color</a>).  
+                        Por isso, o Neo Geo Pocket Color é básicamente igual ao Neo Geo Pocket porém com algumas mecânicas e 
+                        uma tela com cores a mais. Mesmo obtendo um bom desempenho em vendas no início, a crescente popularização 
+                        dos jogos de 'Pokémon' com o Game Boy Advance da Nintendo 
+                        (Ver <a href="{{ site.baseurl }}/emuladores/GBA">Game Boy Color</a>), baixo suporte dos varejistas dos 
+                        EUA e concorrência com o Wonderswan (Ver <a href="{{ site.baseurl }}/emuladores/Wonderswan">Wonderswan</a>) 
+                        da Bandai, em território japonês, fez com que as vendas desse portátil da SNK sofressem declínios até a 
+                        oficial descontinuação desse portátil em 2001 devido, também, à falência da SNK, porém com o surgimento 
+                        de sua sucessora, a 'SNK Playmore'.
+                    </p>
+                </div>
+                <div class="primary-button">
+                    <a href="https://pt.frwiki.wiki/wiki/Liste_de_jeux_Neo-Geo_Pocket_et_Neo-Geo_Pocket_Color">Lista de Jogos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Left Image -->
+<section class="left-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <img src="{{ site.baseurl }}/{{ emulador_imagem }}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <h4>lr-beetle-ngp</h4>
+                    <p> O lr-beetle-ngp é um dos emuladores de Neo Geo Pocket Color disponíveis pela RetroArch (prefixo 'lr-') e 
+                        é o único utilizado para a emulação de Neo Geo Pocket Color no Ramo. Sendo assim, os comandos descritos na 
+                        seção 'Comandos (RetroArch)' também são válidos para este emulador.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="simple-post mt-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-center mb-5">Controles (User 1)</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <img src="{{ site.baseurl }}/{{ controle_imagem }}" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+{% assign A = "B" | upcase %}
+{% assign B = "A" | upcase %}
+{% assign DPAD_UP = "DPAD_UP" | upcase %}
+{% assign DPAD_DOWN = "DPAD_DOWN" | upcase %}
+{% assign DPAD_RIGHT = "DPAD_RIGHT" | upcase %}
+{% assign DPAD_LEFT = "DPAD_LEFT" | upcase %}
+{% assign START = "START" | upcase %}
+{% include tabela.html %}

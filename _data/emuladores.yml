@@ -25,6 +25,9 @@
   controle_imagem: assets/images/emuladores/ControleNeoGeoPocket.png
 - name: Neo Geo Pocket Color
   link: /emuladores/Neo Geo Pocket Color
+  console_imagem: assets/images/emuladores/Console Neo Geo Pocket Color.jpg
+  emulador_imagem: assets/images/emuladores/Beetle-Ngp-Ngpc.png
+  controle_imagem: assets/images/emuladores/ControleNeoGeoPocket.png
 - name: NEO GEO
   link: /emuladores/NEO-GEO
 - name: Nintendo (8 bit)
