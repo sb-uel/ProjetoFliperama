@@ -62,5 +62,9 @@
   link: /emuladores/Virtual-Boy
 - name: Wonderswan
   link: /emuladores/Wonderswan
+  console_imagem: assets/images/emuladores/Console Wonderswan.jpg
+  emulador_imagem: assets/images/emuladores/Beetle-Wswan.png
 - name: Wonderswan Color
   link: /emuladores/Wonderswan-Color
+  console_imagem: assets/images/emuladores/Console Wondeswan Color.jpg
+  emulador_imagem: assets/images/emuladores/Beetle-Wswan.png

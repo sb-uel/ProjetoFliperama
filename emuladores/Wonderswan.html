@@ -1,0 +1,79 @@
+---
+layout: default
+category: emuladores
+---
+{% include emuladores.html %}
+<!-- Left Image -->
+<section class="left-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <img src="{{ site.baseurl }}/{{ console_imagem }}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <h4>Wonderswan</h4>
+                    <p>O Wonderswan é um console portátil monocromático lançado em 1999 somente no Japão feito pela Bandai. 
+                        A partir da popularidade dos 'Tamagotchi' de 1996, a Bandai desenvolveu o console em conjunto com a 
+                        empresa Koto Laboratory, cujo proprietário, Gunpei Yokoi, foi um designer importante para a Nintendo, 
+                        tendo trabalhado nos 'Game & Watch' e outros sistemas, antes de sua demissão em 1996 devido ao fracasso 
+                        do mais novo console 'portátil' da empresa na época, o Virtual Boy. O console em questão tinha a 
+                        capacidade de 40 horas úteis de jogatina com o uso de apenas uma pilha AA.
+                    </p>
+                </div>
+                <div class="primary-button">
+                    <a href="https://bdjogos.com.br/console.php?id=53">Lista de Jogos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Left Image -->
+<section class="left-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <img src="{{ site.baseurl }}/{{ emulador_imagem }}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <h4>lr-beetle-wswan</h4>
+                    <p>O lr-beetle-wswan é um dos emuladores de Wonderswan disponíveis pela RetroArch (prefixo 'lr-') e 
+                       é o único utilizado para a emulação de Wonderswan no Ramo. Sendo assim, os comandos 
+                       descritos na seção 'Comandos (RetroArch)' também são válidos para este emulador.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="simple-post mt-5">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                   <h2 class="text-center mb-5">Controles (User 1)</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% assign B = "A" | upcase %}
+{% assign A = "B" | upcase %}
+{% assign LB = "L1" | upcase %}
+{% assign RB = "R1" | upcase %}
+{% assign LT = "L1" | upcase %}  <!-- Colocar L2 -->
+{% assign RT = "R1" | upcase %}  <!-- Colocar R2 -->
+{% assign DPAD_UP = "DPAD_UP" | upcase %}
+{% assign DPAD_DOWN = "DPAD_DOWN" | upcase %}
+{% assign DPAD_RIGHT = "DPAD_RIGHT" | upcase %}
+{% assign DPAD_LEFT = "DPAD_LEFT" | upcase %}
+{% assign START = "START" | upcase %}
+{% assign SELECT = "SELECT" | upcase %}
+{% include tabela.html %}
