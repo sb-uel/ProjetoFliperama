@@ -177,6 +177,46 @@
         <tr>
             <td class="text-center align-middle h4 font-weight-bold">
                 <div class="d-flex justify-content-center align-items-center">
+                    {% if site.data.referencias.retro[LS] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[LS]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Não Utilizado{% endif %}
+                </div>
+                {% if LABEL_LS %}
+                    {{ LABEL_LS }}
+                {% endif %}
+            </td>
+            <td>
+                <div class="d-flex justify-content-center align-items-center">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['xbox_360'].LS }}" alt="AnalogicoL_Xbox" class="img-fluid">
+                </div>
+            </td>
+            <td>
+                <div class="d-flex justify-content-center align-items-center">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['ps3'].LS }}" alt="AnalogicoL_PS3" class="img-fluid">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="text-center align-middle h4 font-weight-bold">
+                <div class="d-flex justify-content-center align-items-center">
+                    {% if site.data.referencias.retro[RS] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[RS]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Não Utilizado{% endif %}
+                </div>
+                {% if LABEL_RS %}
+                    {{ LABEL_RS }}
+                {% endif %}
+            </td>
+            <td>
+                <div class="d-flex justify-content-center align-items-center">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['xbox_360'].RS }}" alt="AnalogicoR_Xbox" class="img-fluid">
+                </div>
+            </td>
+            <td>
+                <div class="d-flex justify-content-center align-items-center">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['ps3'].RS }}" alt="AnalogicoR_PS3" class="img-fluid">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="text-center align-middle h4 font-weight-bold">
+                <div class="d-flex justify-content-center align-items-center">
                     {% if site.data.referencias.retro[L3] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[L3]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Não Utilizado{% endif %}
                 </div>
                 {% if LABEL_L3 %}
@@ -185,12 +225,12 @@
             </td>
             <td>
                 <div class="d-flex justify-content-center align-items-center">
-                    <img src="{{ site.baseurl }}/{{ site.data.referencias['xbox_360'].L3 }}" alt="AnalogicoL_Xbox" class="img-fluid">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['xbox_360'].L3 }}" alt="AnalogicoL3_Xbox" class="img-fluid">
                 </div>
             </td>
             <td>
                 <div class="d-flex justify-content-center align-items-center">
-                    <img src="{{ site.baseurl }}/{{ site.data.referencias['ps3'].L3 }}" alt="AnalogicoL_PS3" class="img-fluid">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['ps3'].L3 }}" alt="AnalogicoL3_PS3" class="img-fluid">
                 </div>
             </td>
         </tr>
@@ -205,12 +245,12 @@
             </td>
             <td>
                 <div class="d-flex justify-content-center align-items-center">
-                    <img src="{{ site.baseurl }}/{{ site.data.referencias['xbox_360'].R3 }}" alt="AnalogicoR_Xbox" class="img-fluid">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['xbox_360'].R3 }}" alt="AnalogicoR3_Xbox" class="img-fluid">
                 </div>
             </td>
             <td>
                 <div class="d-flex justify-content-center align-items-center">
-                    <img src="{{ site.baseurl }}/{{ site.data.referencias['ps3'].R3 }}" alt="AnalogicoR_PS3" class="img-fluid">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['ps3'].R3 }}" alt="AnalogicoR3_PS3" class="img-fluid">
                 </div>
             </td>
         </tr>
@@ -257,26 +297,6 @@
         <tr>
             <td class="text-center align-middle h4 font-weight-bold">
                 <div class="d-flex justify-content-center align-items-center">
-                    {% if site.data.referencias.retro[DPAD_LEFT] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[DPAD_LEFT]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Não Utilizado{% endif %}
-                </div>
-                {% if LABEL_DPAD_LEFT %}
-                    {{ LABEL_DPAD_LEFT }}
-                {% endif %}
-            </td>
-            <td>
-                <div class="d-flex justify-content-center align-items-center">
-                    <img src="{{ site.baseurl }}/{{ site.data.referencias['xbox_360'].DPAD_LEFT }}" alt="D-Pad_Xbox" class="img-fluid">
-                </div>
-            </td>
-            <td>
-                <div class="d-flex justify-content-center align-items-center">
-                    <img src="{{ site.baseurl }}/{{ site.data.referencias['ps3'].DPAD_LEFT }}" alt="D-Pad_PS3" class="img-fluid">
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td class="text-center align-middle h4 font-weight-bold">
-                <div class="d-flex justify-content-center align-items-center">
                     {% if site.data.referencias.retro[DPAD_DOWN] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[DPAD_DOWN]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Não Utilizado{% endif %}
                 </div>
                 {% if LABEL_DPAD_DOWN %}
@@ -291,6 +311,26 @@
             <td>
                 <div class="d-flex justify-content-center align-items-center">
                     <img src="{{ site.baseurl }}/{{ site.data.referencias['ps3'].DPAD_DOWN }}" alt="D-Pad_PS3" class="img-fluid">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="text-center align-middle h4 font-weight-bold">
+                <div class="d-flex justify-content-center align-items-center">
+                    {% if site.data.referencias.retro[DPAD_LEFT] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[DPAD_LEFT]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Não Utilizado{% endif %}
+                </div>
+                {% if LABEL_DPAD_LEFT %}
+                    {{ LABEL_DPAD_LEFT }}
+                {% endif %}
+            </td>
+            <td>
+                <div class="d-flex justify-content-center align-items-center">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['xbox_360'].DPAD_LEFT }}" alt="D-Pad_Xbox" class="img-fluid">
+                </div>
+            </td>
+            <td>
+                <div class="d-flex justify-content-center align-items-center">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['ps3'].DPAD_LEFT }}" alt="D-Pad_PS3" class="img-fluid">
                 </div>
             </td>
         </tr>
