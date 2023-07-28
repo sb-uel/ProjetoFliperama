@@ -1,19 +1,8 @@
-{% if page.category != "emuladores"%}
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="{{ site.baseurl }}/{{ site.data.referencias['script_jquery'] }}"></script>
+<script src="{{ site.baseurl }}/{{ site.data.referencias['script_bootstrap'] }}"></script>
 
-<script src="assets/js/browser.min.js"></script>
-<script src="assets/js/breakpoints.min.js"></script>
-<script src="assets/js/transition.js"></script>
-<script src="assets/js/owl-carousel.js"></script>
-<script src="assets/js/custom.js"></script>
-{% else %}
-<script src="../vendor/jquery/jquery.min.js"></script>
-<script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-<script src="../assets/js/browser.min.js"></script>
-<script src="../assets/js/breakpoints.min.js"></script>
-<script src="../assets/js/transition.js"></script>
-<script src="../assets/js/owl-carousel.js"></script>
-<script src="../assets/js/custom.js"></script>
-{% endif %}
+<script src="{{ site.baseurl }}/{{ site.data.referencias['script_browser'] }}"></script>
+<script src="{{ site.baseurl }}/{{ site.data.referencias['script_breakpoints'] }}"></script>
+<script src="{{ site.baseurl }}/{{ site.data.referencias['script_transition'] }}"></script>
+<script src="{{ site.baseurl }}/{{ site.data.referencias['script_owl-carousel'] }}"></script>
+<script src="{{ site.baseurl }}/{{ site.data.referencias['script_custom'] }}"></script>

@@ -1,0 +1,64 @@
+# Referências de scripts
+script_jquery : vendor/jquery/jquery.min.js
+script_bootstrap : vendor/bootstrap/js/bootstrap.bundle.min.js
+script_browser : assets/js/browser.min.js
+script_breakpoints : assets/js/breakpoints.min.js
+script_transition : assets/js/transition.js
+script_owl-carousel : assets/js/owl-carousel.js
+script_custom : assets/js/custom.js
+
+# Favicon
+favicon: favicon.png
+
+# Ícones da Tabela
+xbox_360:
+  B: "assets/images/Xbox 360/360_B.png"
+  A: "assets/images/Xbox 360/360_A.png"
+  Y: "assets/images/Xbox 360/360_Y.png"
+  X: "assets/images/Xbox 360/360_X.png"
+  LB: "assets/images/Xbox 360/360_LB.png"
+  RB: "assets/images/Xbox 360/360_RB.png"
+  LT: "assets/images/Xbox 360/360_LT.png"
+  RT: "assets/images/Xbox 360/360_RT.png"
+  L3: "assets/images/Xbox 360/360_Left_Stick_Click.png"
+  R3: "assets/images/Xbox 360/360_Right_Stick_Click.png"
+  DPAD_UP: "assets/images/Xbox 360/360_Dpad_Up.png"
+  DPAD_RIGHT: "assets/images/Xbox 360/360_Dpad_Right.png"
+  DPAD_LEFT: "assets/images/Xbox 360/360_Dpad_Left.png"
+  DPAD_DOWN: "assets/images/Xbox 360/360_Dpad_Down.png"
+  SELECT: "assets/images/Xbox 360/360_Back_Alt.png"
+  START: "assets/images/Xbox 360/360_Start_Alt.png"
+
+ps3:
+  Circle: "assets/images/PS3/PS3_Circle.png"
+  Cross: "assets/images/PS3/PS3_Cross.png"
+  Triangle: "assets/images/PS3/PS3_Triangle.png"
+  Square: "assets/images/PS3/PS3_Square.png"
+  L1: "assets/images/PS3/PS3_L1.png"
+  R1: "assets/images/PS3/PS3_R1.png"
+  L2: "assets/images/PS3/PS3_L2.png"
+  R2: "assets/images/PS3/PS3_R2.png"
+  L3: "assets/images/PS3/PS3_Left_Stick_Click.png"
+  R3: "assets/images/PS3/PS3_Right_Stick_Click.png"
+  DPAD_UP: "assets/images/PS3/PS3_Dpad_Up.png"
+  DPAD_RIGHT: "assets/images/PS3/PS3_Dpad_Right.png"
+  DPAD_LEFT: "assets/images/PS3/PS3_Dpad_Left.png"
+  DPAD_DOWN: "assets/images/PS3/PS3_Dpad_Down.png"
+  SELECT: "assets/images/PS3/PS3_Select.png"
+  START: "assets/images/PS3/PS3_Start.png"
+
+retro:
+  A: assets/images/Retro/retro_a.png
+  B: assets/images/Retro/retro_b.png
+  Y: assets/images/Retro/retro_y.png
+  X: assets/images/Retro/retro_x.png
+  L1: assets/images/Retro/retro_l1.png
+  R1: assets/images/Retro/retro_r1.png
+  L3: assets/images/Retro/retro_l3.png
+  R3: assets/images/Retro/retro_r3.png
+  DPAD_UP: assets/images/Retro/retro_dpad_up.png
+  DPAD_RIGHT: assets/images/Retro/retro_dpad_right.png 
+  DPAD_LEFT: assets/images/Retro/retro_dpad_left.png
+  DPAD_DOWN: assets/images/Retro/retro_dpad_down.png
+  SELECT: assets/images/Retro/retro_select.png
+  START: assets/images/Retro/retro_start.png
