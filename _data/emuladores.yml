@@ -4,7 +4,7 @@
   link: /emuladores/Atari-2600
   emulador: lr-Stella
   console_imagem: assets/images/emuladores/Atari 2600 Console.png
-  emulador_imagem: assets/images/emuladores/Stella.jpg
+  emulador_imagem: assets/images/emuladores/Stella2014.png
   controle_imagem: assets/images/emuladores/ControleAtari2600.png
 - name: Atari Lynx
   link: /emuladores/Atari-Lynx

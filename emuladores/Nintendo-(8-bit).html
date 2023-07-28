@@ -1,7 +1,6 @@
 ---
 layout: default
 category: emuladores
-A: A
 ---
 {% include emuladores.html %}
 <!-- Left Image -->
@@ -22,7 +21,7 @@ A: A
                         para um 'sistema de entretenimento', ao ser lançado no ocidente devido à recessão da Crise dos
                         Jogos Eletrônicos de 1983, a qual foi provocada, em território estadunidense, principalmente
                         pela hiper saturação do mercado americano de consoles eletrônicos com jogos de baixa qualidade
-                        em média (Ver <a href="{{ site.baseurl }}{{ site.link }}">Atari 2600</a>). Apesar disso, o NES foi o principal responsável pela recuperação da
+                        em média (Ver <a href="{{ site.baseurl }}/emuladores/Atari-2600">Atari 2600</a>). Apesar disso, o NES foi o principal responsável pela recuperação da
                         já citada crise devido ao fato de ter estabelecido novos padrões no desenvolvimento de jogos que
                         seriam seguidos por outras empresas nesse ramo (vide o lançamento de 'Super Mario Bros.' em
                         1985) como, também, foi o primeiro console a ser produzido e ter seus jogos desenvolvidos também
@@ -75,7 +74,17 @@ A: A
     </div>
 </section>
 
-{% include controle_padrao.html %}
-{% assign Y = "B" | upcase %}
-{% assign X = "A" | upcase %}
+{% assign B = "A" | upcase %}
+{% assign A = "B" | upcase %}
+{% assign Y = "A" | upcase %}  <!-- Turbo A -->
+{% assign X = "B" | upcase %}  <!-- Turbo B -->
+{% assign LB = "L1" | upcase %}
+{% assign RB = "R1" | upcase %}
+{% assign RT = "R1" | upcase %}  <!-- Colocar R2 -->
+{% assign DPAD_UP = "DPAD_UP" | upcase %}
+{% assign DPAD_DOWN = "DPAD_DOWN" | upcase %}
+{% assign DPAD_RIGHT = "DPAD_RIGHT" | upcase %}
+{% assign DPAD_LEFT = "DPAD_LEFT" | upcase %}
+{% assign START = "START" | upcase %}
+{% assign SELECT = "SELECT" | upcase %}
 {% include tabela.html %}
