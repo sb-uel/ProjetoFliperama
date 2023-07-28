@@ -14,275 +14,323 @@
             <th class="text-center h5 font-weight-bold">PS3</th>
         </tr>
         <tr>
-            <td class="align-middle h4 font-weight-bold">
+            <td class="text-center align-middle h4 font-weight-bold">
                 <div class="d-flex justify-content-center align-items-center">
-                    {% if site.data.retro[B] %}<img src="../{{site.data.retro[B]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
+                    {% if site.data.referencias.retro[B] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[B]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
+                </div>
+                {% if LABEL_B %}
+                    {{ LABEL_B }}
+                {% endif %}
+            </td>
+            <td>
+                <div class="d-flex justify-content-center align-items-center">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['xbox_360'].B }}" alt="B" class="img-fluid">
                 </div>
             </td>
             <td>
                 <div class="d-flex justify-content-center align-items-center">
-                    <img src="../assets/images/Xbox 360/360_B.png" alt="B" class="img-fluid">
-                </div>
-            </td>
-            <td>
-                <div class="d-flex justify-content-center align-items-center">
-                    <img src="../assets/images/PS3/PS3_Circle.png" alt="Bolinha" class="img-fluid">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['ps3'].Circle }}" alt="Bolinha" class="img-fluid">
                 </div>
             </td>
         </tr>
         <tr>
 
 
-            <td class="align-middle h4 font-weight-bold">
+            <td class="text-center align-middle h4 font-weight-bold">
                 <div class="d-flex justify-content-center align-items-center">
-                    {% if site.data.retro[A] %}<img src="../{{site.data.retro[A]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
+                    {% if site.data.referencias.retro[A] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[A]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
+                </div>
+                {% if LABEL_A %}
+                    {{ LABEL_A }}
+                {% endif %}
+            </td>
+            <td>
+                <div class="d-flex justify-content-center align-items-center">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['xbox_360'].A }}" alt="A" class="img-fluid">
                 </div>
             </td>
             <td>
                 <div class="d-flex justify-content-center align-items-center">
-                    <img src="../assets/images/Xbox 360/360_A.png" alt="A" class="img-fluid">
-                </div>
-            </td>
-            <td>
-                <div class="d-flex justify-content-center align-items-center">
-                    <img src="../assets/images/PS3/PS3_Cross.png" alt="X_PS3" class="img-fluid">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['ps3'].Cross }}" alt="X_PS3" class="img-fluid">
                 </div>
             </td>
         </tr>
         <tr>
-            <td class="align-middle h4 font-weight-bold">
+            <td class="text-center align-middle h4 font-weight-bold">
                 <div class="d-flex justify-content-center align-items-center">
-                    {% if site.data.retro[Y] %}<img src="../{{site.data.retro[Y]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
+                    {% if site.data.referencias.retro[Y] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[Y]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
+                </div>
+                {% if LABEL_Y %}
+                    {{ LABEL_Y }}
+                {% endif %}
+            </td>
+            <td>
+                <div class="d-flex justify-content-center align-items-center">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['xbox_360'].Y }}" alt="Y" class="img-fluid">
                 </div>
             </td>
             <td>
                 <div class="d-flex justify-content-center align-items-center">
-                    <img src="../assets/images/Xbox 360/360_Y.png" alt="Y" class="img-fluid">
-                </div>
-            </td>
-            <td>
-                <div class="d-flex justify-content-center align-items-center">
-                    <img src="../assets/images/PS3/PS3_Triangle.png" alt="Triangulo" class="img-fluid">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['ps3'].Triangle }}" alt="Triangulo" class="img-fluid">
                 </div>
             </td>
         </tr>
         <tr>
-            <td class="align-middle h4 font-weight-bold">
+            <td class="text-center align-middle h4 font-weight-bold">
                 <div class="d-flex justify-content-center align-items-center">
-                    {% if site.data.retro[X] %}<img src="../{{site.data.retro[X]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
+                    {% if site.data.referencias.retro[X] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[X]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
                 </div>
+                {% if LABEL_X %}
+                    {{ LABEL_X }}
+                {% endif %}
             </td>
             <td>
                 <div class="d-flex justify-content-center align-items-center">
-                    <img src="../assets/images/Xbox 360\360_X.png" alt="X_Xbox" class="img-fluid ">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['xbox_360'].X }}" alt="X_Xbox" class="img-fluid ">
             </td>
             <td>
                 <div class="d-flex justify-content-center align-items-center">
-                    <img src="../assets/images/PS3/PS3_Square.png" alt="Quadrado" class="img-fluid">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['ps3'].Square }}" alt="Quadrado" class="img-fluid">
                 </div>
             </td>
         </tr>
         <tr>
-            <td class="align-middle h4 font-weight-bold">
+            <td class="text-center align-middle h4 font-weight-bold">
                 <div class="d-flex justify-content-center align-items-center">
-                    {% if site.data.retro[LB] %}<img src="../{{site.data.retro[LB]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
+                    {% if site.data.referencias.retro[LB] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[LB]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
+                </div>
+                {% if LABEL_LB %}
+                    {{ LABEL_LB }}
+                {% endif %}
+            </td>
+            <td>
+                <div class="d-flex justify-content-center align-items-center">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['xbox_360'].LB }}" alt="LB" class="img-fluid">
                 </div>
             </td>
             <td>
                 <div class="d-flex justify-content-center align-items-center">
-                    <img src="../assets/images/Xbox 360/360_LB.png" alt="LB" class="img-fluid">
-                </div>
-            </td>
-            <td>
-                <div class="d-flex justify-content-center align-items-center">
-                    <img src="../assets/images/PS3/PS3_R1.png" alt="R1" class="img-fluid">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['ps3'].L1 }}" alt="L1" class="img-fluid">
                 </div>
             </td>
         </tr>
         <tr>
-            <td class="align-middle h4 font-weight-bold">
+            <td class="text-center align-middle h4 font-weight-bold">
                 <div class="d-flex justify-content-center align-items-center">
-                    {% if site.data.retro[RB] %}<img src="../{{site.data.retro[RB]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
+                    {% if site.data.referencias.retro[RB] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[RB]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
+                </div>
+                {% if LABEL_RB %}
+                    {{ LABEL_RB }}
+                {% endif %}
+            </td>
+            <td>
+                <div class="d-flex justify-content-center align-items-center">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['xbox_360'].RB }}" alt="RB" class="img-fluid">
                 </div>
             </td>
             <td>
                 <div class="d-flex justify-content-center align-items-center">
-                    <img src="../assets/images/Xbox 360/360_RB.png" alt="RB" class="img-fluid">
-                </div>
-            </td>
-            <td>
-                <div class="d-flex justify-content-center align-items-center">
-                    <img src="../assets/images/PS3/PS3_L1.png" alt="L1" class="img-fluid">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['ps3'].R1 }}" alt="R1" class="img-fluid">
                 </div>
             </td>
         </tr>
         <tr>
-            <td class="align-middle h4 font-weight-bold">
+            <td class="text-center align-middle h4 font-weight-bold">
                 <div class="d-flex justify-content-center align-items-center">
-                    {% if site.data.retro[LT] %}<img src="../{{site.data.retro[LT]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
+                    {% if site.data.referencias.retro[LT] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[LT]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
+                </div>
+                {% if LABEL_LT %}
+                    {{ LABEL_LT }}
+                {% endif %}
+            </td>
+            <td>
+                <div class="d-flex justify-content-center align-items-center">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['xbox_360'].LT }}" alt="LT" class="img-fluid">
                 </div>
             </td>
             <td>
                 <div class="d-flex justify-content-center align-items-center">
-                    <img src="../assets/images/Xbox 360/360_LT.png" alt="LT" class="img-fluid">
-                </div>
-            </td>
-            <td>
-                <div class="d-flex justify-content-center align-items-center">
-                    <img src="../assets/images/PS3/PS3_L2.png" alt="L2" class="img-fluid">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['ps3'].L2 }}" alt="L2" class="img-fluid">
                 </div>
             </td>
         </tr>
         <tr>
-            <td class="align-middle h4 font-weight-bold">
+            <td class="text-center align-middle h4 font-weight-bold">
                 <div class="d-flex justify-content-center align-items-center">
-                    {% if site.data.retro[RT] %}<img src="../{{site.data.retro[RT]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
+                    {% if site.data.referencias.retro[RT] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[RT]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
+                </div>
+                {% if LABEL_RT %}
+                    {{ LABEL_RT }}
+                {% endif %}
+            </td>
+            <td>
+                <div class="d-flex justify-content-center align-items-center">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['xbox_360'].RT }}" alt="RT" class="img-fluid">
                 </div>
             </td>
             <td>
                 <div class="d-flex justify-content-center align-items-center">
-                    <img src="../assets/images/Xbox 360/360_RT.png" alt="RT" class="img-fluid">
-                </div>
-            </td>
-            <td>
-                <div class="d-flex justify-content-center align-items-center">
-                    <img src="../assets/images/PS3/PS3_R2.png" alt="R2" class="img-fluid">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['ps3'].R2 }}" alt="R2" class="img-fluid">
                 </div>
             </td>
         </tr>
         <tr>
-            <td class="align-middle h4 font-weight-bold">
+            <td class="text-center align-middle h4 font-weight-bold">
                 <div class="d-flex justify-content-center align-items-center">
-                    {% if site.data.retro[L3] %}<img src="../{{site.data.retro[L3]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
+                    {% if site.data.referencias.retro[L3] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[L3]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
+                </div>
+                {% if LABEL_L3 %}
+                    {{ LABEL_L3 }}
+                {% endif %}
+            </td>
+            <td>
+                <div class="d-flex justify-content-center align-items-center">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['xbox_360'].L3 }}" alt="AnalogicoL_Xbox" class="img-fluid">
                 </div>
             </td>
             <td>
                 <div class="d-flex justify-content-center align-items-center">
-                    <img src="../assets/images/Xbox 360/360_Left_Stick_Click.png" alt="AnalogicoL_Xbox" class="img-fluid">
-                </div>
-            </td>
-            <td>
-                <div class="d-flex justify-content-center align-items-center">
-                    <img src="../assets/images/PS3/PS3_Left_Stick_Click.png" alt="AnalogicoL_PS3" class="img-fluid">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['ps3'].L3 }}" alt="AnalogicoL_PS3" class="img-fluid">
                 </div>
             </td>
         </tr>
         <tr>
-            <td class="align-middle h4 font-weight-bold">
+            <td class="text-center align-middle h4 font-weight-bold">
                 <div class="d-flex justify-content-center align-items-center">
-                    {% if site.data.retro[R3] %}<img src="../{{site.data.retro[R3]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
+                    {% if site.data.referencias.retro[R3] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[R3]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
+                </div>
+                {% if LABEL_R3 %}
+                    {{ LABEL_R3 }}
+                {% endif %}
+            </td>
+            <td>
+                <div class="d-flex justify-content-center align-items-center">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['xbox_360'].R3 }}" alt="AnalogicoR_Xbox" class="img-fluid">
                 </div>
             </td>
             <td>
                 <div class="d-flex justify-content-center align-items-center">
-                    <img src="../assets/images/Xbox 360/360_Right_Stick_Click.png" alt="AnalogicoR_Xbox" class="img-fluid">
-                </div>
-            </td>
-            <td>
-                <div class="d-flex justify-content-center align-items-center">
-                    <img src="../assets/images/PS3/PS3_Right_Stick_Click.png" alt="AnalogicoR_PS3" class="img-fluid">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['ps3'].R3 }}" alt="AnalogicoR_PS3" class="img-fluid">
                 </div>
             </td>
         </tr>
         <tr>
-            <td class="align-middle h4 font-weight-bold">
+            <td class="text-center align-middle h4 font-weight-bold">
                 <div class="d-flex justify-content-center align-items-center">
-                    {% if site.data.retro[DPAD_UP] %}<img src="../{{site.data.retro[DPAD_UP]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
+                    {% if site.data.referencias.retro[DPAD_UP] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[DPAD_UP]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
+                </div>
+                {% if LABEL_DPAD_UP %}
+                    {{ LABEL_DPAD_UP }}
+                {% endif %}
+            </td>
+            <td>
+                <div class="d-flex justify-content-center align-items-center">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['xbox_360'].DPAD_UP }}" alt="D-Pad_Xbox" class="img-fluid">
                 </div>
             </td>
             <td>
                 <div class="d-flex justify-content-center align-items-center">
-                    <img src="../assets/images/Xbox 360/360_Dpad_Up.png" alt="D-Pad_Xbox" class="img-fluid">
-                </div>
-            </td>
-            <td>
-                <div class="d-flex justify-content-center align-items-center">
-                    <img src="../assets/images/PS3/PS3_Dpad_Up.png" alt="D-Pad_PS3" class="img-fluid">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['ps3'].DPAD_UP }}" alt="D-Pad_PS3" class="img-fluid">
                 </div>
             </td>
         </tr>
         <tr>
-            <td class="align-middle h4 font-weight-bold">
+            <td class="text-center align-middle h4 font-weight-bold">
                 <div class="d-flex justify-content-center align-items-center">
-                    {% if site.data.retro[DPAD_RIGHT] %}<img src="../{{site.data.retro[DPAD_RIGHT]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
+                    {% if site.data.referencias.retro[DPAD_RIGHT] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[DPAD_RIGHT]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
+                </div>
+                {% if LABEL_DPAD_RIGHT %}
+                    {{ LABEL_DPAD_RIGHT }}
+                {% endif %}
+            </td>
+            <td>
+                <div class="d-flex justify-content-center align-items-center">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['xbox_360'].DPAD_RIGHT }}" alt="D-Pad_Xbox" class="img-fluid">
                 </div>
             </td>
             <td>
                 <div class="d-flex justify-content-center align-items-center">
-                    <img src="../assets/images/Xbox 360/360_Dpad_Right.png" alt="D-Pad_Xbox" class="img-fluid">
-                </div>
-            </td>
-            <td>
-                <div class="d-flex justify-content-center align-items-center">
-                    <img src="../assets/images/PS3/PS3_Dpad_Right.png" alt="D-Pad_PS3" class="img-fluid">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['ps3'].DPAD_RIGHT }}" alt="D-Pad_PS3" class="img-fluid">
                 </div>
             </td>
         </tr>
         <tr>
-            <td class="align-middle h4 font-weight-bold">
+            <td class="text-center align-middle h4 font-weight-bold">
                 <div class="d-flex justify-content-center align-items-center">
-                    {% if site.data.retro[DPAD_LEFT] %}<img src="../{{site.data.retro[DPAD_LEFT]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
+                    {% if site.data.referencias.retro[DPAD_LEFT] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[DPAD_LEFT]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
+                </div>
+                {% if LABEL_DPAD_LEFT %}
+                    {{ LABEL_DPAD_LEFT }}
+                {% endif %}
+            </td>
+            <td>
+                <div class="d-flex justify-content-center align-items-center">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['xbox_360'].DPAD_LEFT }}" alt="D-Pad_Xbox" class="img-fluid">
                 </div>
             </td>
             <td>
                 <div class="d-flex justify-content-center align-items-center">
-                    <img src="../assets/images/Xbox 360/360_Dpad_Left.png" alt="D-Pad_Xbox" class="img-fluid">
-                </div>
-            </td>
-            <td>
-                <div class="d-flex justify-content-center align-items-center">
-                    <img src="../assets/images/PS3/PS3_Dpad_Left.png" alt="D-Pad_PS3" class="img-fluid">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['ps3'].DPAD_LEFT }}" alt="D-Pad_PS3" class="img-fluid">
                 </div>
             </td>
         </tr>
         <tr>
-            <td class="align-middle h4 font-weight-bold">
+            <td class="text-center align-middle h4 font-weight-bold">
                 <div class="d-flex justify-content-center align-items-center">
-                    {% if site.data.retro[DPAD_DOWN] %}<img src="../{{site.data.retro[DPAD_DOWN]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
+                    {% if site.data.referencias.retro[DPAD_DOWN] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[DPAD_DOWN]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
+                </div>
+                {% if LABEL_DPAD_DOWN %}
+                    {{ LABEL_DPAD_DOWN }}
+                {% endif %}
+            </td>
+            <td>
+                <div class="d-flex justify-content-center align-items-center">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['xbox_360'].DPAD_DOWN }}" alt="D-Pad_Xbox" class="img-fluid">
                 </div>
             </td>
             <td>
                 <div class="d-flex justify-content-center align-items-center">
-                    <img src="../assets/images/Xbox 360/360_Dpad_Down.png" alt="D-Pad_Xbox" class="img-fluid">
-                </div>
-            </td>
-            <td>
-                <div class="d-flex justify-content-center align-items-center">
-                    <img src="../assets/images/PS3/PS3_Dpad_Down.png" alt="D-Pad_PS3" class="img-fluid">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['ps3'].DPAD_DOWN }}" alt="D-Pad_PS3" class="img-fluid">
                 </div>
             </td>
         </tr>
         <tr>
-            <td class="align-middle h4 font-weight-bold">
+            <td class="text-center align-middle h4 font-weight-bold">
                 <div class="d-flex justify-content-center align-items-center">
-                    {% if site.data.retro[SELECT] %}<img src="../{{site.data.retro[SELECT]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
+                    {% if site.data.referencias.retro[SELECT] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[SELECT]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
+                </div>
+                {% if LABEL_SELECT %}
+                    {{ LABEL_SELECT }}
+                {% endif %}
+            </td>
+            <td>
+                <div class="d-flex justify-content-center align-items-center">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['xbox_360'].SELECT }}" alt="Back_Xbox" class="img-fluid">
                 </div>
             </td>
             <td>
                 <div class="d-flex justify-content-center align-items-center">
-                    <img src="../assets/images/Xbox 360/360_Back_Alt.png" alt="Back_Xbox" class="img-fluid">
-                </div>
-            </td>
-            <td>
-                <div class="d-flex justify-content-center align-items-center">
-                    <img src="../assets/images/PS3/PS3_Select.png" alt="Select_PS3" class="img-fluid">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['ps3'].SELECT }}" alt="Select_PS3" class="img-fluid">
                 </div>
             </td>
         </tr>
         <tr>
-            <td class="align-middle h4 font-weight-bold">
+            <td class="text-center align-middle h4 font-weight-bold">
                 <div class="d-flex justify-content-center align-items-center">
-                    {% if site.data.retro[START] %}<img src="../{{site.data.retro[START]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
+                    {% if site.data.referencias.retro[START] %}<img src="{{ site.baseurl }}/{{site.data.referencias.retro[START]}}" alt="Equivalente_Console" class="img-fluid">{% else %}Nada{% endif %}
+                </div>
+                {% if LABEL_START %}
+                    {{ LABEL_START }}
+                {% endif %}
+            </td>
+            <td>
+                <div class="d-flex justify-content-center align-items-center">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['xbox_360'].START }}" alt="Start_Xbox" class="img-fluid">
                 </div>
             </td>
             <td>
                 <div class="d-flex justify-content-center align-items-center">
-                    <img src="../assets/images/Xbox 360/360_Start_Alt.png" alt="Start_Xbox" class="img-fluid">
-                </div>
-            </td>
-            <td>
-                <div class="d-flex justify-content-center align-items-center">
-                    <img src="../assets/images/PS3/PS3_Start.png" alt="Start_PS3" class="img-fluid">
+                    <img src="{{ site.baseurl }}/{{ site.data.referencias['ps3'].START }}" alt="Start_PS3" class="img-fluid">
                 </div>
             </td>
         </tr>
