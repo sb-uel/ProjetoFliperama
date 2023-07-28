@@ -54,26 +54,43 @@ category: emuladores
 
 <section class="simple-post mt-5">
     <div class="container-fluid">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                   <h2 class="text-center mb-5">Controles (User 1)</h2>
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-center mb-5">Controles (User 1)</h2>
+                    </div>
                 </div>
+            </div>
+            <div class="col-md-12">
+                <img src="{{ site.baseurl }}/{{ controle_imagem }}" class="img-fluid">
             </div>
         </div>
     </div>
 </section>
 
 {% assign B = "A" | upcase %}
+{% assign LABEL_B = "A" %}
 {% assign A = "B" | upcase %}
+{% assign LABEL_A = "B" %}
 {% assign LB = "L1" | upcase %}
+{% assign LABEL_LB = "Y Cursor Left" %}
 {% assign RB = "R1" | upcase %}
+{% assign LABEL_RB = "Y Cursor Right" %}
 {% assign LT = "L2" | upcase %}
+{% assign LABEL_LT = "Y Cursor Down" %}
 {% assign RT = "R2" | upcase %}
+{% assign LABEL_RT = "Y Cursor Up" %}
 {% assign DPAD_UP = "DPAD_UP" | upcase %}
+{% assign LABEL_DPAD_UP = "X Cursor Up" %}
 {% assign DPAD_DOWN = "DPAD_DOWN" | upcase %}
+{% assign LABEL_DPAD_DOWN = "X Cursor Down" %}
 {% assign DPAD_RIGHT = "DPAD_RIGHT" | upcase %}
+{% assign LABEL_DPAD_RIGHT = "X Cursor Right" %}
 {% assign DPAD_LEFT = "DPAD_LEFT" | upcase %}
+{% assign LABEL_DPAD_LEFT = "X Cursor Left" %}
 {% assign START = "START" | upcase %}
+{% assign LABEL_START = "Start" %}
 {% assign SELECT = "SELECT" | upcase %}
+{% assign LABEL_SELECT = "Rotate Screen + Active D-Pad" %}
 {% include tabela.html %}
