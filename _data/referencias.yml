@@ -54,6 +54,8 @@ retro:
   X: assets/images/Retro/retro_x.png
   L1: assets/images/Retro/retro_l1.png
   R1: assets/images/Retro/retro_r1.png
+  L2: assets/images/Retro/retro_l2.png
+  R2: assets/images/Retro/retro_r2.png
   L3: assets/images/Retro/retro_l3.png
   R3: assets/images/Retro/retro_r3.png
   DPAD_UP: assets/images/Retro/retro_dpad_up.png
