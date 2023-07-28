@@ -1,0 +1,105 @@
+---
+layout: default
+---
+{% include emuladores.html %}
+<!-- Left Image -->
+<section class="left-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <img src="{{ site.baseurl }}/{{ console_imagem }}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <h4>PC-98</h4>
+                    <p> A série PC-9800, comumente abreviado para PC-98 ou 98 , é uma linha de computadores pessoais
+                        japoneses de 16 bits e de 32 bits fabricados pela NEC de 1982 a 2000. A plataforma
+                        estabeleceu o domínio da NEC no mercado japonês de computadores pessoais e, em 1999, mais de 18
+                        milhões de unidades foram vendidas. Embora a NEC não comercializasse essas máquinas específicas
+                        no Ocidente, ela vendia a série NEC APC, que tinha hardware semelhante aos primeiros modelos
+                        PC-98. O PC-98 foi inicialmente lançado como um computador pessoal voltado para negócios que
+                        tinha compatibilidade com versões anteriores da bem-sucedida série PC-8800 . O alcance da série
+                        se expandiu e, na década de 1990, foi usado em vários campos da indústria, incluindo educação e
+                        hobbies. A NEC conseguiu atrair fornecedores terceirizados e uma ampla gama de usuários, e o
+                        PC-98 dominou o mercado japonês de PCs com mais de 60% de participação de mercado em 1991.</p>
+                </div>
+                <div class="primary-button">
+                    <a href="https://en.wikipedia.org/wiki/List_of_PC-98_games">Lista de Jogos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Left Image -->
+<section class="left-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <img src="{{ site.baseurl }}/{{ emulador_imagem }}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <h4>Neko Project II Kai (NP2kai)</h4>
+                    <p>O NP2kai é um dos emuladores de PC-98 disponíveis pela RetroArch e é o único
+                        utilizado para a emulação de PC-98 no Ramo. Sendo assim, os comandos descritos na seção
+                        'Comandos (RetroArch)' também são válidos para este emulador. Porém como é um emulador de um
+                        computador
+                        este emulador tem algumas peculiaridades adicionais por estar emulando jogos de PC, embora as
+                        versões de PC-98 não tenham sido lançadas ou comercializadas fora do Japão e não sejam tão
+                        amplamente conhecidas, elas ainda são úteis para jogar os primeiros romances visuais e jogos de
+                        <a href="https://pt.wikipedia.org/wiki/Touhou_Project">Touhou</a> (Veja a <a href="https://en.touhouwiki.net/wiki/Touhou_Wiki">Wiki</a> também).</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="simple-post mt-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-center mb-5">Controles (User 1)</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <img src="{{ site.baseurl }}/{{ controle_imagem }}" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+{% assign B = "X" | upcase %}
+{% assign LABEL_B = "X" %}
+{% assign Y = "Space" | upcase %}
+{% assign LABEL_Y = "Espaço" %}
+{% assign A = "Z" | upcase %}
+{% assign LABEL_A = "Z" %}'
+{% assign X = "CTRL" | upcase %}
+{% assign LABEL_X = "Ctrl" %}
+{% assign LB = "BACKSPACE_ALT" | upcase %}
+{% assign LABEL_LB = "Backspace" %}
+{% assign RB = "SHIFT" | upcase %}
+{% assign LABEL_RB = "Shift" %}
+{% assign LT = "COMMAND" | upcase %}
+{% assign LABEL_LT = "NP2 Menu" %}
+{% assign DPAD_UP = "ARROW_UP" | upcase %}
+{% assign LABEL_DPAD_UP = "Seta Cima" %}
+{% assign DPAD_DOWN = "ARROW_DOWN" | upcase %}
+{% assign LABEL_DPAD_DOWN = "Seta Baixo" %}
+{% assign DPAD_RIGHT = "ARROW_RIGHT" | upcase %}
+{% assign LABEL_DPAD_RIGHT = "Seta Direita" %}
+{% assign DPAD_LEFT = "ARROW_LEFT" | upcase %}
+{% assign LABEL_DPAD_LEFT = "Seta Esquerda" %}
+{% assign SELECT = "ESC" | upcase %}
+{% assign LABEL_SELECT = "Escape" %}
+{% assign START = "CTRL" | upcase %}
+{% assign LABEL_START = "Return" %}
+
+{% include tabela_pc.html %}

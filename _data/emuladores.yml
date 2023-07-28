@@ -44,6 +44,9 @@
   link: /emuladores/PC-Engine-TurboGrafx-16
 - name: PC 98
   link: /emuladores/PC-98
+  console_imagem: assets/images/emuladores/Console PC98.jpg
+  emulador_imagem: assets/images/emuladores/NP2KAI.png
+  controle_imagem: assets/images/emuladores/ControlePC98.jpg
 - name: PlayStation
   link: /emuladores/PlayStation
 - name: Playstation Portable (PSP)
