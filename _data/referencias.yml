@@ -12,40 +12,44 @@ favicon: favicon.png
 
 # Ícones da Tabela
 xbox_360:
-  B: "assets/images/Xbox 360/360_B.png"
-  A: "assets/images/Xbox 360/360_A.png"
-  Y: "assets/images/Xbox 360/360_Y.png"
-  X: "assets/images/Xbox 360/360_X.png"
-  LB: "assets/images/Xbox 360/360_LB.png"
-  RB: "assets/images/Xbox 360/360_RB.png"
-  LT: "assets/images/Xbox 360/360_LT.png"
-  RT: "assets/images/Xbox 360/360_RT.png"
-  L3: "assets/images/Xbox 360/360_Left_Stick_Click.png"
-  R3: "assets/images/Xbox 360/360_Right_Stick_Click.png"
-  DPAD_UP: "assets/images/Xbox 360/360_Dpad_Up.png"
-  DPAD_RIGHT: "assets/images/Xbox 360/360_Dpad_Right.png"
-  DPAD_LEFT: "assets/images/Xbox 360/360_Dpad_Left.png"
-  DPAD_DOWN: "assets/images/Xbox 360/360_Dpad_Down.png"
-  SELECT: "assets/images/Xbox 360/360_Back_Alt.png"
-  START: "assets/images/Xbox 360/360_Start_Alt.png"
+  B: assets/images/Xbox 360/360_B.png
+  A: assets/images/Xbox 360/360_A.png
+  Y: assets/images/Xbox 360/360_Y.png
+  X: assets/images/Xbox 360/360_X.png
+  LB: assets/images/Xbox 360/360_LB.png
+  RB: assets/images/Xbox 360/360_RB.png
+  LT: assets/images/Xbox 360/360_LT.png
+  RT: assets/images/Xbox 360/360_RT.png
+  LS: assets/images/Xbox 360/360_Left_Stick.png
+  RS: assets/images/Xbox 360/360_Right_Stick.png
+  L3: assets/images/Xbox 360/360_Left_Stick_Click.png
+  R3: assets/images/Xbox 360/360_Right_Stick_Click.png
+  DPAD_UP: assets/images/Xbox 360/360_Dpad_Up.png
+  DPAD_RIGHT: assets/images/Xbox 360/360_Dpad_Right.png
+  DPAD_LEFT: assets/images/Xbox 360/360_Dpad_Left.png
+  DPAD_DOWN: assets/images/Xbox 360/360_Dpad_Down.png
+  SELECT: assets/images/Xbox 360/360_Back_Alt.png
+  START: assets/images/Xbox 360/360_Start_Alt.png
 
 ps3:
-  Circle: "assets/images/PS3/PS3_Circle.png"
-  Cross: "assets/images/PS3/PS3_Cross.png"
-  Triangle: "assets/images/PS3/PS3_Triangle.png"
-  Square: "assets/images/PS3/PS3_Square.png"
-  L1: "assets/images/PS3/PS3_L1.png"
-  R1: "assets/images/PS3/PS3_R1.png"
-  L2: "assets/images/PS3/PS3_L2.png"
-  R2: "assets/images/PS3/PS3_R2.png"
-  L3: "assets/images/PS3/PS3_Left_Stick_Click.png"
-  R3: "assets/images/PS3/PS3_Right_Stick_Click.png"
-  DPAD_UP: "assets/images/PS3/PS3_Dpad_Up.png"
-  DPAD_RIGHT: "assets/images/PS3/PS3_Dpad_Right.png"
-  DPAD_LEFT: "assets/images/PS3/PS3_Dpad_Left.png"
-  DPAD_DOWN: "assets/images/PS3/PS3_Dpad_Down.png"
-  SELECT: "assets/images/PS3/PS3_Select.png"
-  START: "assets/images/PS3/PS3_Start.png"
+  Circle: assets/images/PS3/PS3_Circle.png
+  Cross: assets/images/PS3/PS3_Cross.png
+  Triangle: assets/images/PS3/PS3_Triangle.png
+  Square: assets/images/PS3/PS3_Square.png
+  L1: assets/images/PS3/PS3_L1.png
+  R1: assets/images/PS3/PS3_R1.png
+  L2: assets/images/PS3/PS3_L2.png
+  R2: assets/images/PS3/PS3_R2.png
+  LS: assets/images/PS3/PS3_Left_Stick.png
+  RS: assets/images/PS3/PS3_Right_Stick.png
+  L3: assets/images/PS3/PS3_Left_Stick_Click.png
+  R3: assets/images/PS3/PS3_Right_Stick_Click.png
+  DPAD_UP: assets/images/PS3/PS3_Dpad_Up.png
+  DPAD_RIGHT: assets/images/PS3/PS3_Dpad_Right.png
+  DPAD_LEFT: assets/images/PS3/PS3_Dpad_Left.png
+  DPAD_DOWN: assets/images/PS3/PS3_Dpad_Down.png
+  SELECT: assets/images/PS3/PS3_Select.png
+  START: assets/images/PS3/PS3_Start.png
 
 retro:
   A: assets/images/Retro/retro_a.png
@@ -56,6 +60,8 @@ retro:
   R1: assets/images/Retro/retro_r1.png
   L2: assets/images/Retro/retro_l2.png
   R2: assets/images/Retro/retro_r2.png
+  LS: assets/images/Retro/retro_left_stick.png
+  RS: assets/images/Retro/retro_right_stick.png
   L3: assets/images/Retro/retro_l3.png
   R3: assets/images/Retro/retro_r3.png
   DPAD_UP: assets/images/Retro/retro_dpad_up.png
