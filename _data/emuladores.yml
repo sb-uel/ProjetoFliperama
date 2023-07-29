@@ -8,6 +8,9 @@
   controle_imagem: assets/images/emuladores/ControleAtari2600.png
 - name: Atari Lynx
   link: /emuladores/Atari-Lynx
+  console_imagem: assets/images/emuladores/Atari Lynx Console.png
+  emulador_imagem: assets/images/emuladores/Handy.png
+  controle_imagem: assets/images/emuladores/ControleAtariLynx.png
 - name: Commodore 64
   link: /emuladores/Commodore-64
 - name: Game Boy
