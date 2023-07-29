@@ -15,11 +15,24 @@ category: emuladores
             <div class="col-md-6">
                 <div class="right-content">
                     <h4>Sega Genesis/Mega Drive</h4>
-                    <p>
+                    <p>O Sega Genesis, também conhecido como Mega Drive no Brasil e no Japão, é um console de 16 bits de 
+                        processamento pertencente à 4ª geração de vídeo games desenvolvido e lançado pela Sega em 1988 no 
+                        Japão e 1989 na América do Norte. Apesar do número de vendas menor do que os do Super Famicom 
+                        (Ver <a href="{{ site.baseurl }}/emuladores/Super-Nintendo">Super Nintendo</a>) e do PC-Engine 
+                        (Ver <a href="{{ site.baseurl }}/emuladores/PC-Engine-TurboGrafx-16">PC-Engine</a>) no Japão, o 
+                        Mega Drive ganhou uma popularidade gigante perante os mercados americanos e europeus devido à, entre 
+                        outros fatores, franquia de jogos "Sonic the Hedgehog", aos ports de jogos de fliperama e marketing 
+                        voltado para o público juvenil. A Tec toy, por exemplo, foi a empresa distribuidora oficial da Sega 
+                        no Brasil durante as décadas de 80 e 90. Após a resposta da Nintendo 
+                        (Ver <a href="{{ site.baseurl }}/emuladores/Super-Nintendo">Super Nintendo</a>), foi iniciada uma 
+                        'batalha civil' entre as empresas nos mercados europeus e americanos, rivalidade a qual regeu muito 
+                        dos conteúdos publicitários de ambas as empresas. O Sega Genesis foi oficialmente descontinuado em 
+                        todos os países, com exceção do Brasil que ainda está em venda,  em 1998, possuindo relançamentos 
+                        em diversas plataformas futuras.
                     </p>
                 </div>
                 <div class="primary-button">
-                    <a href="https://pt.wikipedia.org/wiki/Lista_de_jogos_para_Sega_CD">Lista de Jogos</a>
+                    <a href="https://bdjogos.com.br/console.php?id=2">Lista de Jogos</a>
                 </div>
             </div>
         </div>
@@ -37,10 +50,10 @@ category: emuladores
             <div class="col-md-6">
                 <div class="right-content">
                     <h4>lr-genesis-plus-gx</h4>
-                    <p> O lr-genesis-plus-gx é um dos emuladores de Sega CD disponíveis pela RetroArch 
-                        (prefixo 'lr-') e é o único utilizado para a emulação de Sega CD no Ramo. Sendo 
-                        assim, os comandos descritos na seção 'Comandos (RetroArch)' também são válidos 
-                        para este emulador.
+                    <p> O lr-genesis-plus-gx é um dos emuladores de Sega Genesis/Mega Drive, assim como é emulador de Sega CD,
+                        Master System e Game Gear, disponíveis pela RetroArch (prefixo 'lr-') e é o único utilizado para a 
+                        emulação de Sega CD no Ramo. Sendo assim, os comandos descritos na seção 'Comandos (RetroArch)' 
+                        também são válidos para este emulador.
                     </p>
                 </div>
             </div>
@@ -65,36 +78,28 @@ category: emuladores
     </div>
 </section>
 
-{% assign B = "B" | upcase %}
-{% assign LABEL_B = "B" %}
-{% assign A = "A" | upcase %}
-{% assign LABEL_A = "A" %}
+{% assign B = "A" | upcase %}
+{% assign LABEL_B = "C" %}
+{% assign A = "B" | upcase %}
+{% assign LABEL_A = "B" %}
+{% assign X = "Y" | upcase %}
+{% assign LABEL_X = "A" %}
 {% assign Y = "X" | upcase %}
-{% assign LABEL_Y = "Low-Battery Toggle" %}
+{% assign LABEL_Y = "Y" %}
 {% assign LB = "L1" | upcase %}
-{% assign LABEL_LB = "L" %}
+{% assign LABEL_LB = "X" %}
 {% assign RB = "R1" | upcase %}
-{% assign LABEL_RB = "R" %}
-{% assign LT = "L2" | upcase %}
-{% assign LABEL_LT = "Right D-Pad Up" %}
-{% assign RT = "R2" | upcase %}
-{% assign LABEL_RT = "Right D-Pad Left" %}
-{% assign L3 = "L3" | upcase %}
-{% assign LABEL_L3 = "Right D-Pad Down" %}
-{% assign R3 = "R3" | upcase %}
-{% assign LABEL_R3 = "Right D-Pad Right" %}
-{% assign RS = "RS" | upcase %}
-{% assign LABEL_RS = "Right D-Pad" %}
+{% assign LABEL_RB = "Z" %}
 {% assign DPAD_UP = "DPAD_UP" | upcase %}
-{% assign LABEL_DPAD_UP = "Left D-Pad Up" %}
+{% assign LABEL_DPAD_UP = "D-Pad Up" %}
 {% assign DPAD_DOWN = "DPAD_DOWN" | upcase %}
-{% assign LABEL_DPAD_DOWN = "Left D-Pad Down" %}
+{% assign LABEL_DPAD_DOWN = "D-Pad Down" %}
 {% assign DPAD_RIGHT = "DPAD_RIGHT" | upcase %}
-{% assign LABEL_DPAD_RIGHT = "Left D-Pad Right" %}
+{% assign LABEL_DPAD_RIGHT = "D-Pad Right" %}
 {% assign DPAD_LEFT = "DPAD_LEFT" | upcase %}
-{% assign LABEL_DPAD_LEFT = "Left D-Pad Left" %}
+{% assign LABEL_DPAD_LEFT = "D-Pad Left" %}
 {% assign START = "START" | upcase %}
 {% assign LABEL_START = "Start" %}
 {% assign SELECT = "SELECT" | upcase %}
-{% assign LABEL_SELECT = "Select" %}
+{% assign LABEL_SELECT = "Mode" %}
 {% include tabela.html %}

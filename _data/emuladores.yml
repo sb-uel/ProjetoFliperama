@@ -70,6 +70,7 @@
   link: /emuladores/Sega-Game-Gear
 - name: Sega Genesis Mega Drive
   link: /emuladores/Sega-Genesis-Mega-Drive
+  console_imagem: assets/images/emuladores/Console Sega Genesis-Mega Drive.jpg
   emulador_imagem: assets/images/emuladores/Genesis-Plus-Gx.png
   controle_imagem: assets/images/emuladores/ControleSega.png
 - name: Sega Master System
