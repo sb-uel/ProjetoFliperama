@@ -1,0 +1,102 @@
+---
+layout: default
+category: emuladores
+---
+{% include emuladores.html %}
+<!-- Left Image -->
+<section class="left-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <img src="{{ site.baseurl }}/{{ console_imagem }}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <h4>Sega CD</h4>
+                    <p>O Sega CD, também conhecido como Mega CD nos territórios fora da América do Norte e do Brasil, é um 
+                        acessório feito pela Sega para o Sega Genesis/Mega Drive 
+                        (Ver <a href="{{ site.baseurl }}/emuladores/Sega-Genesis-Mega-Drive">Sega Genesis/Mega Drive</a>) que 
+                        ampliava a sua capacidade tanto gráfica, com uma CPU mais rápida, quanto sonora, com mídia de CD-ROM. 
+                        Antes de seu lançamento em 1991, a Sega of Japan, sem a consulta da Sega of America até a finalização 
+                        do projeto, fez uma parceria com a JVC para projetar o Sega CD. Devido a isso, ele foi redesenhado muitas 
+                        vezes pela própria Sega e por terceiros. Por causa de sua mídia em CD-ROM, esse console muito aproveitou 
+                        da técnica de 'full motion video (FMV)', que, basicamente, reproduzia ficheiros de vídeos previamente 
+                        gravados em seus jogos. Embora alguns de seus jogos sejam bem lembrados, como "Sonic CD", o Sega CD obteve, 
+                        em média, uma má recepção com  relação a sua biblioteca de jogos e foi descontinuado no início de 1996 para 
+                        que a empresa focasse na sua mais nova máquina, o Sega Saturn.
+                    </p>
+                </div>
+                <div class="primary-button">
+                    <a href="https://pt.wikipedia.org/wiki/Lista_de_jogos_para_Sega_CD">Lista de Jogos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Left Image -->
+<section class="left-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <img src="{{ site.baseurl }}/{{ emulador_imagem }}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <h4>lr-genesis-plus-gx</h4>
+                    <p> O lr-genesis-plus-gx é um dos emuladores de Sega CD disponíveis pela RetroArch 
+                        (prefixo 'lr-') e é o único utilizado para a emulação de Sega CD no Ramo. Sendo 
+                        assim, os comandos descritos na seção 'Comandos (RetroArch)' também são válidos 
+                        para este emulador.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="simple-post mt-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-center mb-5">Controles (User 1)</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <img src="{{ site.baseurl }}/{{ controle_imagem }}" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+{% assign B = "A" | upcase %}
+{% assign LABEL_B = "C" %}
+{% assign A = "B" | upcase %}
+{% assign LABEL_A = "B" %}
+{% assign X = "Y" | upcase %}
+{% assign LABEL_X = "A" %}
+{% assign Y = "X" | upcase %}
+{% assign LABEL_Y = "Y" %}
+{% assign LB = "L1" | upcase %}
+{% assign LABEL_LB = "X" %}
+{% assign RB = "R1" | upcase %}
+{% assign LABEL_RB = "Z" %}
+{% assign DPAD_UP = "DPAD_UP" | upcase %}
+{% assign LABEL_DPAD_UP = "D-Pad Up" %}
+{% assign DPAD_DOWN = "DPAD_DOWN" | upcase %}
+{% assign LABEL_DPAD_DOWN = "D-Pad Down" %}
+{% assign DPAD_RIGHT = "DPAD_RIGHT" | upcase %}
+{% assign LABEL_DPAD_RIGHT = "D-Pad Right" %}
+{% assign DPAD_LEFT = "DPAD_LEFT" | upcase %}
+{% assign LABEL_DPAD_LEFT = "D-Pad Left" %}
+{% assign START = "START" | upcase %}
+{% assign LABEL_START = "Start" %}
+{% assign SELECT = "SELECT" | upcase %}
+{% assign LABEL_SELECT = "Mode" %}
+{% include tabela.html %}

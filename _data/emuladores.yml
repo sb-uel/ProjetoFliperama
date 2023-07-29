@@ -58,14 +58,20 @@
   link: /emuladores/Ports
 - name: Sega 32X
   link: /emuladores/Sega-32X
+  controle_imagem: assets/images/emuladores/ControleSega.png
 - name: Sega CD
   link: /emuladores/Sega-CD
+  console_imagem: assets/images/emuladores/Console Sega CD.jpg
+  emulador_imagem: assets/images/emuladores/Genesis-Plus-Gx.png
+  controle_imagem: assets/images/emuladores/ControleSega.png
 - name: Sega Dreamcast
   link: /emuladores/Sega-Dreamcast
 - name: Sega Game Gear
   link: /emuladores/Sega-Game-Gear
 - name: Sega Genesis Mega Drive
   link: /emuladores/Sega-Genesis-Mega-Drive
+  emulador_imagem: assets/images/emuladores/Genesis-Plus-Gx.png
+  controle_imagem: assets/images/emuladores/ControleSega.png
 - name: Sega Master System
   link: /emuladores/Sega-Master-System
 - name: Super Nintendo
