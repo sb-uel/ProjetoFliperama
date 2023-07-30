@@ -70,6 +70,9 @@
   link: /emuladores/Sega-Dreamcast
 - name: Sega Game Gear
   link: /emuladores/Sega-Game-Gear
+  console_imagem: assets/images/emuladores/Console Game Gear.jpg
+  emulador_imagem: assets/images/emuladores/Genesis-Plus-Gx(GG).png
+  controle_imagem: assets/images/emuladores/ControleGameGear.png
 - name: Sega Genesis Mega Drive
   link: /emuladores/Sega-Genesis-Mega-Drive
   console_imagem: assets/images/emuladores/Console Sega Genesis-Mega Drive.jpg
