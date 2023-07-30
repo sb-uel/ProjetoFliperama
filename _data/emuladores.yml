@@ -58,6 +58,8 @@
   link: /emuladores/Ports
 - name: Sega 32X
   link: /emuladores/Sega-32X
+  console_imagem: assets/images/emuladores/Console Sega 32X.png
+  emulador_imagem: assets/images/emuladores/Picodrive.png
   controle_imagem: assets/images/emuladores/ControleSega.png
 - name: Sega CD
   link: /emuladores/Sega-CD

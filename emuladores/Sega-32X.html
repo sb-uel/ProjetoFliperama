@@ -1,0 +1,103 @@
+---
+layout: default
+category: emuladores
+---
+{% include emuladores.html %}
+<!-- Left Image -->
+<section class="left-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <img src="{{ site.baseurl }}/{{ console_imagem }}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <h4>Sega 32X</h4>
+                    <p>O Sega 32X é um acessório para o Sega Genesis/Mega Drive 
+                       (Ver <a href="{{ site.baseurl }}/emuladores/Sega-Genesis-Mega-Drive">Sega Genesis/Mega Drive</a>) feito pela 
+                       Sega e lançado em 1994 nos EUA e Japão. Pouco antes do lançamento desse acessório, a Sega tinha lançado o 
+                       Multi-Mega CDX, ou Sega CDX na América do Norte, o qual era uma junção dos hardwares do Sega Genesis com o 
+                       Sega CD (Ver <a href="{{ site.baseurl }}/emuladores/Sega-CD">Sega CD</a>). Devido a isso, a Sega reprovou a 
+                       compatibilidade do 32X com o Multi-Mega CDX na iminência de seu lançamento, dizendo que o 32X tinha 
+                       compatibilidade com todas as versões do Sega Genesis, exceto o Multi-Mega CDX, mesmo com a futura descoberta 
+                       dos consumidores de que o 32X funcionava perfeitamente dessa forma. Devido ao lançamento do mais novo console 
+                       da Sega, o Sega Saturn, que era mais adequado para ser um vídeo game da nova geração e, assim, enfrentar os 
+                       concorrentes da Sony e Nintendo (Ver <a href="{{ site.baseurl }}/emuladores/PlayStation">Playstation</a> e 
+                       <a href="{{ site.baseurl }}/emuladores/Nintendo-64">Nintendo 64</a>), o 32X foi cada vez mais deixado de 
+                       lado e foi oficialmente descontinuado em 1995, mesmo possuindo uma biblioteca de jogos única.  
+                    </p>
+                </div>
+                <div class="primary-button">
+                    <a href="https://pt.wikipedia.org/wiki/Lista_de_jogos_para_32X">Lista de Jogos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Left Image -->
+<section class="left-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <img src="{{ site.baseurl }}/{{ emulador_imagem }}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <h4>lr-picodrive</h4>
+                    <p> O lr-picodrive é o único emuladore de Sega 32X, assim como é emulador de Sega CD, Master System 
+                        e Sega Genesis/Mega Drive, disponível pela RetroArch (prefixo 'lr-') e, dessa forma, é o único 
+                        utilizado para a emulação de Sega 32X no Ramo. Sendo assim, os comandos descritos na seção 
+                        'Comandos (RetroArch)' também são válidos para este emulador.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="simple-post mt-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-center mb-5">Controles (User 1)</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <img src="{{ site.baseurl }}/{{ controle_imagem }}" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+{% assign B = "A" | upcase %}
+{% assign LABEL_B = "C" %}
+{% assign A = "B" | upcase %}
+{% assign LABEL_A = "B" %}
+{% assign X = "Y" | upcase %}
+{% assign LABEL_X = "A" %}
+{% assign Y = "X" | upcase %}
+{% assign LABEL_Y = "Y" %}
+{% assign LB = "L1" | upcase %}
+{% assign LABEL_LB = "X" %}
+{% assign RB = "R1" | upcase %}
+{% assign LABEL_RB = "Z" %}
+{% assign DPAD_UP = "DPAD_UP" | upcase %}
+{% assign LABEL_DPAD_UP = "D-Pad Up" %}
+{% assign DPAD_DOWN = "DPAD_DOWN" | upcase %}
+{% assign LABEL_DPAD_DOWN = "D-Pad Down" %}
+{% assign DPAD_RIGHT = "DPAD_RIGHT" | upcase %}
+{% assign LABEL_DPAD_RIGHT = "D-Pad Right" %}
+{% assign DPAD_LEFT = "DPAD_LEFT" | upcase %}
+{% assign LABEL_DPAD_LEFT = "D-Pad Left" %}
+{% assign START = "START" | upcase %}
+{% assign LABEL_START = "Start" %}
+{% assign SELECT = "SELECT" | upcase %}
+{% assign LABEL_SELECT = "Mode" %}
+{% include tabela.html %}
