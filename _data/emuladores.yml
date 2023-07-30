@@ -77,6 +77,9 @@
   controle_imagem: assets/images/emuladores/ControleSega.png
 - name: Sega Master System
   link: /emuladores/Sega-Master-System
+  console_imagem: assets/images/emuladores/Console Sega Master System.png
+  emulador_imagem: assets/images/emuladores/Genesis-Plus-Gx(MS).png
+  controle_imagem: assets/images/emuladores/ControleSegaMasterSystem.png
 - name: Super Nintendo
   link: /emuladores/Super-Nintendo
 - name: Virtual Boy
