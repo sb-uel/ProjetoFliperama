@@ -85,6 +85,9 @@
   controle_imagem: assets/images/emuladores/ControleSegaMasterSystem.png
 - name: Super Nintendo
   link: /emuladores/Super-Nintendo
+  console_imagem: assets/images/emuladores/Console SNES.jpg
+  emulador_imagem: assets/images/emuladores/Snes9x.jpg
+  controle_imagem: assets/images/emuladores/ControleSNES.png
 - name: Virtual Boy
   link: /emuladores/Virtual-Boy
   console_imagem: assets/images/emuladores/Console Virtual Boy.jpg
