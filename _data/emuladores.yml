@@ -54,6 +54,9 @@
   link: /emuladores/PlayStation
 - name: Playstation Portable (PSP)
   link: /emuladores/Playstation-Portable-(PSP)
+  console_imagem: assets/images/emuladores/Console PSP.jpg
+  emulador_imagem: assets/images/emuladores/Ppsspp.jpg
+  controle_imagem: assets/images/emuladores/ControlePSP.png
 - name: Ports
   link: /emuladores/Ports
 - name: Sega 32X
