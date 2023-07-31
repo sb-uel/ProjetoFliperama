@@ -46,6 +46,9 @@
   link: /emuladores/Nintendo-64
 - name: Nintendo DS
   link: /emuladores/Nintendo-DS
+  console_imagem: assets/images/emuladores/Nintendo DS.png
+  emulador_imagem: assets/images/emuladores/DeSmuME.png
+  controle_imagem: assets/images/emuladores/Controle NDS.png
 - name: PC Engine TurboGrafx 16
   link: /emuladores/PC-Engine-TurboGrafx-16
 - name: PC 98
