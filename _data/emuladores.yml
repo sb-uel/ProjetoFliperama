@@ -68,6 +68,9 @@
   controle_imagem: assets/images/emuladores/ControleSega.png
 - name: Sega Dreamcast
   link: /emuladores/Sega-Dreamcast
+  console_imagem: assets/images/emuladores/Console Sega Dreamcast.png
+  emulador_imagem: assets/images/emuladores/Flycast-Reicast.jpg
+  controle_imagem: assets/images/emuladores/ControleSegaDreamcast.png
 - name: Sega Game Gear
   link: /emuladores/Sega-Game-Gear
   console_imagem: assets/images/emuladores/Console Game Gear.jpg
