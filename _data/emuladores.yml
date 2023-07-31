@@ -44,6 +44,9 @@
   controle_imagem: assets/images/emuladores/ControleNES.png
 - name: Nintendo 64
   link: /emuladores/Nintendo-64
+  console_imagem: assets/images/Console N64.png
+  emulador_imagem: assets/images/Mupen64Plus-Next.jpg
+  controle_imagem: assets/images/Controle N64.jpg
 - name: Nintendo DS
   link: /emuladores/Nintendo-DS
   console_imagem: assets/images/emuladores/Nintendo DS.png
