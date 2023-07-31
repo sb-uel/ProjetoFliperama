@@ -1,0 +1,104 @@
+---
+layout: default
+---
+{% include emuladores.html %}
+<!-- Left Image -->
+<section class="left-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <img src="{{ site.baseurl }}/{{ console_imagem }}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <h4>MSX</h4>
+                    <p> MSX foi o nome dado a uma arquitetura de microcomputadores pessoais criada no Japão em 1983,
+                        apresentada em 27 de junho do mesmo ano, e que definia um padrão para os desenvolvedores de
+                        hardware. Foi desenvolvido por Kazuhiko Nishi, vice-presidente da ASCII Corporation, empresa
+                        japonesa que era representante da Microsoft no Japão até 1986. Dessa forma, várias empresas de
+                        eletroeletrônicos poderiam produzir seus computadores, manter um mínimo de compatibilidade entre
+                        eles, e ainda assim diferenciá-los, adicionando recursos novos. Mas a compatibilidade com outros
+                        micros do padrão MSX seria mantida.</p>
+                </div>
+                <div class="primary-button">
+                    <a href="https://en.wikipedia.org/wiki/List_of_MSX_games">Lista de Jogos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Left Image -->
+<section class="left-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <img src="{{ site.baseurl }}/{{ emulador_imagem }}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <h4>fMSX</h4>
+                    <p>O fMSX é um programa que emula computadores domésticos MSX, MSX2 e MSX2+ de 8 bits. Ele é o único
+                        emulador de MSX disponível pela RetroArch e, dessa forma, é utilizado exclusivamente para a
+                        emulação de MSX no Ramo. Portanto, os comandos descritos na seção 'Comandos (RetroArch)'
+                        também são válidos para este emulador.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="simple-post mt-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-center mb-5">Controles (User 1)</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <img src="{{ site.baseurl }}/{{ controle_imagem }}" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+{% assign B = "Space" | upcase %}
+{% assign LABEL_B = "Space" %}
+{% assign Y = "N" | upcase %}
+{% assign LABEL_Y = "N" %}
+{% assign A = "Enter" | upcase %}
+{% assign LABEL_A = "Enter" %}'
+{% assign X = "M" | upcase %}
+{% assign LABEL_X = "M" %}
+{% assign LB = "F2" | upcase %}
+{% assign LABEL_LB = "F2" %}
+{% assign RB = "F3" | upcase %}
+{% assign LABEL_RB = "F3" %}
+{% assign LT = "COMMAND" | upcase %}
+{% assign LABEL_LT = "Graph" %}
+{% assign RT = "Ctrl" | upcase %}
+{% assign LABEL_RT = "Ctrl" %}
+{% assign L3 = "F5" | upcase %}
+{% assign LABEL_L3 = "F5" %}
+{% assign R3 = "Esc" | upcase %}
+{% assign LABEL_R3 = "Escape" %}
+{% assign DPAD_UP = "ARROW_UP" | upcase %}
+{% assign LABEL_DPAD_UP = "Seta Cima" %}
+{% assign DPAD_DOWN = "ARROW_DOWN" | upcase %}
+{% assign LABEL_DPAD_DOWN = "Seta Baixo" %}
+{% assign DPAD_RIGHT = "ARROW_RIGHT" | upcase %}
+{% assign LABEL_DPAD_RIGHT = "Seta Direita" %}
+{% assign DPAD_LEFT = "ARROW_LEFT" | upcase %}
+{% assign LABEL_DPAD_LEFT = "Seta Esquerda" %}
+{% assign SELECT = "F4" | upcase %}
+{% assign LABEL_SELECT = "F4" %}
+{% assign START = "F1" | upcase %}
+{% assign LABEL_START = "F1" %}
+
+{% include tabela_pc.html %}
