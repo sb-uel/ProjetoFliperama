@@ -61,6 +61,9 @@
   controle_imagem: assets/images/emuladores/ControlePC98.jpg
 - name: PlayStation
   link: /emuladores/PlayStation
+  console_imagem: assets/images/emuladores/Console Playstation.png
+  emulador_imagem: assets/images/emuladores/PCSX_Rearmed.jpg
+  controle_imagem: assets/images/emuladores/ControlePlaystation.png
 - name: Playstation Portable (PSP)
   link: /emuladores/Playstation-Portable-(PSP)
   console_imagem: assets/images/emuladores/Console PSP.jpg
