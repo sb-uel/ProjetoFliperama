@@ -1,13 +1,15 @@
 - name: Doom
-  link: 
+  link: /Ports/Doom
+  console_imagem: assets/images/Ports/Doom.png
+  emulador_imagem: assets/images/Ports/ZDoom.png
 - name: Duke Nukem 3D
-  link: 
+  link: /Ports/Duke_Nukem_3D
 - name: Giana's Return
   link: 
 - name: Prince of Persia
   link: 
 - name: Quake
-  link: 
+  link: /Ports/Quake
 - name: Sonic Robo Blast 2
   link: 
 - name: Super Flappy Birds

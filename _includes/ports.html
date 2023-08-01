@@ -9,7 +9,8 @@
                             <img src="{{ site.baseurl }}/assets/images/{{ item.name }}.png" alt="{{ item.name }}">
                         </a>
                     </div>
-                    <h4>{{ item.name }}</h4>
+                    {% assign name_formatted = item.name | remove: ".html" %}
+                    <h4>{{ name_formatted }}</h4>
                 </div>
             </div>
             {% endfor %}
