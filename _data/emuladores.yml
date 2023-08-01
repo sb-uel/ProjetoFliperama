@@ -38,6 +38,8 @@
   controle_imagem: assets/images/emuladores/ControleNeoGeoPocket.png
 - name: NEO GEO
   link: /emuladores/NEO-GEO
+  console_imagem: assets/images/emuladores/Console NEO GEO.png
+  emulador_imagem: assets/images/emuladores/FBNeo.png
 - name: Nintendo (8 bit)
   link: /emuladores/Nintendo-(8-bit)
   emulador: lr-FCEUmm
