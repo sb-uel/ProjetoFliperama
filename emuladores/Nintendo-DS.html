@@ -39,10 +39,19 @@ layout: default
             </div>
             <div class="col-md-6">
                 <div class="right-content">
-                    <h4>DeSmuME</h4>
-                    <p>O DeSmuME é um dos emuladores de Nintendo DS disponíveis pela RetroArch (prefixo 'lr-') e é o único
-                        utilizado para a emulação de Nintendo DS no Ramo. Sendo assim, os comandos descritos na seção 'Comandos
-                        (RetroArch)' também são válidos para este emulador.</p>
+                    <h4>DraStic</h4>
+                    <p>O DraStic é um dos emuladores de Nintendo DS disponíveis fora da RetroArch (sem o prefixo 'lr-') e é o único
+                        utilizado para a emulação de Nintendo DS no Ramo. Por não ser um emulador da Retrarch, os comandos de saída dos jogos, "Quick
+                        Menu" e "Save States" não são funcionais nesse emulador. Para poder entrar no menu de opções do DraStic, é necessário pressionar
+                        o "botão L2 (Playstation)"/"botão LT (Xbox) - Enter Menu". Nesse menu, é possível mudar as configurações dos controles e dos
+                        gráficos da emulação. Pede-se, porém, de que deixem nas configurações atuais pois, ao modificar as funções dos
+                        botões, tornaria essa orientação inútil. Para sair do emulador, vá para o menu e selecione, para selecionar, no
+                        emulador de DS, é necessário pressionar o "botão Circle (Playstation)"/"botão B (XBOX)", "Exit Drastic", 
+                        que você será jogado na seleção de jogos de DS novamente. Quanto aos jogos que usem o microphone do DS, 
+                        acredita-se que não é necessário um botão específico para acionar a função de microphone do DS, pois
+                        selecionando "Mario Party DS" e "MIC Test" detro do menu principal do jogo, foi observado que essa função
+                        está sempre ativa e em nível máximo e, portanto, seções de outros jogos que necessitem "soprar o DS" não
+                        representarão problema, com relação a não ser possível continuar o jogo.</p>
                 </div>
             </div>
         </div>
@@ -80,7 +89,7 @@ layout: default
 {% assign RB = "R1" | upcase %}
 {% assign LABEL_RB = "R" %}
 {% assign LT = "L2" | upcase %}
-{% assign LABEL_LT = "Lid Close/Open" %}
+{% assign LABEL_LT = "Lid Close/Open - Enter Menu" %}
 {% assign RT = "R2" | upcase %}
 {% assign LABEL_RT = "Tap Stylus" %}
 
@@ -88,10 +97,6 @@ layout: default
 {% assign LABEL_LS = "Pointer mode l-analog" %}
 {% assign RS = "RS" | upcase %}
 {% assign LABEL_RS = "Pointer mode r-analog" %}
-{% assign L3 = "L3" | upcase %}
-{% assign LABEL_L3 = "Make Microphone Noise" %}
-{% assign R3 = "R3" | upcase %}
-{% assign LABEL_R3 = "Quick Screen Switch" %}
 
 {% assign DPAD_UP = "DPAD_UP" | upcase %}
 {% assign LABEL_DPAD_UP = "D-Pad Up" %}

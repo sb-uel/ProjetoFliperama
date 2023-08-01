@@ -50,7 +50,7 @@
 - name: Nintendo DS
   link: /emuladores/Nintendo-DS
   console_imagem: assets/images/emuladores/Nintendo DS.png
-  emulador_imagem: assets/images/emuladores/DeSmuME.png
+  emulador_imagem: assets/images/emuladores/DraStic.png
   controle_imagem: assets/images/emuladores/Controle NDS.png
 - name: PC Engine TurboGrafx 16
   link: /emuladores/PC-Engine-TurboGrafx-16
