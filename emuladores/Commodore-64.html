@@ -1,0 +1,94 @@
+---
+layout: default
+---
+{% include emuladores.html %}
+<!-- Left Image -->
+<section class="left-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <img src="{{ site.baseurl }}/{{ console_imagem }}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <h4>Commodore 64</h4>
+                    <p>O Commodore 64, também designado por C64 ou CBM 64, foi um computador doméstico exibido pela
+                        primeira vez em janeiro de 1982 e lançado pela Commodore International em agosto do mesmo
+                        ano. Foi listado pelo Guinness World Records como o modelo de computador mais vendido de
+                        todos os tempos, com estimativas independentes indicando cerca de 17 milhões de unidades
+                        vendidas. Seu preço comercial inicial foi de 595 dólares.</p>
+                </div>
+                <div class="primary-button">
+                    <a href="https://pt.wikipedia.org/wiki/Categoria:Jogos_para_Commodore_64">Lista de Jogos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Left Image -->
+<section class="left-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <img src="{{ site.baseurl }}/{{ emulador_imagem }}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <h4>lr-vice</h4>
+                    <p>O lr-vice é um dos emuladores de Commodore 64 disponíveis pela RetroArch (prefixo 'lr-') e é o único
+                        utilizado para a emulação de Commodore 64 no Ramo. Sendo assim, os comandos descritos na seção 'Comandos
+                        (RetroArch)' também são válidos para este emulador.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="simple-post mt-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-center mb-5">Controles (User 1)</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <img src="{{ site.baseurl }}/{{ controle_imagem }}" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+{% assign B = "A" | upcase %}
+{% assign LABEL_B = "Fire button 2 / Base" %}
+{% assign A = "B" | upcase %}
+{% assign LABEL_A = "Fire button 1 / Handle" %}
+{% assign Y = "X" | upcase %}
+{% assign LABEL_Y = "Space" %}
+
+{% assign LT = "L2" | upcase %}
+{% assign LABEL_LT = "Escape (RUN/STOP)" %}
+{% assign RT = "R2" | upcase %}
+{% assign LABEL_RT = "Enter (RETURN)" %}
+
+{% assign LS = "LS" | upcase %}
+{% assign LABEL_LS = "Mouse/paddles" %}
+
+{% assign DPAD_UP = "DPAD_UP" | upcase %}
+{% assign LABEL_DPAD_UP = "Joystick" %}
+{% assign DPAD_DOWN = "DPAD_DOWN" | upcase %}
+{% assign LABEL_DPAD_DOWN = "Joystick" %}
+{% assign DPAD_RIGHT = "DPAD_RIGHT" | upcase %}
+{% assign LABEL_DPAD_RIGHT = "Joystick" %}
+{% assign DPAD_LEFT = "DPAD_LEFT" | upcase %}
+{% assign LABEL_DPAD_LEFT = "Joystick" %}
+
+{% assign SELECT = "SELECT" | upcase %}
+{% assign LABEL_SELECT = "(Short) Toggle virtual keyboard<br>(Long) Toggle statusbar<br>(Hold) Fast-Forward" %}
+{% include tabela.html %}

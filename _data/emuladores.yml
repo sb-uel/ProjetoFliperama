@@ -4,7 +4,6 @@
   emulador_imagem: assets/images/emuladores/MAME.jpg
 - name: Atari 2600
   link: /emuladores/Atari-2600
-  emulador: lr-Stella
   console_imagem: assets/images/emuladores/Atari 2600 Console.png
   emulador_imagem: assets/images/emuladores/Stella2014.png
   controle_imagem: assets/images/emuladores/ControleAtari2600.png
@@ -15,12 +14,24 @@
   controle_imagem: assets/images/emuladores/ControleAtariLynx.png
 - name: Commodore 64
   link: /emuladores/Commodore-64
+  console_imagem: assets/images/emuladores/Console C64.jpg
+  emulador_imagem: assets/images/emuladores/VICE.png
+  controle_imagem: assets/images/emuladores/Controle C64.jpg
 - name: Game Boy
   link: /emuladores/Game-Boy
+  console_imagem: 
+  emulador_imagem: 
+  controle_imagem: 
 - name: Gameboy Color
   link: /emuladores/Gameboy-Color
+  console_imagem: 
+  emulador_imagem: 
+  controle_imagem: 
 - name: GBA
   link: /emuladores/GBA
+  console_imagem: 
+  emulador_imagem: 
+  controle_imagem: 
 - name: MSX
   link: /emuladores/MSX
   console_imagem: assets/images/emuladores/MSX.jpg
@@ -42,7 +53,6 @@
   emulador_imagem: assets/images/emuladores/FBNeo.png
 - name: Nintendo (8 bit)
   link: /emuladores/Nintendo-(8-bit)
-  emulador: lr-FCEUmm
   console_imagem: assets/images/emuladores/NES Console.png
   emulador_imagem: assets/images/emuladores/FCEUmm.jpg
   controle_imagem: assets/images/emuladores/ControleNES.png
@@ -58,6 +68,9 @@
   controle_imagem: assets/images/emuladores/Controle NDS.png
 - name: PC Engine TurboGrafx 16
   link: /emuladores/PC-Engine-TurboGrafx-16
+  console_imagem: 
+  emulador_imagem: 
+  controle_imagem: 
 - name: PC 98
   link: /emuladores/PC-98
   console_imagem: assets/images/emuladores/Console PC98.jpg
