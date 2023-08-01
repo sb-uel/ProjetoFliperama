@@ -19,19 +19,19 @@
   controle_imagem: assets/images/emuladores/Controle C64.jpg
 - name: Game Boy
   link: /emuladores/Game-Boy
-  console_imagem: 
-  emulador_imagem: 
-  controle_imagem: 
+  console_imagem: assets/images/Console Game Boy.jpg
+  emulador_imagem: assets/images/gambatte.jpg
+  controle_imagem: assets/images/Controle Game Boy.png
 - name: Gameboy Color
   link: /emuladores/Gameboy-Color
-  console_imagem: 
-  emulador_imagem: 
-  controle_imagem: 
+  console_imagem: assets/images/Console Game Boy Color.png
+  emulador_imagem: assets/images/gambatte.jpg
+  controle_imagem: assets/images/Controle Game Boy.png
 - name: GBA
   link: /emuladores/GBA
-  console_imagem: 
-  emulador_imagem: 
-  controle_imagem: 
+  console_imagem: assets/images/Console GBA.jpg
+  emulador_imagem: assets/images/mgba.png
+  controle_imagem: assets/images/Controle GBA.png
 - name: MSX
   link: /emuladores/MSX
   console_imagem: assets/images/emuladores/MSX.jpg
