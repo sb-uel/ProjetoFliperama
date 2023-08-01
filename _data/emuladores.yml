@@ -1,5 +1,7 @@
 - name: Arcade
   link: /emuladores/Arcade
+  console_imagem: assets/images/emuladores/Console Arcade.jpg
+  emulador_imagem: assets/images/emuladores/MAME.jpg
 - name: Atari 2600
   link: /emuladores/Atari-2600
   emulador: lr-Stella
