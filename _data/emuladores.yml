@@ -68,9 +68,9 @@
   controle_imagem: assets/images/emuladores/Controle NDS.png
 - name: PC Engine TurboGrafx 16
   link: /emuladores/PC-Engine-TurboGrafx-16
-  console_imagem: 
-  emulador_imagem: 
-  controle_imagem: 
+  console_imagem: assets/images/emuladores/Console PC Engine.jpg
+  emulador_imagem: assets/images/emuladores/Beetle PCE FAST.jpg
+  controle_imagem: assets/images/emuladores/Controle PC-Engine.png
 - name: PC 98
   link: /emuladores/PC-98
   console_imagem: assets/images/emuladores/Console PC98.jpg
