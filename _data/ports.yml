@@ -3,18 +3,34 @@
   console_imagem: assets/images/Ports/Doom.png
   emulador_imagem: assets/images/Ports/ZDoom.png
 - name: Duke Nukem 3D
-  link: /Ports/Duke_Nukem_3D
+  link: /Ports/Duke-Nukem-3D
+  console_imagem: assets/images/Ports/Duke Nukem 3D.png
+  emulador_imagem: assets/images/Ports/EDuke32.png
 - name: Giana's Return
-  link: 
+  link: /Ports/Giana's-Return
+  console_imagem: assets/images/Ports/Giana's Return.jpg
+  emulador_imagem: assets/images/Ports/Giana's Return Emulator.jpg
 - name: Prince of Persia
-  link: 
+  link: /Ports/Prince-of-Persia
+  console_imagem: assets/images/Ports/Prince of Persia.jpg
+  emulador_imagem: assets/images/Ports/SDLPoP.png
 - name: Quake
   link: /Ports/Quake
+  console_imagem: assets/images/Ports/Quake.png
+  emulador_imagem: assets/images/Ports/TyrQuake.jpg
 - name: Sonic Robo Blast 2
-  link: 
+  link: /Ports/Sonic-Robo-Blast-2
+  console_imagem: assets/images/Ports/Sonic Robo Blast 2.png
+  emulador_imagem: assets/images/Ports/Sonic Robo Blast 2 Emulator.jpg
 - name: Super Flappy Birds
-  link: 
+  link: /Ports/Super-Flappy-Birds
+  console_imagem: assets/images/Ports/Flappy Bird.png
+  emulador_imagem: assets/images/Ports/Super Flappy Birds.png
 - name: Super Mario War
-  link: 
+  link: /Ports/Super-Mario-War
+  console_imagem: assets/images/Ports/Super Mario War.jpg
+  emulador_imagem: assets/images/Ports/Super Mario War Emulator.png
 - name: Wolfenstein
-  link: 
+  link: /Ports/Wolfenstein
+  console_imagem: assets/images/Ports/Wolfenstein.jpg
+  emulador_imagem: assets/images/Ports/Wolf4SDL.png
