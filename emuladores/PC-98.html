@@ -43,15 +43,15 @@ layout: default
             </div>
             <div class="col-md-6">
                 <div class="right-content">
-                    <h4>Neko Project II Kai (NP2kai)</h4>
-                    <p>O NP2kai é um dos emuladores de PC-98 disponíveis pela RetroArch e é o único
-                        utilizado para a emulação de PC-98 no Ramo. Sendo assim, os comandos descritos na seção
-                        'Comandos (RetroArch)' também são válidos para este emulador. Porém como é um emulador de um
-                        computador
-                        este emulador tem algumas peculiaridades adicionais por estar emulando jogos de PC, embora as
-                        versões de PC-98 não tenham sido lançadas ou comercializadas fora do Japão e não sejam tão
-                        amplamente conhecidas, elas ainda são úteis para jogar os primeiros romances visuais e jogos de
-                        <a href="https://pt.wikipedia.org/wiki/Touhou_Project">Touhou</a> (Veja a <a href="https://en.touhouwiki.net/wiki/Touhou_Wiki">Wiki</a> também).</p>
+                    <h4>lr-Neko Project II Kai (NP2kai)</h4>
+                    <p>O lr-NP2kai é o principal emulador funcional de PC-98 disponível pela RetroArch (prefixo 'lr-') e, 
+                        dessa forma, é o único utilizado para a emulação de PC-98 no Ramo. Sendo assim, os comandos 
+                        descritos na seção 'Comandos (RetroArch)' também são válidos para este emulador. Porém como é 
+                        um emulador de um computador, este emulador tem algumas peculiaridades adicionais por estar 
+                        emulando jogos de PC, embora as versões de PC-98 não tenham sido lançadas ou comercializadas 
+                        fora do Japão e não sejam tão amplamente conhecidas, elas ainda são úteis para jogar os primeiros 
+                        romances visuais e jogos de <a href="https://pt.wikipedia.org/wiki/Touhou_Project">Touhou</a> 
+                        (Veja a <a href="https://en.touhouwiki.net/wiki/Touhou_Wiki">Wiki</a> também).</p>
                 </div>
             </div>
         </div>
@@ -75,21 +75,20 @@ layout: default
     </div>
 </section>
 
-{% assign B = "Z" | upcase %}
-{% assign LABEL_B = "Z" %}
-{% assign Y = "CTRL" | upcase %}
-{% assign LABEL_Y = "Ctrl" %}
-{% assign A = "X" | upcase %}
-{% assign LABEL_A = "X" %}
-{% assign X = "Space" | upcase %}
-{% assign LABEL_X = "Espaço" %}
+{% assign B = "X" | upcase %}
+{% assign LABEL_B = "X" %}
+{% assign Y = "Space" | upcase %}
+{% assign LABEL_Y = "Espaço" %}
+{% assign A = "Z" | upcase %}
+{% assign LABEL_A = "Z" %}'
+{% assign X = "CTRL" | upcase %}
+{% assign LABEL_X = "Ctrl" %}
 {% assign LB = "BACKSPACE_ALT" | upcase %}
 {% assign LABEL_LB = "Backspace" %}
 {% assign RB = "SHIFT" | upcase %}
 {% assign LABEL_RB = "Shift" %}
 {% assign LT = "COMMAND" | upcase %}
 {% assign LABEL_LT = "NP2 Menu" %}
-
 {% assign DPAD_UP = "ARROW_UP" | upcase %}
 {% assign LABEL_DPAD_UP = "Seta Cima" %}
 {% assign DPAD_DOWN = "ARROW_DOWN" | upcase %}
@@ -98,8 +97,6 @@ layout: default
 {% assign LABEL_DPAD_RIGHT = "Seta Direita" %}
 {% assign DPAD_LEFT = "ARROW_LEFT" | upcase %}
 {% assign LABEL_DPAD_LEFT = "Seta Esquerda" %}
-
-
 {% assign SELECT = "ESC" | upcase %}
 {% assign LABEL_SELECT = "Escape" %}
 {% assign START = "CTRL" | upcase %}

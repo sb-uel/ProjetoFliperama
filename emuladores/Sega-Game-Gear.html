@@ -1,0 +1,91 @@
+---
+layout: default
+---
+{% include emuladores.html %}
+<!-- Left Image -->
+<section class="left-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <img src="{{ site.baseurl }}/{{ console_imagem }}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <h4>Sega Game Gear</h4>
+                    <p>O Sega Game Gear é um console portátil de 8 bits de processamento desenvolvido pela Sega e lançado em 1990 
+                        no Japão e a partir de 1991 no resto do mundo que surgiu em resposta ao Game Boy 
+                        (Ver <a href="{{ site.baseurl }}/emuladores/Game-Boy">Game Boy</a>) da Nintendo. Sendo chamado de 
+                        "Projeto Mercúrio" durante o seu desenvolvimento, o Game Gear é considerado por muitos como um "Master 
+                        System portátil" (Ver <a href="{{ site.baseurl }}/emuladores/Sega-Master-System">Master System</a>), apesar 
+                        das diferenças de capacidades sonoras e visuais, com relação à paleta de cores, entre os consoles. Apesar 
+                        de possuir um hardware bem mais capaz do que o do seu concorrente Game Boy, o Sega Game Gear não atingiu 
+                        as expectativas de mercado devido a, principalmente, seu alto consumo de pilhas, o qual, com 6 pilhas AA, 
+                        durava 4 horas de jogatina em média, além de outros fatores decisivos. Apesar disso, foram lançados mais 
+                        de 300 títulos para a sua biblioteca de jogos, estando, entre eles, vários ports de jogos de Master System.
+                    </p>
+                </div>
+                <div class="primary-button">
+                    <a href="https://pt.wikipedia.org/wiki/Lista_de_jogos_para_Sega_Game_Gear">Lista de Jogos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Left Image -->
+<section class="left-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <img src="{{ site.baseurl }}/{{ emulador_imagem }}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <h4>lr-genesis-plus-gx</h4>
+                    <p> O lr-genesis-plus-gx é um dos emuladores de Sega Game Gear, assim como é emulador de Sega CD, Sega 
+                        Genesis/Mega Drive e Master System, disponíveis pela RetroArch (prefixo 'lr-') e é o único utilizado para a 
+                        emulação de Sega Game Gear no Ramo. Sendo assim, os comandos descritos na seção 'Comandos (RetroArch)' 
+                        também são válidos para este emulador. ATENÇÃO: SE FOR 'FOTOSSENSÍVEL', NÃO É RECOMENDÁVEL 
+                        QUE JOGUE "SONIC LABYRINTH".
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="simple-post mt-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-center mb-5">Controles (User 1)</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <img src="{{ site.baseurl }}/{{ controle_imagem }}" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+{% assign B = "A" | upcase %}
+{% assign LABEL_B = "2" %}
+{% assign A = "B" | upcase %}
+{% assign LABEL_A = "1" %}
+{% assign DPAD_UP = "DPAD_UP" | upcase %}
+{% assign LABEL_DPAD_UP = "D-Pad Up" %}
+{% assign DPAD_DOWN = "DPAD_DOWN" | upcase %}
+{% assign LABEL_DPAD_DOWN = "D-Pad Down" %}
+{% assign DPAD_RIGHT = "DPAD_RIGHT" | upcase %}
+{% assign LABEL_DPAD_RIGHT = "D-Pad Right" %}
+{% assign DPAD_LEFT = "DPAD_LEFT" | upcase %}
+{% assign LABEL_DPAD_LEFT = "D-Pad Left" %}
+{% assign START = "START" | upcase %}
+{% assign LABEL_START = "Pause" %}
+{% include tabela.html %}

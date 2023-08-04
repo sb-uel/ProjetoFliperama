@@ -1,0 +1,107 @@
+---
+layout: default
+---
+{% include emuladores.html %}
+<!-- Left Image -->
+<section class="left-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <img src="{{ site.baseurl }}/{{ console_imagem }}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <h4>PlayStation Portable (PSP)</h4>
+                    <p> O PlayStation Portable (PSP) é um console portátil feito pela Sony Interactive Entertainment, na época 
+                        com nome de Sony Computer Entertainment, e lançado em 2004 no Japão e em 2005 nos EUA e foi o principal 
+                        concorrente do Nintendo DS (Ver <a href="{{ site.baseurl }}/emuladores/Nintendo-DS">Nintendo DS</a>). Além 
+                        da sua biblioteca de jogos, o PSP também possui funções de leitura de áudio e vídeo e acesso à internet sem 
+                        fio (WI-FI), como a tendência das máquinas da família Playstation. Além disso, o PSP possui uma capacidade 
+                        gráfica semelhante ao Playstation 2 e tela widescreen, tendo alta luminosidade e definição. Além disso, o 
+                        console também possuía acesso ao serviço "PlayStation Store" o qual, mesmo adquirindo maior fama ao ser 
+                        utilizado no Playstation 3, permitia a distribuição de jogos de forma digital, cujo acesso foi encerrado 
+                        em 2016. O console foi vendido até 2014 e foi sucedido pelo "PlayStation Vita".
+                    </p>
+                </div>
+                <div class="primary-button">
+                    <a href="https://pt.wikipedia.org/wiki/Lista_de_jogos_para_PlayStation_Portable">Lista de Jogos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Left Image -->
+<section class="left-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <img src="{{ site.baseurl }}/{{ emulador_imagem }}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <h4>ppsspp</h4>
+                    <p>O ppsspp é um dos emuladores de PSP disponíveis fora da RetroArch (sem o prefixo 'lr-') e é o único utilizado 
+                        para a emulação de PSP no Ramo. Por não ser um emulador da Retrarch, os comandos de saída dos jogos e o "Quick
+                        Menu" não são funcionais nesse emulador. Para poder entrar no menu de opções do ppsspp, é necessário pressionar
+                        o "botão L2 (Playstation)"/"botão LT (Xbox)". Nesse menu, é possível mudar as configurações dos controles e dos
+                        gráficos da emulação. Pede-se, porém, de que deixem nas configurações atuais pois, ao modificar as funções dos
+                        botões, tornaria essa orientação inútil. Para sair do emulador, vá para o menu e selecione, para selecionar, no
+                        emulador de PSP, é necessário pressionar o "botão Cross (Playstation)"/"botão A (XBOX)", "Sair para o menu", 
+                        que irá parar a emulação atual, e, depois, pressione o botão "Sair" que você será jogado na seleção de jogos de 
+                        PSP novamente. Devido ao potencial do hardware da placa, como já dito na seção Dreamcast (Ver 
+                        <a href="{{ site.baseurl }}/emuladores/Sega-Dreamcast">Sega Dreamcast</a>), foi selecionado apenas um jogo de
+                        PSP devido a sua pouca exigência do hardware do Raspberry Pi.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="simple-post mt-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-center mb-5">Controles (User 1)</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <img src="{{ site.baseurl }}/{{ controle_imagem }}" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+{% assign B = "A" | upcase %}
+{% assign LABEL_B = "Circle" %}
+{% assign A = "B" | upcase %}
+{% assign LABEL_A = "Cross" %}
+{% assign Y = "X" | upcase %}
+{% assign LABEL_Y = "Triangle" %}
+{% assign X = "Y" | upcase %}
+{% assign LABEL_X = "Square" %}
+{% assign LB = "L1" | upcase %}
+{% assign LABEL_LB = "L" %}
+{% assign RB = "R1" | upcase %}
+{% assign LABEL_RB = "R" %}
+{% assign LS = "LS" | upcase %}
+{% assign LABEL_LS = "Left Analog" %}
+{% assign DPAD_UP = "DPAD_UP" | upcase %}
+{% assign LABEL_DPAD_UP = "D-Pad Up" %}
+{% assign DPAD_DOWN = "DPAD_DOWN" | upcase %}
+{% assign LABEL_DPAD_DOWN = "D-Pad Down" %}
+{% assign DPAD_RIGHT = "DPAD_RIGHT" | upcase %}
+{% assign LABEL_DPAD_RIGHT = "D-Pad Right" %}
+{% assign DPAD_LEFT = "DPAD_LEFT" | upcase %}
+{% assign LABEL_DPAD_LEFT = "D-Pad Left" %}
+{% assign START = "START" | upcase %}
+{% assign LABEL_START = "Start" %}
+{% assign SELECT = "SELECT" | upcase %}
+{% assign LABEL_SELECT = "Select" %}
+{% include tabela.html %}

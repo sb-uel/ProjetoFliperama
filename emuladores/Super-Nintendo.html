@@ -1,0 +1,100 @@
+---
+layout: default
+---
+{% include emuladores.html %}
+<!-- Left Image -->
+<section class="left-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <img src="{{ site.baseurl }}/{{ console_imagem }}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <h4>Super Nintendo Entertainment System (SNES)</h4>
+                    <p> O Super Nintendo Entertainment System (SNES) é um console de 16 bits de processamento desenvolvido pela 
+                        Nintendo e lançado em 1990 no Japão, lá conhecido como Super Famicom (SFC), e em 1991 nos EUA. Sendo o 
+                        segundo console de mesa da Nintendo, o SNES apresentava qualidade gráfica e sonora mais avançados do que 
+                        os seu concorrentes no geral. Além disso, o SNES apostava em diversos chips integrados às placas de circuitos 
+                        dos jogos que aprimoravam suas especificações técnicas, a exemplo do chip "Super FX" primeiramente utilizado 
+                        no jogo "Star Fox" que permitia gráficos tridimensionais mais suaves e detalhados do os comuns à época. Dessa 
+                        forma, com relação aos gráficos 3D, por exemplo, o SNES serviu de base para o estabelecimento das futuras 
+                        gerações (Ver <a href="{{ site.baseurl }}/emuladores/PlayStation">Playstation</a> e 
+                        <a href="{{ site.baseurl }}/emuladores/Nintendo-64">Nintendo 64</a>). Apesar de seu início um tanto tardio, 
+                        o SNES foi um sucesso mundial, conquistando muitos fãs e máquinas rivais 
+                        (Ver <a href="{{ site.baseurl }}/emuladores/Sega-Genesis-Mega-Drive">Sega Genesis/Mega Drive</a>) até 
+                        ser descontinuado em 1999 nos EUA  e em 2000 no Japão.
+                    </p>
+                </div>
+                <div class="primary-button">
+                    <a href="https://bdjogos.com.br/console.php?id=9">Lista de Jogos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Left Image -->
+<section class="left-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <img src="{{ site.baseurl }}/{{ emulador_imagem }}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <h4>lr-snes9x</h4>
+                    <p>O lr-snes9x é um dos emuladores de SNES disponíveis pela RetroArch (prefixo 'lr-') e é o único
+                       utilizado para a emulação de SNES no Ramo. Sendo assim, os comandos descritos na seção 'Comandos
+                       (RetroArch)' também são válidos para este emulador.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="simple-post mt-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-center mb-5">Controles (User 1)</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <img src="{{ site.baseurl }}/{{ controle_imagem }}" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+{% assign B = "A" | upcase %}
+{% assign LABEL_B = "A" %}
+{% assign A = "B" | upcase %}
+{% assign LABEL_A = "B" %}
+{% assign Y = "X" | upcase %}
+{% assign LABEL_Y = "X" %}
+{% assign X = "Y" | upcase %}
+{% assign LABEL_X = "Y" %}
+{% assign LB = "L1" | upcase %}
+{% assign LABEL_LB = "L" %}
+{% assign RB = "R1" | upcase %}
+{% assign LABEL_RB = "R" %}
+{% assign DPAD_UP = "DPAD_UP" | upcase %}
+{% assign LABEL_DPAD_UP = "D-Pad Up" %}
+{% assign DPAD_DOWN = "DPAD_DOWN" | upcase %}
+{% assign LABEL_DPAD_DOWN = "D-Pad Down" %}
+{% assign DPAD_RIGHT = "DPAD_RIGHT" | upcase %}
+{% assign LABEL_DPAD_RIGHT = "D-Pad Right" %}
+{% assign DPAD_LEFT = "DPAD_LEFT" | upcase %}
+{% assign LABEL_DPAD_LEFT = "D-Pad Left" %}
+{% assign START = "START" | upcase %}
+{% assign LABEL_START = "Start" %}
+{% assign SELECT = "SELECT" | upcase %}
+{% assign LABEL_SELECT = "Select" %}
+{% include tabela.html %}

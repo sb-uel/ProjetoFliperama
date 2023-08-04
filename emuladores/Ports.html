@@ -1,0 +1,36 @@
+---
+layout: default
+---
+{% include emuladores.html %}
+<!-- Left Image -->
+<section class="left-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <img src="{{ site.baseurl }}/{{ console_imagem }}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <h4>Ports</h4>
+                    <p> Ports é a categoria da RetroArch na qual é disponibilizado os núcleos ou engines (ambiente de
+                        desenvolvimento
+                        de softwares de jogos) de alguns jogos famosos. Sendo assim, somente há pacotes com núcleos de
+                        jogos previamente
+                        selecionados pela própria RetroArch e, alguns, tendo suporte apenas para versões mais avançadas
+                        do Raspberry Pi,
+                        como o Raspberry Pi 4. Todos os jogos aqui apresentados já estão configurados nos joysticks, então
+                        pede-se que não alterem as configurações padrão. Pode-se, porém, utilizar mouse e teclado USB 
+                        sem problemas.
+                    </p>
+                </div>
+                <div class="primary-button">
+                    <a href="https://retropie.org.uk/docs/Adventure-Game-Studio/">Lista de Ports disponíveis para o RetroPie</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% include ports.html %}

@@ -1,0 +1,113 @@
+---
+layout: default
+---
+{% include emuladores.html %}
+<!-- Left Image -->
+<section class="left-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <img src="{{ site.baseurl }}/{{ console_imagem }}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <h4>PlayStation</h4>
+                    <p> O PlayStation foi o primeiro console feito plea Sony pertencente à 5ª geração de vídeo games e lançado
+                        no final de 1994 no Japão e em 1995 nos EUA e na Europa. O desenvolvimento do console, futuramente apelidado
+                        de PS1, começou depois do fracasso da parceria com a Nintendo para produzir um aparato CD-ROM para a máquina
+                        da Nintendo na época (Ver <a href="{{ site.baseurl }}/emuladores/Super-Nintendo">Super Nintendo</a>). Além de
+                        introduzir a Sony para o mercado de consoles, o PlayStation obteve suporte de diversas desenvolvedoras terceiras,
+                        tornando a produção de jogos simplificada e inclusiva. Com o uso de mídia de CD para os seus jogos, enquanto vários
+                        dos seu concorrentes continuavam com cartuchos (Ver <a href="{{ site.baseurl }}/emuladores/Nintendo-64">Nintendo 64</a>),
+                        o PlayStation foi um sucesso mundial e ocupa a marca de 6º console mais vendido da história, sendo descontinuado
+                        em 2006 e sucedido pelo ainda mais famoso PlayStation 2.
+                    </p>
+                </div>
+                <div class="primary-button">
+                    <a href="https://pt.wikipedia.org/wiki/Lista_de_jogos_para_PlayStation">Lista de Jogos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Left Image -->
+<section class="left-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <img src="{{ site.baseurl }}/{{ emulador_imagem }}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <h4>lr-PCSX_Rearmed</h4>
+                    <p> O lr-PCSX_Rearmed é um dos emuladores de PlayStation disponíveis pela RetroArch (prefixo 'lr-'). 
+                        Sendo assim, os comandos descritos na seção 'Comandos (RetroArch)' também são válidos para este emulador. 
+                        Apesar da impressionante emulação do PlayStation na placa Raspberry Pi, este emulador, até esse momento, ainda
+                        não foi adicionado à placa devido ao pouco espaço disponível em seu dispositivo de memória (Cartão micro-SD). 
+                        Contudo, assim como outras plataformas que poderão ser adicionadas nesse site, vale mencionar o PlayStation 
+                        para uma futura utilização ao adquirir mais espaço para a placa.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="simple-post mt-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-center mb-5">Controles (User 1)</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <img src="{{ site.baseurl }}/{{ controle_imagem }}" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+{% assign B = "A" | upcase %}
+{% assign LABEL_B = "Circle" %}
+{% assign A = "B" | upcase %}
+{% assign LABEL_A = "Cross" %}
+{% assign Y = "X" | upcase %}
+{% assign LABEL_Y = "Triangle" %}
+{% assign X = "Y" | upcase %}
+{% assign LABEL_X = "Square" %}
+{% assign LB = "L1" | upcase %}
+{% assign LABEL_LB = "L1" %}
+{% assign RB = "R1" | upcase %}
+{% assign LABEL_RB = "R1" %}
+{% assign LT = "L2" | upcase %}
+{% assign LABEL_LT = "L2" %}
+{% assign RT = "R2" | upcase %}
+{% assign LABEL_RT = "R2" %}
+{% assign L3 = "L3" | upcase %}
+{% assign LABEL_L3 = "L3" %}
+{% assign R3 = "R3" | upcase %}
+{% assign LABEL_R3 = "R3" %}
+{% assign LS = "LS" | upcase %}
+{% assign LABEL_LS = "Left Analog" %}
+{% assign RS = "RS" | upcase %}
+{% assign LABEL_RS = "Right Analog" %}
+{% assign DPAD_UP = "DPAD_UP" | upcase %}
+{% assign LABEL_DPAD_UP = "D-Pad Up" %}
+{% assign DPAD_DOWN = "DPAD_DOWN" | upcase %}
+{% assign LABEL_DPAD_DOWN = "D-Pad Down" %}
+{% assign DPAD_RIGHT = "DPAD_RIGHT" | upcase %}
+{% assign LABEL_DPAD_RIGHT = "D-Pad Right" %}
+{% assign DPAD_LEFT = "DPAD_LEFT" | upcase %}
+{% assign LABEL_DPAD_LEFT = "D-Pad Left" %}
+{% assign START = "START" | upcase %}
+{% assign LABEL_START = "Start" %}
+{% assign SELECT = "SELECT" | upcase %}
+{% assign LABEL_SELECT = "Select" %}
+{% include tabela.html %}

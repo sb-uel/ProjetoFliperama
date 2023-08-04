@@ -1,0 +1,96 @@
+---
+layout: default
+---
+{% include emuladores.html %}
+<!-- Left Image -->
+<section class="left-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <img src="{{ site.baseurl }}/{{ console_imagem }}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <h4>Atari Lynx</h4>
+                    <p> O Atari Lynx é um console portátil lançado pela Atari em 1989 para concorrer com o Game Boy 
+                        (Ver <a href="{{ site.baseurl }}/emuladores/Game-Boy">Game Boy</a>) da Nintendo, o Game Gear 
+                        (Ver <a href="{{ site.baseurl }}/emuladores/Sega-Game-Gear">Game Gear</a>) e o Turbo Express da NEC. 
+                        Sendo chamado, inicialmente, de 'Handy Game', a empresa desenvolvedora original, a Epyx, enfrentou 
+                        diversos problemas financeiros e, consequentemente, ela se tornou incapaz de finalizar o portátil por 
+                        conta própria, mesmo este sendo mostrado ao público pela primeira vez em Janeiro de 1989. Sendo assim, 
+                        a Epyx, ao procurar parceiros, aliou-se com a Atari, a qual se encarregaria da produção e comercialização 
+                        do console, deixando a Epyx cuidar de seu software, mudando o nome do console para Lynx. Possuindo um 
+                        processador central de 8 bits e um processador de vídeo de 16 bits, que foi a mesma estratégia implementada 
+                        no PC-Engine (Ver <a href="{{ site.baseurl }}/emuladores/PC-Engine-TurboGrafx-16">PC-Engine</a>), o Lynx 
+                        possuía, junto com uma rica biblioteca de jogos, visuais belíssimos para a época. Contudo, devido à escolha 
+                        de seus componentes, o Atari Lynx foi vendido a preços altos à época e necessitava de um alto consumo de 
+                        baterias, permanecendo, assim, atrás de seus concorrentes.
+                    </p>
+                </div>
+                <div class="primary-button">
+                    <a href="https://en.wikipedia.org/wiki/List_of_Atari_Lynx_games">Lista de Jogos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Left Image -->
+<section class="left-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <img src="{{ site.baseurl }}/{{ emulador_imagem }}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <h4>lr-handy</h4>
+                    <p> O lr-handy é um dos emuladores de Atari Lynx disponíveis pela RetroArch (prefixo 'lr-') e é
+                        o único utilizado para a emulação de Atari Lynx no Ramo. Sendo assim, os comandos descritos 
+                        na seção 'Comandos (RetroArch)' também são válidos para este emulador.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="simple-post mt-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-center mb-5">Controles (User 1)</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <img src="{{ site.baseurl }}/{{ controle_imagem }}" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+{% assign A = "B" | upcase %}
+{% assign LABEL_A = "B" %}
+{% assign B = "A" | upcase %}
+{% assign LABEL_B = "A" %}
+{% assign LB = "L1" | upcase %}
+{% assign LABEL_LB = "Option 1" %}
+{% assign RB = "R1" | upcase %}
+{% assign LABEL_RB = "Option 2" %}
+{% assign DPAD_UP = "DPAD_UP" | upcase %}
+{% assign LABEL_DPAD_UP = "D-Pad Up" %}
+{% assign DPAD_DOWN = "DPAD_DOWN" | upcase %}
+{% assign LABEL_DPAD_DOWN = "D-Pad Down" %}
+{% assign DPAD_RIGHT = "DPAD_RIGHT" | upcase %}
+{% assign LABEL_DPAD_RIGHT = "D-Pad Right" %}
+{% assign DPAD_LEFT = "DPAD_LEFT" | upcase %}
+{% assign LABEL_DPAD_LEFT = "D-Pad Left" %}
+{% assign START = "START" | upcase %}
+{% assign LABEL_START = "Pause" %}
+{% include tabela.html %}

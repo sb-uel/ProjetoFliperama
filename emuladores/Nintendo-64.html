@@ -1,0 +1,111 @@
+---
+layout: default
+---
+{% include emuladores.html %}
+<!-- Left Image -->
+<section class="left-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <img src="{{ site.baseurl }}/{{ console_imagem }}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <h4>Nintendo 64</h4>
+                    <p>Nintendo 64, é um console de jogos eletrônicos da quinta geração lançado pela empresa japonesa
+                        Nintendo, em 23 de junho de 1996 no Japão que veio para concorrer com o Playstation (Ver 
+                        <a href="{{ site.baseurl }}/emuladores/PlayStation">Playstation</a>). Lançado como a quinta geração 
+                        de consoles da Nintendo, foi uma revolução no mercado da época, graças à sua arquitetura de 64 bits, 
+                        que permitiu introduzir 3D nos jogos, tornando-os mais imersíveis.</p>
+                </div>
+                <div class="primary-button">
+                    <a href="https://pt.wikipedia.org/wiki/Lista_de_jogos_para_Nintendo_64">Lista de Jogos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Left Image -->
+<section class="left-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <img src="{{ site.baseurl }}/{{ emulador_imagem }}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <h4>lr-Mupen64Plus</h4>
+                    <p>O lr-Mupen64Plus é um dos emuladores de Nintendo 64 disponíveis pela RetroArch (prefixo 'lr-') e 
+                        é utilizado em conjunto com outros emuladores de Nintendo 64. Sendo assim, os comandos descritos na seção
+                        'Comandos (RetroArch)' também são válidos para este emulador. Assim como na emulação de algumas placas de 
+                        fliperama, como a "Atomiswave" e "Naomi" (Ver 
+                        <a href="{{ site.baseurl }}/emuladores/Sega-Dreamcast">Sega Dreamcast</a>), a emulação de Nintendo 64 não
+                        é realizada perfeitamente, tendo vários jogos que não funcionanam perfeitamente com o emulador de 64 já citado.
+                        Sendo assim, apesar da variedade de emuladores de Nintendo 64 disponíveis, todos apresentam problemas para 
+                        emularem jogos, apresentando queda de performance. Dessa forma, pede-se que não modifiquem os emuladores
+                        padrão para cada jogo (arquivo ROM) na emulação de Nintendo 64, pois são as melhores emulações possíveis
+                        desses jogos em questão que sabemos até o momento. Portanto, essa emulação ainda está em estado experimental 
+                        e está sujeita a melhorias na sua emulação.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="simple-post mt-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-center mb-5">Controles (User 1)</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <img src="{{ site.baseurl }}/{{ controle_imagem }}" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+{% assign B = "A" | upcase %}
+{% assign LABEL_B = "C1" %}
+{% assign A = "B" | upcase %}
+{% assign LABEL_A = "A Button (C3)" %}
+{% assign Y = "X" | upcase %}
+{% assign LABEL_Y = "C4" %}
+{% assign X = "Y" | upcase %}
+{% assign LABEL_X = "B Button (C2)" %}
+
+{% assign LB = "L1" | upcase %}
+{% assign LABEL_LB = "L-Trigger" %}
+{% assign RB = "R1" | upcase %}
+{% assign LABEL_RB = "R-Trigger" %}
+{% assign LT = "L2" | upcase %}
+{% assign LABEL_LT = "Z-Trigger" %}
+{% assign RT = "R2" | upcase %}
+{% assign LABEL_RT = "C Buttons Mode" %}
+
+{% assign LS = "LS" | upcase %}
+{% assign LABEL_LS = "Control Stick" %}
+{% assign RS = "RS" | upcase %}
+{% assign LABEL_RS = "C Buttons" %}
+
+{% assign DPAD_UP = "DPAD_UP" | upcase %}
+{% assign LABEL_DPAD_UP = "D-Pad Up" %}
+{% assign DPAD_DOWN = "DPAD_DOWN" | upcase %}
+{% assign LABEL_DPAD_DOWN = "D-Pad Down" %}
+{% assign DPAD_RIGHT = "DPAD_RIGHT" | upcase %}
+{% assign LABEL_DPAD_RIGHT = "D-Pad Right" %}
+{% assign DPAD_LEFT = "DPAD_LEFT" | upcase %}
+{% assign LABEL_DPAD_LEFT = "D-Pad Left" %}
+
+{% assign START = "START" | upcase %}
+{% assign LABEL_START = "Start" %}
+
+{% include tabela.html %}

@@ -1,0 +1,114 @@
+---
+layout: default
+---
+{% include emuladores.html %}
+<!-- Left Image -->
+<section class="left-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <img src="{{ site.baseurl }}/{{ console_imagem }}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <h4>Nintendo DS</h4>
+                    <p>O Nintendo DS é um console de videogame portátil desenvolvido e produzido pela Nintendo, lançado
+                        em 2004. Ele é visualmente distinto por seu design abre e fecha, e a presença de duas telas,
+                        sendo a inferior sensível ao toque. O sistema também possui um microfone embutido, e tem suporte
+                        a conexão sem-fio via Wireless Local, permitindo uma interação entre os jogadores dentro de uma
+                        pequena área (9-30 metros, dependendo das condições), ou pelo Nintendo Wi-Fi Connection, que
+                        permite multiplayer online com jogadores de todo o mundo.</p>
+                </div>
+                <div class="primary-button">
+                    <a href="https://pt.wikipedia.org/wiki/Lista_de_jogos_para_Nintendo_DS">Lista de Jogos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Left Image -->
+<section class="left-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <img src="{{ site.baseurl }}/{{ emulador_imagem }}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <h4>DraStic</h4>
+                    <p>O DraStic é um dos emuladores de Nintendo DS disponíveis fora da RetroArch (sem o prefixo 'lr-') e é o único
+                        utilizado para a emulação de Nintendo DS no Ramo. Por não ser um emulador da Retrarch, os comandos de saída dos jogos, "Quick
+                        Menu" e "Save States" não são funcionais nesse emulador. Para poder entrar no menu de opções do DraStic, é necessário pressionar
+                        o "botão L2 (Playstation)"/"botão LT (Xbox) - Enter Menu". Nesse menu, é possível mudar as configurações dos controles e dos
+                        gráficos da emulação. Pede-se, porém, de que deixem nas configurações atuais pois, ao modificar as funções dos
+                        botões, tornaria essa orientação inútil. Para sair do emulador, vá para o menu e selecione, para selecionar, no
+                        emulador de DS, é necessário pressionar o "botão Circle (Playstation)"/"botão B (XBOX)", "Exit Drastic", 
+                        que você será jogado na seleção de jogos de DS novamente. Quanto aos jogos que usem o microphone do DS, 
+                        acredita-se que não é necessário um botão específico para acionar a função de microphone do DS, pois
+                        selecionando "Mario Party DS" e "MIC Test" detro do menu principal do jogo, foi observado que essa função
+                        está sempre ativa e em nível máximo e, portanto, seções de outros jogos que necessitem "soprar o DS" não
+                        representarão problema, com relação a não ser possível continuar o jogo.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="simple-post mt-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-center mb-5">Controles (User 1)</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <img src="{{ site.baseurl }}/{{ controle_imagem }}" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+{% assign B = "A" | upcase %}
+{% assign LABEL_B = "A" %}
+{% assign A = "B" | upcase %}
+{% assign LABEL_A = "B" %}
+{% assign Y = "X" | upcase %}
+{% assign LABEL_Y = "X" %}
+{% assign X = "Y" | upcase %}
+{% assign LABEL_X = "Y" %}
+
+{% assign LB = "L1" | upcase %}
+{% assign LABEL_LB = "L" %}
+{% assign RB = "R1" | upcase %}
+{% assign LABEL_RB = "R" %}
+{% assign LT = "L2" | upcase %}
+{% assign LABEL_LT = "Lid Close/Open - Enter Menu" %}
+{% assign RT = "R2" | upcase %}
+{% assign LABEL_RT = "Tap Stylus" %}
+
+{% assign LS = "LS" | upcase %}
+{% assign LABEL_LS = "Pointer mode l-analog" %}
+{% assign RS = "RS" | upcase %}
+{% assign LABEL_RS = "Pointer mode r-analog" %}
+
+{% assign DPAD_UP = "DPAD_UP" | upcase %}
+{% assign LABEL_DPAD_UP = "D-Pad Up" %}
+{% assign DPAD_DOWN = "DPAD_DOWN" | upcase %}
+{% assign LABEL_DPAD_DOWN = "D-Pad Down" %}
+{% assign DPAD_RIGHT = "DPAD_RIGHT" | upcase %}
+{% assign LABEL_DPAD_RIGHT = "D-Pad Right" %}
+{% assign DPAD_LEFT = "DPAD_LEFT" | upcase %}
+{% assign LABEL_DPAD_LEFT = "D-Pad Left" %}
+
+{% assign START = "START" | upcase %}
+{% assign LABEL_START = "Start" %}
+{% assign SELECT = "SELECT" | upcase %}
+{% assign LABEL_SELECT = "Select" %}
+{% include tabela.html %}

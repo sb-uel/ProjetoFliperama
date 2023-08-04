@@ -1,0 +1,116 @@
+---
+layout: default
+---
+{% include emuladores.html %}
+<!-- Left Image -->
+<section class="left-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <img src="{{ site.baseurl }}/{{ console_imagem }}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <h4>Sega Dreamcast</h4>
+                    <p> O Sega Dreamcast é um console desenvolvido pela Sega e lançado em 1998 no Japão e em 1999 no resto do mundo. 
+                        Sendo o primeiro console da 6ª geração de vídeo games, o Dreamcast também ficaria conhecido como o último 
+                        console produzido pela Sega, depois de 18 anos no mercado de consoles. Por causa do alto valor agregado ao 
+                        hardware do seu vídeo game antecessor, o Sega Saturn, o Dreamcast utilizou de chips mais baratos, alguns 
+                        produzidos pela Hitachi e pela NEC (Ver <a href="{{ site.baseurl }}/emuladores/PC-98">PC-98</a> e 
+                        <a href="{{ site.baseurl }}/emuladores/PC-Engine-TurboGrafx-16">PC-Engine</a>), a fim de diminuir o preço 
+                        final desse console. Apesar de um bem-sucedido lançamento nos EUA, o Dreamcast foi cada vez mais excluído 
+                        em razão da expectativa do lançamento do "Playstation 2" e das máquinas de outras empresas concorrentes. 
+                        Adquirindo perdas financeiras significativas a cada ano, a Sega tomou a decisão de cessar as vendas do 
+                        Dreamcast em 2001 e se retirou do mercado de consoles, obtendo, assim, margens de lucro nos anos seguintes 
+                        como uma publicadora de jogos terceirizada. Apesar da vida curta, o Dreamcast marcou a época por sua 
+                        biblioteca de jogos a frente do tempo, a exemplo de "Shenmue", e por ser o primeiro console a incluir um 
+                        modem modular para suporte à jogos on-line.
+                    </p>
+                </div>
+                <div class="primary-button">
+                    <a href="https://bdjogos.com.br/console.php?id=16">Lista de Jogos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Left Image -->
+<section class="left-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <img src="{{ site.baseurl }}/{{ emulador_imagem }}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <h4>lr-flycast e lr-reicast</h4>
+                    <p>O lr-flycast e o lr-reicast são dois dos emuladores de Dreamcast disponíveis pela RetroArch (prefixo 'lr-') e 
+                        são os únicos utilizado para a emulação de Dreamcast no Ramo. Sendo assim, os comandos descritos na seção 
+                        'Comandos (RetroArch)' também são válidos para o lr-flycast (lr-reicast não aceita o comando do "Quick Menu"). 
+                        Essas emulações, porém, principalmente para o lr-flycast, não são tão boas se comparadas aos de outras 
+                        plataformas, pois lr-flycast, além de ser um emulador de Dreamcast, ele também emula as placas "Atomiswave" 
+                        e "Naomi" de fliperama desenvolvidas pela Sega. E, como essas placas são difíceis de serem emuladas, ao jogar 
+                        jogos como "Metal Slug 6" e "Marvel VS Capcom 2", o emulador irá apresentar uma baixa performance ao diminuir 
+                        a velocidade dos jogos. Contudo, esses são os único emuladores para a emulação desses títulos, já que os 
+                        emuladores das seções "Arcade" e "NEO GEO" não são perfeitamente compatíveis com tais jogos, obtendo, assim, 
+                        uma emulação pior ou até nem sendo possíveis de serem emulados. Aliado a isso, não foram disponibilizados 
+                        tantos jogos de Dreamcast pois, além da falta de espaço no cartão micro SD, a placa "Raspberry Pi" não é tão 
+                        potente, com relação ao seu hardware, para emular jogos com gráficos mais complexos do que os da geração 
+                        "Nintendo 64" e "Playstation". Sendo assim, os jogos dispníveis são os com estilo mais próximo dos arcades, 
+                        porém tendo problemas de performance como já dito anteriormente.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="simple-post mt-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-center mb-5">Controles (User 1)</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <img src="{{ site.baseurl }}/{{ controle_imagem }}" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+{% assign B = "A" | upcase %}
+{% assign LABEL_B = "B" %}
+{% assign A = "B" | upcase %}
+{% assign LABEL_A = "A" %}
+{% assign Y = "X" | upcase %}
+{% assign LABEL_Y = "Y" %}
+{% assign X = "Y" | upcase %}
+{% assign LABEL_X = "X" %}
+{% assign LB = "L1" | upcase %}
+{% assign LABEL_LB = "L (fierce)" %}
+{% assign RB = "R1" | upcase %}
+{% assign LABEL_RB = "R (fierce)" %}
+{% assign LT = "L2" | upcase %}
+{% assign LABEL_LT = "L (weak)" %}
+{% assign RT = "R2" | upcase %}
+{% assign LABEL_RT = "R (weak)" %}
+{% assign LS = "LS" | upcase %}
+{% assign LABEL_LS = "Left Analog" %}
+{% assign DPAD_UP = "DPAD_UP" | upcase %}
+{% assign LABEL_DPAD_UP = "D-Pad Up" %}
+{% assign DPAD_DOWN = "DPAD_DOWN" | upcase %}
+{% assign LABEL_DPAD_DOWN = "D-Pad Down" %}
+{% assign DPAD_RIGHT = "DPAD_RIGHT" | upcase %}
+{% assign LABEL_DPAD_RIGHT = "D-Pad Right" %}
+{% assign DPAD_LEFT = "DPAD_LEFT" | upcase %}
+{% assign LABEL_DPAD_LEFT = "D-Pad Left" %}
+{% assign START = "START" | upcase %}
+{% assign LABEL_START = "Start" %}
+{% include tabela.html %}

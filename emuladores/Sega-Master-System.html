@@ -1,0 +1,96 @@
+---
+layout: default
+---
+{% include emuladores.html %}
+<!-- Left Image -->
+<section class="left-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <img src="{{ site.baseurl }}/{{ console_imagem }}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <h4>Sega Master System</h4>
+                    <p>O Sega Master System, ou, inicialmente, Sega Mark III no Japão, é um console de 8 bits de processamento 
+                        desenvolvido pela Sega e lançado, inicialmente, no Japão em 1986. Devido à popularidade da Nintendo com o 
+                        'Nintendo Entertainment System' (Ver <a href="{{ site.baseurl }}/emuladores/Nintendo-(8-bit)">NES</a>) no 
+                        Japão e na América do Norte, o Master System obteve um baixo sucesso nesses territórios durantes seus 
+                        primeiros anos de existência. Aliado a isso, a Nintendo possuía diversos acordos de exclusividade com 
+                        várias produtoras de jogos, a exemplo da Konami com "Castlevania", fazendo com que o Master System 
+                        dependesse somente dos jogos desenvolvidos pela própria Sega. Na Europa e no Brasil, porém, o Master 
+                        System foi muito bem aceito, tendo desenvolvedores europeus próprios, junto com o apoio da Sega Europeia 
+                        até 1996 (diferentemente da Sega Americana com sua descontinuação em 1992), e, além disso, marcando o 
+                        início da parceria com a empresa brasileira Tec Toy, a qual seria sua principal distribuidora no Brasil 
+                        durante as décadas de 80 e 90. Também em território brasileiro, a Tec Toy também tinha a licença da Sega 
+                        para fornecer, além de ports exclusivamente brasileiros como "Sonic Blast", alterações em seus jogos a fim 
+                        de que tivessem maior aceitação do público brasileiro, a exemplo de "Mônica no Castelo do Dragão", que é 
+                        uma modificação do jogo "Wonder Boy in Monster Land" utilizando os personagens do estúdio Maurício de Souza. 
+                        O Master System foi oficialmente descontinuado em 1996 em todos os territórios, exceto no Brasil, o qual 
+                        ainda está em venda em diferentes versões.
+                    </p>
+                </div>
+                <div class="primary-button">
+                    <a href="https://bdjogos.com.br/console.php?id=1">Lista de Jogos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Left Image -->
+<section class="left-image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center align-items-center" style="height: 100%">
+                    <img src="{{ site.baseurl }}/{{ emulador_imagem }}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <h4>lr-genesis-plus-gx</h4>
+                    <p> O lr-genesis-plus-gx é um dos emuladores de Sega Master System, assim como é emulador de Sega CD, Sega 
+                        Genesis/Mega Drive e Game Gear, disponíveis pela RetroArch (prefixo 'lr-') e é o único utilizado para a 
+                        emulação de Sega CD no Ramo. Sendo assim, os comandos descritos na seção 'Comandos (RetroArch)' 
+                        também são válidos para este emulador.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="simple-post mt-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-center mb-5">Controles (User 1)</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <img src="{{ site.baseurl }}/{{ controle_imagem }}" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+{% assign B = "A" | upcase %}
+{% assign LABEL_B = "Button 2" %}
+{% assign A = "B" | upcase %}
+{% assign LABEL_A = "Button 1" %}
+{% assign DPAD_UP = "DPAD_UP" | upcase %}
+{% assign LABEL_DPAD_UP = "D-Pad Up" %}
+{% assign DPAD_DOWN = "DPAD_DOWN" | upcase %}
+{% assign LABEL_DPAD_DOWN = "D-Pad Down" %}
+{% assign DPAD_RIGHT = "DPAD_RIGHT" | upcase %}
+{% assign LABEL_DPAD_RIGHT = "D-Pad Right" %}
+{% assign DPAD_LEFT = "DPAD_LEFT" | upcase %}
+{% assign LABEL_DPAD_LEFT = "D-Pad Left" %}
+{% assign START = "START" | upcase %}
+{% assign LABEL_START = "Button Pause" %}
+{% include tabela.html %}

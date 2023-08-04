@@ -1,0 +1,21 @@
+{% assign name = page.name %}
+{% assign name_formatted = name | split: "-" | join: " " | remove: ".html" %}
+{% for ports in site.data.ports %}
+  {% if ports.name == name_formatted %}
+    {% assign name = ports.name %}
+    {% assign console_imagem = ports.console_imagem %}
+    {% assign emulador_imagem = ports.emulador_imagem %}
+  {% endif %}
+{% endfor %}
+<!-- Page Heading -->
+<div class="page-heading">
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h1>{{name_formatted}}</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
