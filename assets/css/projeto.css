@@ -11,3 +11,29 @@
     width: 100%;
 }
 
+/* Para o Pop-Up */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Escurece o fundo */
+    z-index: 9999; /* Coloca o pop-up na frente de outros elementos */
+}
+
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#close-popup {
+    margin-top: 10px;
+}

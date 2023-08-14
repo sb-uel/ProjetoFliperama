@@ -1,6 +1,17 @@
 ---
 layout: default
 ---
+
+<div id="popup" class="popup">
+  <div class="popup-content">
+    <p><b>Observação:</b> Atualmente, o Ramo IEEE não dispõe de controles para o fliperama. Portanto, será necessário
+      trazer o seu próprio controle! Além disso, você deverá fazer o bind do controle conforme indicado nas imagens
+      disponíveis na página <a href="{{ site.baseurl }}{{ site.data.menu[1].link }}">Comandos</a>.</p>
+      <button id="show-popup-again">OK</button>
+      <button id="no-show-again">Não mostrar novamente</button>
+  </div>
+</div>
+
 <!-- Banner -->
 <section class="main-banner">
   <div class="container-fluid">
@@ -22,15 +33,6 @@ layout: default
     </div>
   </div>
 </section>
-
-<!-- Botão para rolar para baixo -->
-<script>
-  document.getElementById('botao-descer').addEventListener('click', function () {
-    document.querySelector('.right-content').scrollIntoView({
-      behavior: 'smooth'
-    });
-  });
-</script>
 
 <section class="left-image">
   <div class="container-fluid">
