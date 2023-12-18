@@ -6,6 +6,7 @@ script_breakpoints : assets/js/breakpoints.min.js
 script_transition : assets/js/transition.js
 script_owl-carousel : assets/js/owl-carousel.js
 script_custom : assets/js/custom.js
+script_projeto : assets/js/projeto.js
 
 # Favicon
 favicon: favicon.png
