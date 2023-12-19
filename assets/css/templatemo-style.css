@@ -149,6 +149,50 @@ section {
 	margin-bottom: 30px;
 }
 
+/* Game List */
+.game-list .container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.game-list .banner-content {
+	background-image: url(../images/game-list.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.game-list .banner-content .banner-caption {
+    max-width: 450px;
+	background-color: #fafafae1;
+	margin: 50px;
+	padding: 50px;
+}
+
+.game-list .banner-content .banner-caption h4 {
+	font-size: 38px;
+	font-weight: 700;
+	color: #31323a;
+	letter-spacing: 0.25px;
+	margin: 0px;
+}
+
+.game-list .banner-content .banner-caption em {
+	font-style: normal;
+	color: #22577d;
+}
+
+.game-list .banner-content .banner-caption span {
+	font-size: 15px;
+	color: #aaaaaa;
+	letter-spacing: 0.5px;
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.game-list .banner-content .banner-caption p {
+	margin-bottom: 30px;
+}
+
 
 /* Services */
 
